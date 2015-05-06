@@ -1,0 +1,16 @@
+gcc -O2 -S -c foo.c
+gcc -c -g -Wa,-a,-ad [other GCC options] foo.c > foo.lst
+If you need to both get the assembly code and to compile/link the program, you
+can either give the -save-temps option to GCC (which will leave all the
+temporary files including the .s file in the current directory), or use the
+-Wa,-aln=foo.s option which instructs the assembler to output the assembly
+translation of the C code (together with the hex machine code and some
+additional info) to the file named after the =.
+
+>objdump --help
+[...]
+-S, --source             Intermix source code with disassembly
+-l, --line-numbers       Include line numbers and filenames in output
+
+objdump -d --disassembler-options=att code.c
+
