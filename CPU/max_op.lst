@@ -1,0 +1,140 @@
+GAS LISTING /tmp/cciUlR5W.s 			page 1
+
+
+   1              		.file	"max_op.c"
+   2              		.text
+   3              	.Ltext0:
+   4              		.p2align 4,,15
+   6              	main._omp_fn.0:
+   7              	.LFB12:
+   8              		.file 1 "max_op.c"
+   1:max_op.c      **** #include <stdio.h>
+   2:max_op.c      **** #include <omp.h>
+   3:max_op.c      **** #define N 10
+   4:max_op.c      **** #define    MAX(x,y)   ((x)>(y) ? (x) : (y))
+   5:max_op.c      **** 
+   6:max_op.c      **** int main(int argc, char **argv) {
+   7:max_op.c      **** 	register int i, b;
+   8:max_op.c      **** #pragma omp parallel for
+   9              		.loc 1 8 0
+  10              		.cfi_startproc
+  11              	.LVL0:
+  12 0000 55       		pushq	%rbp
+  13              		.cfi_def_cfa_offset 16
+  14              		.cfi_offset 6, -16
+  15 0001 4889FD   		movq	%rdi, %rbp
+  16 0004 53       		pushq	%rbx
+  17              		.cfi_def_cfa_offset 24
+  18              		.cfi_offset 3, -24
+  19 0005 4883EC08 		subq	$8, %rsp
+  20              		.cfi_def_cfa_offset 32
+  21 0009 E8000000 		call	omp_get_num_threads
+  21      00
+  22              	.LVL1:
+  23 000e 89C3     		movl	%eax, %ebx
+  24 0010 E8000000 		call	omp_get_thread_num
+  24      00
+  25              	.LVL2:
+  26 0015 89C6     		movl	%eax, %esi
+  27 0017 B80A0000 		movl	$10, %eax
+  27      00
+  28 001c 99       		cltd
+  29 001d F7FB     		idivl	%ebx
+  30 001f 39D6     		cmpl	%edx, %esi
+  31 0021 7D05     		jge	.L5
+  32 0023 83C001   		addl	$1, %eax
+  33              		.loc 1 8 0 discriminator 1
+  34 0026 31D2     		xorl	%edx, %edx
+  35              	.L5:
+  36 0028 0FAFF0   		imull	%eax, %esi
+  37 002b 01F2     		addl	%esi, %edx
+  38 002d 8D0C02   		leal	(%rdx,%rax), %ecx
+  39 0030 39CA     		cmpl	%ecx, %edx
+  40 0032 7D05     		jge	.L1
+  41              	.LVL3:
+  42 0034 29D1     		subl	%edx, %ecx
+  43 0036 014D00   		addl	%ecx, 0(%rbp)
+  44              	.LVL4:
+  45              	.L1:
+  46              		.loc 1 8 0 is_stmt 0
+  47 0039 4883C408 		addq	$8, %rsp
+GAS LISTING /tmp/cciUlR5W.s 			page 2
+
+
+  48              		.cfi_def_cfa_offset 24
+  49 003d 5B       		popq	%rbx
+  50              		.cfi_def_cfa_offset 16
+  51 003e 5D       		popq	%rbp
+  52              		.cfi_def_cfa_offset 8
+  53              	.LVL5:
+  54 003f C3       		ret
+  55              		.cfi_endproc
+  56              	.LFE12:
+  58              		.section	.text.startup,"ax",@progbits
+  59              		.p2align 4,,15
+  60              		.globl	main
+  62              	main:
+  63              	.LFB11:
+   6:max_op.c      **** int main(int argc, char **argv) { 
+  64              		.loc 1 6 0 is_stmt 1
+  65              		.cfi_startproc
+  66              	.LVL6:
+  67 0000 4883EC18 		subq	$24, %rsp
+  68              		.cfi_def_cfa_offset 32
+  69 0004 31D2     		xorl	%edx, %edx
+  70 0006 BF000000 		movl	$main._omp_fn.0, %edi
+  70      00
+  71              	.LVL7:
+  72 000b 4889E6   		movq	%rsp, %rsi
+  73              	.LVL8:
+  74              	.LBB2:
+  75              		.loc 1 8 0
+  76 000e C7042400 		movl	$0, (%rsp)
+  76      000000
+  77 0015 E8000000 		call	GOMP_parallel_start
+  77      00
+  78              	.LVL9:
+  79 001a 4889E7   		movq	%rsp, %rdi
+  80 001d E8000000 		call	main._omp_fn.0
+  80      00
+  81              	.LVL10:
+  82 0022 E8000000 		call	GOMP_parallel_end
+  82      00
+  83              	.LVL11:
+  84              	.LBE2:
+   9:max_op.c      **** 	for (i = 0; i < N; i++) {
+  10:max_op.c      **** 		b++;
+  11:max_op.c      **** 	}
+  12:max_op.c      **** 	return 0;
+  13:max_op.c      **** }
+  85              		.loc 1 13 0
+  86 0027 31C0     		xorl	%eax, %eax
+  87 0029 4883C418 		addq	$24, %rsp
+  88              		.cfi_def_cfa_offset 8
+  89              	.LVL12:
+  90 002d C3       		ret
+  91              		.cfi_endproc
+  92              	.LFE11:
+  94              		.text
+  95              	.Letext0:
+  96              		.file 2 "/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stddef.h"
+GAS LISTING /tmp/cciUlR5W.s 			page 3
+
+
+  97              		.file 3 "/usr/include/bits/types.h"
+  98              		.file 4 "/usr/include/libio.h"
+  99              		.file 5 "/usr/include/stdio.h"
+ 100              		.file 6 "<built-in>"
+GAS LISTING /tmp/cciUlR5W.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 max_op.c
+     /tmp/cciUlR5W.s:6      .text:0000000000000000 main._omp_fn.0
+     /tmp/cciUlR5W.s:62     .text.startup:0000000000000000 main
+
+UNDEFINED SYMBOLS
+omp_get_num_threads
+omp_get_thread_num
+GOMP_parallel_start
+GOMP_parallel_end
