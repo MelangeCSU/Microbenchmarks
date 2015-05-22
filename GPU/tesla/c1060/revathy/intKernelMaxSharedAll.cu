@@ -18,7 +18,8 @@ __global__ void CompareAddVectors(const int* A, const int* B, int* C, int x, int
 
 
 	for (t = 0; t < x; t++) {
-		temp = blockDim.x*t + threadIdx.x;		a[temp] = A[temp];
+		temp = blockDim.x*t + threadIdx.x;
+		a[temp] = A[temp];
 	}
 
 
@@ -43,7 +44,8 @@ __global__ void CompareAddVectors(const int* A, const int* B, int* C, int x, int
 	for (t = 0; t < k; t++) {
 		#pragma unroll
 		for (j = 0; j < x; j++) {
-			temp = blockDim.x*j+threadIdx.x;			c[0][temp] = max(a[temp]+b_0, c[0][temp]);
+			temp = blockDim.x*j+threadIdx.x;
+			c[0][temp] = max(a[temp]+b_0, c[0][temp]);
 			c[1][temp] = max(a[temp]+b_1, c[1][temp]);
 			c[2][temp] = max(a[temp]+b_2, c[2][temp]);
 			c[3][temp] = max(a[temp]+b_3, c[3][temp]);
@@ -52,7 +54,8 @@ __global__ void CompareAddVectors(const int* A, const int* B, int* C, int x, int
 
 
 		for (i = 0; i < x; i++) {
-			temp = blockDim.x*i+threadIdx.x;			a[temp] = max(a[temp]+10, a[temp]);
+			temp = blockDim.x*i+threadIdx.x;
+			a[temp] = max(a[temp]+10, a[temp]);
 		}
 
 
@@ -69,7 +72,8 @@ __global__ void CompareAddVectors(const int* A, const int* B, int* C, int x, int
 
 	for (i = 0; i < x; i++) {
 		for (t = 0; t < x; t++) {
-			temp = t*blockDim.x + threadIdx.x;			C[(x*blockIdx.x+i)*size_A + temp] = c[i][temp];
+			temp = t*blockDim.x + threadIdx.x;
+			C[(x*blockIdx.x+i)*size_A + temp] = c[i][temp];
 		}
 	}
 
