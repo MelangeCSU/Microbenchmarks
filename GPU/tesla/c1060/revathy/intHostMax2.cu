@@ -1,12 +1,12 @@
 
 //
-/// File: intHostMax.cu
+/// File: intHostMax2.cu
 /// 
-/// Host code for microbenchmarks to measure calibrate
+/// Host code for microbenchmarks (using shared memory) to measure calibrate
 /// GPU capability for integer max-plus operation.
 ///
 /// Last Modified by: Revathy
-/// Last Modified: 2015-05-07
+/// Last Modified: 2015-05-20
 /// 
 
 // Includes
@@ -33,7 +33,7 @@ int main(int argc, char** argv)
 {
     int ValuesPerThread; // number of values per thread
     int N; //Vector size
-    int k; // no. of repeatitions
+    int k; // no. of repetitions
     int gridWidth = 60;
     int blockWidth = 1;
 
@@ -81,13 +81,15 @@ int main(int argc, char** argv)
     error = cudaMalloc((void**)&d_C, size_A*sizeof(int)*size_B*sizeof(int));
     if (error != cudaSuccess) Cleanup(false);
 
+    N = size_A*size_B;
+
     // Initialize host vectors h_A and h_B
     int i, j;
     for(i=0; i <size_A; ++i){
-     h_A[i] = i;
+     h_A[i] = i+1;
     }
     for(i=0; i <size_B; ++i){
-     h_B[i] =(N-i);   
+     h_B[i] = i+1;   
     }
 
     // Copy host vectors h_A and h_B to device vectores d_A and d_B
@@ -154,25 +156,44 @@ int main(int argc, char** argv)
     printf("GBytesS: %f \n",nGBytesPerSec);
      
     // Copy result from device memory to host memory
-    error = cudaMemcpy(h_C, d_C, size_A*sizeof(int)*size_B*sizeof(int), cudaMemcpyDeviceToHost);
+    error = cudaMemcpy(h_C, d_C, size_A*sizeof(int)*size_B, cudaMemcpyDeviceToHost);
     if (error != cudaSuccess) Cleanup(false);
 
     // Verify & report result
-    for (i = 0; i < size_A; ++i) {
-    	for (j = 0; j < size_B; ++j) {
-			int val = h_C[i*size_B+j];
-			if (abs(val - MAX(h_A[i]+h_B[j],0)) > 0) {
-				printf("Result error: i=%d, j=%d, expected %d, got %d\n", i, j, MAX(h_A[i]+h_B[j],0.0), val);
+    for (i = 0; i < size_B; ++i) {
+    	for (j = 0; j < size_A; ++j) {
+			int val = h_C[i*size_A+j];
+			if (abs(val - MAX(h_B[i]+h_A[j],0)) > 0) {
+				printf("Result error: i=%d, j=%d, expected %d, got %d\n", i, j, MAX(h_B[i]+h_A[j],0), val);
 				break;
 			}
 		}
-		if (j != size_B) {
+		if (j != size_A) {
 			break;
 		}
     }
-    printf("Test %s \n", (i == size_A && j == size_B) ? "PASSED" : "FAILED");
+    printf("Test %s \n", (i == size_B && j == size_A) ? "PASSED" : "FAILED");
 
-	// Clean up and exit.
+/*
+    printf("Input A:\n");
+    for(i=0; i<size_A; i++)
+	printf("%4d", h_A[i]);
+    printf("\n");
+
+    printf("Input B:\n");
+    for(i=0; i<size_B; i++)
+        printf("%4d", h_B[i]);
+    printf("\n");
+
+    printf("Output C:\n");
+    for(i=0; i<size_B; i++){
+	for(j=0; j<size_A; j++)
+          printf("%4d", h_C[i*size_A+j]);
+	printf("\n");
+    }
+*/
+    printf("\n");
+    // Clean up and exit.
     cudaEventDestroy(start);
     cudaEventDestroy(stop);
     Cleanup(true);
