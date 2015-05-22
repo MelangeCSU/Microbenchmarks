@@ -80,13 +80,15 @@ int main(int argc, char** argv) {
 
 	//printf("\t#pragma unroll\n");
 	printf("\tfor (t = 0; t < k; t++) {\n");
+		for (j = 0; j < x; j++) {
 			printf("\t\t#pragma unroll\n");	
 			printf("\t\tfor (j = 0; j < x; j++) {\n");
 				printf("\t\t\ttemp = blockDim.x*j+threadIdx.x;\n");
-			for (j = 0; j < x; j++) {
+			//for (j = 0; j < x; j++) {
 				printf("\t\t\tc[%d][temp] = max(a[temp]+b_%d, c[%d][temp]);\n",j,j,j);
-			}
+		
 		 	printf("\t\t}\n");
+		}
 	printf("\n\n");
 	printf("\t\tfor (i = 0; i < x; i++) {\n");
 		printf("\t\t\ttemp = blockDim.x*i+threadIdx.x;\n");
