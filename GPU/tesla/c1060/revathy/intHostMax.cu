@@ -11,7 +11,7 @@
 
 // Includes
 #include <stdio.h>
-#include <cutil.h>
+//#include <cutil.h>
 #include "intMax.h"
 
 #define    MAX(x,y)   ((x)>(y) ? (x) : (y))
@@ -106,10 +106,15 @@ int main(int argc, char** argv)
     cudaThreadSynchronize();
 
     // Initialize timer
-    unsigned int timer = 0;
-    cutCreateTimer(&timer);
-    cutStartTimer(timer);
+    //unsigned int timer = 0;
+    //cutCreateTimer(&timer);
+    //cutStartTimer(timer);
 
+    cudaEvent_t start, stop;
+    cudaEventCreate(&start);
+    cudaEventCreate(&stop);
+
+    cudaEventRecord(start);
     // Invoke kernel
     CompareAddVectors<<<dimGrid, dimBlock>>>(d_A, d_B, d_C, ValuesPerThread, k);
     error = cudaGetLastError();
@@ -120,8 +125,12 @@ int main(int argc, char** argv)
 
     // Compute elapsed time 
     cudaThreadSynchronize();
-    cutStopTimer(timer);
-    float time = cutGetTimerValue(timer);
+    cudaEventRecord(stop);
+    
+    cudaEventSynchronize(stop);
+
+    float time = 0;
+    cudaEventElapsedTime(&time, start, stop);
 
     // Compute integer operations per second.
     double nOps = (double)size_A*(double)size_B*(double)k*(double)2 + (double)2*(double)2*(double)k*(double)ValuesPerThread*(double)gridWidth*(double)blockWidth;
@@ -132,9 +141,17 @@ int main(int argc, char** argv)
     float nBytesPerSec = 1e3*nBytes/time;
     float nGBytesPerSec = nBytesPerSec*1e-9;
 
-	// Report timing data.
-    printf( "Time: %f (ms), GOPS: %f, GBytesS: %f\n", 
-             time, nGOpsPerSec, nGBytesPerSec);
+    // Report timing data.
+    //printf( "Time: %f (ms), GOPS: %f, GBytesS: %f\n", time, nGOpsPerSec, nGBytesPerSec);
+
+    printf("ValuesPerThread: %d \n",ValuesPerThread);
+    printf("Iterations: %d \n", k);
+    printf("TB: %d \n",gridWidth);
+    printf("TPB: %d \n", blockWidth);
+    printf("\n");
+    printf("Time: %f (ms)\n",time);
+    printf("GOPS: %f \n",nGOpsPerSec );
+    printf("GBytesS: %f \n",nGBytesPerSec);
      
     // Copy result from device memory to host memory
     error = cudaMemcpy(h_C, d_C, size_A*sizeof(int)*size_B*sizeof(int), cudaMemcpyDeviceToHost);
@@ -156,7 +173,8 @@ int main(int argc, char** argv)
     printf("Test %s \n", (i == size_A && j == size_B) ? "PASSED" : "FAILED");
 
 	// Clean up and exit.
-    cutDeleteTimer( timer);
+    cudaEventDestroy(start);
+    cudaEventDestroy(stop);
     Cleanup(true);
 }
 

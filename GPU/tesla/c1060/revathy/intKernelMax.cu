@@ -3,21 +3,8 @@
     size of B = 600
     gridDim = 60
     blockDim = 64
-    k= 120000
+    k= 400000
     x = 10
-
-In this kernel, all inputs and outputs are in registers.
-
-To compile, run the following command:
-    make intMaxAdd
-
-To run the compiled executable, run the following command:
-    intMaxAdd x k B T
-
-where, x - output footprint of a single thread
-       k - number of iterations for the max-add loop
-       B - number of threadblocks
-       T - number of threads per block
 **/
 
 __global__ void CompareAddVectors(const int* A, const int* B, int* C, int x, int k)
