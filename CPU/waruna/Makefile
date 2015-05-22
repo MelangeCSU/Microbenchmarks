@@ -15,7 +15,8 @@ cpu_max_plus_debug:	cpu_max_plus.c timer.o
 	$(CC) -O3 -c $< -o $@
 
 %.s: %.c
-	$(CC) -O3 -S -masm=intel $< > $@ $(SSEFLAGS)
+	$(CC) -O3 -S $< > $@ $(SSEFLAGS)
+	#$(CC) -O3 -S -masm=intel $< > $@ $(SSEFLAGS)
 	#make clean
 	#make cpu_max_plus_debug
 	#objdump -S -l $<_debug > $@
