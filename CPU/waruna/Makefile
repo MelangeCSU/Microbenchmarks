@@ -3,7 +3,9 @@ CC := gcc
 EXES := cpu_max_plus tsse4 tave2 tsse4p
 
 SSEFLAGS := -msse4.2
+AVXFLAGS := -mavx
 OMPFLAGS := -fopenmp
+VEC_REPORT := -ftree-vectorizer-verbose=6
 
 cpu_max_plus:	cpu_max_plus.c timer.o
 	$(CC) -O3 -o $@ $< timer.o
@@ -28,8 +30,32 @@ tsse4: testSSE4.c timer.o
 tsse4p: testSSE4.c timer.o
 	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
 
+tsse4l1: testSSE4L1.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) timer.o
+
+tsse4l1p: testSSE4L1.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
+
+tsse401p: testSSE401.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
+
+tsse402p: testSSE402.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
+
+ssse4: simpleSSE4.c
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) 
+
+ssse4p: simpleSSE4.c
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS)
+
+tave: testAVE.c timer.o
+	$(CC) -O3 -o $@ $< $(AVXFLAGS) $(SSEFLAGS) timer.o
+
+tavep: testAVE.c timer.o
+	$(CC) -O3 -o $@ $< $(AVXFLAGS) $(SSEFLAGS) $(OMPFLAGS) timer.o
+
 tave2: testAVE2.c
-	$(CC) -O3 -o $@ $< $(SSEFLAGS)
+	$(CC) -O3 -o $@ $< $(AVXFLAGS)
 
 clean:
 	rm -f *.o $(EXES)

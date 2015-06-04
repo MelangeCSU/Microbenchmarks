@@ -22,6 +22,7 @@
 void compute (int *cc, int *aa, int *bb, int *bb_1);
 void t_print__m128i (__m128i a);
 void t_test (__m128i c0,__m128i c1, __m128i c2, __m128i c3,  int *cc);
+__m128i t_add__m128i(__m128i x, __m128i y);
 
 int main () 
 {
@@ -33,11 +34,13 @@ int main ()
 	int j;
 	int k;
 
+//#pragma omp declare reduction( + : __m128i : \
+//         omp_out=_mm_add_epi32(omp_in,omp_out)) \
+//                       initializer (omp_priv=_mm_set_epi32(0,0,0,0))
+
 #pragma omp declare reduction( + : __m128i : \
-         omp_out=_mm_add_epi32(omp_in,omp_out)) \
-                       initializer (omp_priv = _mm_set_epi32(0,0,0,0))
-
-
+         omp_out=t_add__m128i(omp_in,omp_out)) \
+                       initializer (omp_priv=_mm_set_epi32(0,0,0,0))
 
 		for (i=0; i<16; i++) 
 		{
@@ -62,7 +65,7 @@ int main ()
 	start_timer();
 	
 	for (k = 0; k < REPS; k++) {
-#pragma omp parallel for default(shared) reduction(+:c0,c1,c2,c3)
+#pragma omp parallel for reduction(+:c0,c1,c2,c3)
 		for (j = 0; j < IREPS; j++) {
 			c0 = _mm_max_epi32(_mm_add_epi32(c0,a), b);
 			c1 = _mm_max_epi32(_mm_add_epi32(c1,a), b);
@@ -84,13 +87,20 @@ int main ()
 	t_print__m128i(c2);
 	t_print__m128i(c3);
 
-//	compute(cc, aa, bb, bb_1);
-//	t_test(c0,c1,c2,c3, cc);
+	compute(cc, aa, bb, bb_1);
+	t_test(c0,c1,c2,c3, cc);
 	double gops = (double)((double)((double)((double)2*(double)4*(double)4*(double)IREPS)*(double)REPS)/vector_time)/((double)1e9);
-	printf("time: %.2f s GOPS: %.2f\n", vector_time, gops);
+	fprintf(stdout, "time: %.2f s GOPS: %.2f\n", vector_time, gops);
 
 	return 0;
 } 
+
+__m128i t_add__m128i(__m128i x, __m128i y)
+{
+	__m128i z = _mm_set_epi32(0,0,0,0);
+  z = _mm_add_epi32(x,y);	
+	return z;
+}
 
 void compute (int *cc, int *aa, int *bb, int *bb_1) 
 {
