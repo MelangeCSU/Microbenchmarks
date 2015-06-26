@@ -2340,3 +2340,181 @@ time: 2.05 s GOPS: 155.78
 3 = 1346044336
 
 time: 2.06 s GOPS: 155.68
+====================tsse4
+====================tsse4p
+THREADS=1
+time: 1.48 s GOPS: 21.64
+sum: -1899346428
+time: 1.25 s GOPS: 25.68
+sum: -1899346428
+time: 1.24 s GOPS: 25.76
+sum: -1899346428
+time: 1.24 s GOPS: 25.75
+sum: -1899346428
+time: 1.25 s GOPS: 25.68
+sum: -1899346428
+THREADS=2
+time: 1.35 s GOPS: 23.76
+sum: 496274440
+time: 1.35 s GOPS: 23.74
+sum: 496274440
+time: 1.34 s GOPS: 23.81
+sum: 496274440
+time: 1.35 s GOPS: 23.69
+sum: 496274440
+time: 1.36 s GOPS: 23.56
+sum: 496274440
+THREADS=3
+time: 1.42 s GOPS: 22.60
+sum: -1403071988
+time: 1.39 s GOPS: 23.07
+sum: -1403071988
+time: 1.39 s GOPS: 23.01
+sum: -1403071988
+time: 1.39 s GOPS: 23.04
+sum: -1403071988
+time: 1.38 s GOPS: 23.20
+sum: -1403071988
+THREADS=4
+time: 1.43 s GOPS: 22.32
+sum: 992548880
+time: 1.44 s GOPS: 22.29
+sum: 992548880
+time: 1.43 s GOPS: 22.38
+sum: 992548880
+time: 1.43 s GOPS: 22.33
+sum: 992548880
+time: 1.44 s GOPS: 22.30
+sum: 992548880
+THREADS=5
+time: 1.48 s GOPS: 21.58
+sum: -906797548
+time: 1.48 s GOPS: 21.60
+sum: -906797548
+time: 1.48 s GOPS: 21.65
+sum: -906797548
+time: 1.48 s GOPS: 21.63
+sum: -906797548
+time: 1.48 s GOPS: 21.67
+sum: -906797548
+THREADS=6
+time: 1.49 s GOPS: 21.49
+sum: 1488823320
+time: 1.48 s GOPS: 21.67
+sum: 1488823320
+time: 1.48 s GOPS: 21.59
+sum: 1488823320
+time: 1.49 s GOPS: 21.53
+sum: 1488823320
+time: 1.48 s GOPS: 21.61
+sum: 1488823320
+THREADS=7
+time: 1.48 s GOPS: 21.64
+sum: -410523108
+time: 1.48 s GOPS: 21.69
+sum: -410523108
+time: 1.48 s GOPS: 21.61
+sum: -410523108
+time: 1.48 s GOPS: 21.67
+sum: -410523108
+time: 1.48 s GOPS: 21.66
+sum: -410523108
+THREADS=8
+time: 1.48 s GOPS: 21.56
+sum: 1985097760
+time: 1.48 s GOPS: 21.64
+sum: 1985097760
+time: 1.49 s GOPS: 21.49
+sum: 1985097760
+time: 1.48 s GOPS: 21.64
+sum: 1985097760
+time: 1.48 s GOPS: 21.56
+sum: 1985097760
+THREADS=9
+time: 2.63 s GOPS: 12.19
+sum: 85751332
+time: 2.11 s GOPS: 15.15
+sum: 85751332
+time: 2.44 s GOPS: 13.13
+sum: 85751332
+time: 2.31 s GOPS: 13.86
+sum: 85751332
+time: 2.66 s GOPS: 12.04
+sum: 85751332
+THREADS=10
+time: 2.45 s GOPS: 13.06
+sum: -1813595096
+time: 2.16 s GOPS: 14.84
+sum: -1813595096
+time: 2.46 s GOPS: 13.03
+sum: -1813595096
+time: 2.18 s GOPS: 14.70
+sum: -1813595096
+time: 2.34 s GOPS: 13.68
+sum: -1813595096
+THREADS=11
+time: 2.67 s GOPS: 11.97
+sum: 582025772
+time: 2.31 s GOPS: 13.83
+sum: 582025772
+time: 2.72 s GOPS: 11.78
+sum: 582025772
+time: 2.73 s GOPS: 11.73
+sum: 582025772
+time: 2.37 s GOPS: 13.51
+sum: 582025772
+THREADS=12
+time: 2.76 s GOPS: 11.60
+sum: -1317320656
+time: 2.73 s GOPS: 11.72
+sum: -1317320656
+time: 2.78 s GOPS: 11.50
+sum: -1317320656
+time: 2.77 s GOPS: 11.55
+sum: -1317320656
+time: 2.73 s GOPS: 11.72
+sum: -1317320656
+THREADS=13
+time: 2.75 s GOPS: 11.63
+sum: 1078300212
+time: 2.82 s GOPS: 11.35
+sum: 1078300212
+time: 2.78 s GOPS: 11.50
+sum: 1078300212
+time: 2.82 s GOPS: 11.35
+sum: 1078300212
+time: 2.74 s GOPS: 11.68
+sum: 1078300212
+THREADS=14
+time: 2.84 s GOPS: 11.28
+sum: -821046216
+time: 2.81 s GOPS: 11.38
+sum: -821046216
+time: 2.82 s GOPS: 11.35
+sum: -821046216
+time: 2.84 s GOPS: 11.28
+sum: -821046216
+time: 2.80 s GOPS: 11.44
+sum: -821046216
+THREADS=15
+time: 2.82 s GOPS: 11.34
+sum: 1574574652
+time: 2.83 s GOPS: 11.31
+sum: 1574574652
+time: 2.82 s GOPS: 11.35
+sum: 1574574652
+time: 2.84 s GOPS: 11.26
+sum: 1574574652
+time: 2.79 s GOPS: 11.46
+sum: 1574574652
+THREADS=16
+time: 2.84 s GOPS: 11.28
+sum: -324771776
+time: 2.84 s GOPS: 11.27
+sum: -324771776
+time: 2.82 s GOPS: 11.33
+sum: -324771776
+time: 2.84 s GOPS: 11.27
+sum: -324771776
+time: 2.84 s GOPS: 11.29
+sum: -324771776

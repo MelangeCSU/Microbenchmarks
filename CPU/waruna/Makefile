@@ -1,6 +1,6 @@
 CC := gcc
 
-EXES := cpu_max_plus tsse4 tave2 tsse4p
+EXES := cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
 
 SSEFLAGS := -msse4.2
 AVXFLAGS := -mavx
@@ -17,7 +17,8 @@ cpu_max_plus_debug:	cpu_max_plus.c timer.o
 	$(CC) -O3 -c $< -o $@
 
 %.s: %.c
-	$(CC) -O3 -S $< > $@ $(SSEFLAGS) $(OMPFLAGS)
+	$(CC) -O3 -S $< > $@ $(SSEFLAGS)
+	#$(CC) -O3 -S $< > $@ $(SSEFLAGS) $(OMPFLAGS)
 	#$(CC) -O3 -S -masm=intel $< > $@ $(SSEFLAGS)
 	#make clean
 	#make cpu_max_plus_debug
@@ -35,6 +36,19 @@ tsse4l1: testSSE4L1.c timer.o
 
 tsse4l1p: testSSE4L1.c timer.o
 	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
+
+tsse4l11: testSSE4L1.1.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) timer.o
+
+tsse4l11p: testSSE4L1.1.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
+
+tsse4l12: testSSE4L1.2.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) timer.o
+
+tsse4l12p: testSSE4L1.2.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o -DOMP
+
 
 tsse401p: testSSE401.c timer.o
 	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
@@ -56,6 +70,12 @@ tavep: testAVE.c timer.o
 
 tave2: testAVE2.c
 	$(CC) -O3 -o $@ $< $(AVXFLAGS)
+
+#tsse4l11: testSSE4L11.c timer.o
+#	$(CC) -O3 -o $@ $< $(SSEFLAGS) timer.o
+#
+#tsse4l11p: testSSE4L11.c timer.o
+#	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
 
 clean:
 	rm -f *.o $(EXES)

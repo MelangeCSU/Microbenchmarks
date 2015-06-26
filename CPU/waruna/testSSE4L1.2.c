@@ -5,9 +5,12 @@
  
 #include <stdio.h>
 #include <smmintrin.h>
-#include <omp.h>
 #include <string.h>
 #include "timer.h"
+
+#ifdef OMP
+#include <omp.h>
+#endif
 
 
 #define MAX(a,b) \
@@ -16,9 +19,9 @@
 			     _a > _b ? _a : _b; })
 
 //#define IREPS 10000
-#define REPS 100000000
+#define REPS 1000000000
 //sun 20
-#define ARRAY_SIZE 20
+#define ARRAY_SIZE 512
 #define OUT_ARRAY_SIZE (ARRAY_SIZE)*4
 #define VECTOR_ARRAY_SIZE 2
 
@@ -38,10 +41,10 @@ int main (int argv, char** argc)
 	if (argv > 1) {
 		tds = atoi(argc[1]);
 	}
-	if (argv > 2) {
+/*	if (argv > 2) {
 		nn = atoi(argc[2]);
 	}
-
+*/
 	int i = 0;
 
 	int *sum = (int *)malloc(tds*sizeof(int));
@@ -51,14 +54,18 @@ int main (int argv, char** argc)
 
 	#pragma omp parallel num_threads(tds)
 	{
-		int tid = omp_get_thread_num();
+		int tid = 0;
+#ifdef OMP
+		tid = omp_get_thread_num();
+#endif
 		int rr = oneThread(tid);
-		sum[omp_get_thread_num()] = rr;
+		sum[tid] = rr;
 	}
 	
 	stop_timer();
 	double vector_time = elapsed_time();
-	double gops = (double)((double)((double)((double)2*(double)4)*(double)REPS*(double)VECTOR_ARRAY_SIZE*(double)ARRAY_SIZE)/vector_time)/((double)1e9);
+	double gops = (double)((double)((double)((double)4*(double)4)*(double)REPS*((((double)ARRAY_SIZE)/(double)32)-1.0f)*(double)tds)/vector_time)/((double)1e9);
+	//double gops = (double)((double)((double)((double)2*(double)4)*(double)REPS*(double)VECTOR_ARRAY_SIZE*(double)ARRAY_SIZE)/vector_time)/((double)1e9);
 	fprintf(stdout, "time: %.2f s GOPS: %.2f\n", vector_time, gops);
 	
 	int out = 0;
@@ -110,8 +117,8 @@ int oneThread(int threadId)
 		aa[i] = (ARRAY_SIZE)-i;
 	}
 
-  __m128i a,b[VECTOR_ARRAY_SIZE];
-	__m128i c0[VECTOR_ARRAY_SIZE],c1[VECTOR_ARRAY_SIZE],c2[VECTOR_ARRAY_SIZE],c3[VECTOR_ARRAY_SIZE];
+  __m128i a,b0,b1,b2,b3;
+	__m128i c0,c1,c2,c3;
 
 //	printArray(aa, ARRAY_SIZE);
 //	printArray(bb, ARRAY_SIZE);
@@ -119,43 +126,54 @@ int oneThread(int threadId)
 //	initialize_timer();
 //	start_timer();
 	
-	for (i=0; i<VECTOR_ARRAY_SIZE; i++)
-	{
-		c0[i] = _mm_set_epi32(0,0,0,0);
-		c1[i] = _mm_set_epi32(0,0,0,1);
-		c2[i] = _mm_set_epi32(0,0,1,0);
-		c3[i] = _mm_set_epi32(0,1,0,0);
-	}
+	c0 = _mm_set_epi32(0,0,0,0);
+	c1 = _mm_set_epi32(0,0,0,1);
+	c2 = _mm_set_epi32(0,0,1,0);
+	c3 = _mm_set_epi32(0,1,0,0);
+	a = _mm_set_epi32(1,2,2,1);
+	c0 = _mm_load_si128((__m128i*)&cc[ARRAY_SIZE-16]);
+	c1 = _mm_load_si128((__m128i*)&cc[ARRAY_SIZE-12]);	
+	c2 = _mm_load_si128((__m128i*)&cc[ARRAY_SIZE-8]);	
+	c3 = _mm_load_si128((__m128i*)&cc[ARRAY_SIZE-4]);	
 
 	for (k = 0; k < REPS; k++) 
 	{
 //#pragma omp parallel for 
-		for (i=0; i<VECTOR_ARRAY_SIZE; i++)
+		for (itr = ARRAY_SIZE; itr>32; itr-=32)
 		{
-			for (itr = 0; itr<ARRAY_SIZE; itr+=4)
-			{
 
-				a = _mm_load_si128((__m128i*)&aa[itr]);
-				b = _mm_load_si128((__m128i*)&bb[itr]);
-		//		printf("itr: %d\n", itr);
-	//			t_print__m128i(a); 
-		//		t_print__m128i(b);
+			b0 = _mm_load_si128((__m128i*)&cc[itr-32]);
+			b1 = _mm_load_si128((__m128i*)&cc[itr-28]);	
+			b2 = _mm_load_si128((__m128i*)&cc[itr-24]);	
+			b3 = _mm_load_si128((__m128i*)&cc[itr-20]);	
 
-				c0[i] = _mm_max_epi32(_mm_add_epi32(c0[i],a), b);
-				c1[i] = _mm_max_epi32(_mm_add_epi32(c1[i],a), b);
-				c2[i] = _mm_max_epi32(_mm_add_epi32(c2[i],a), b);
-				c3[i] = _mm_max_epi32(_mm_add_epi32(c3[i],a), b);
+			c0 = _mm_max_epi32(_mm_add_epi32(c0,a), b0);
+			c1 = _mm_max_epi32(_mm_add_epi32(c1,a), b1);
+			c2 = _mm_max_epi32(_mm_add_epi32(c2,a), b2);
+			c3 = _mm_max_epi32(_mm_add_epi32(c3,a), b3);
 
-				_mm_store_si128((__m128i*)&cc_1[4*itr], c0[i]);
-				_mm_store_si128((__m128i*)&cc_1[4*itr+4], c1[i]);	
-				_mm_store_si128((__m128i*)&cc_1[4*itr+8], c2[i]);	
-				_mm_store_si128((__m128i*)&cc_1[4*itr+12], c3[i]);	
-				/*_mm_store_si128((__m128i*)&cc_1[i][4*itr], c0[i]);
-				_mm_store_si128((__m128i*)&cc_1[i][4*itr+4], c1[i]);	
-				_mm_store_si128((__m128i*)&cc_1[i][4*itr+8], c2[i]);	
-				_mm_store_si128((__m128i*)&cc_1[i][4*itr+12], c3[i]);	*/
-			}	
-		}
+			_mm_store_si128((__m128i*)&cc[itr-16], c0);
+			_mm_store_si128((__m128i*)&cc[itr-12], c1);	
+			_mm_store_si128((__m128i*)&cc[itr-8], c2);	
+			_mm_store_si128((__m128i*)&cc[itr-4], c3);	
+
+
+			c0 = _mm_load_si128((__m128i*)&cc[itr-48]);
+			c1 = _mm_load_si128((__m128i*)&cc[itr-44]);	
+			c2 = _mm_load_si128((__m128i*)&cc[itr-40]);	
+			c3 = _mm_load_si128((__m128i*)&cc[itr-36]);	
+		
+			b0 = _mm_max_epi32(_mm_add_epi32(b0,a), c0);
+			b1 = _mm_max_epi32(_mm_add_epi32(b1,a), c1);
+			b2 = _mm_max_epi32(_mm_add_epi32(b2,a), c2);
+			b3 = _mm_max_epi32(_mm_add_epi32(b3,a), c3);
+
+			_mm_store_si128((__m128i*)&cc[itr-32], b0);
+			_mm_store_si128((__m128i*)&cc[itr-28], b1);	
+			_mm_store_si128((__m128i*)&cc[itr-24], b2);	
+			_mm_store_si128((__m128i*)&cc[itr-20], b3);	
+		}	
+		a = _mm_min_epi32(a,b0);
 	}
 
 /*	stop_timer();
@@ -176,9 +194,9 @@ int oneThread(int threadId)
 	t_test(cc_1[3], cc);
 */
 	int count =0;
-	for (i=0; i< 16; i++)
+	for (i=0; i< ARRAY_SIZE; i++)
 	{
-		count += cc_1[i];	
+		count += cc[i];	
 	}
 
 	return count;
