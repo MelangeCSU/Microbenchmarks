@@ -1,0 +1,770 @@
+x=,255
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1530
+Time: 0.050811 (s), Gops: 616.684692, GBytesS: 0.092638
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,255
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1530
+Time: 0.094620 (s), Gops: 662.320923, GBytesS: 0.099429
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,255
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1530
+Time: 0.140686 (s), Gops: 668.178345, GBytesS: 0.100287
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,255
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1530
+Time: 0.186347 (s), Gops: 672.603271, GBytesS: 0.100940
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,255
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1530
+Time: 0.233565 (s), Gops: 670.785156, GBytesS: 0.100660
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,255
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1530
+Time: 0.279511 (s), Gops: 672.626160, GBytesS: 0.100932
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,255
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1530
+Time: 0.326654 (s), Gops: 671.477051, GBytesS: 0.100757
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,270
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1620
+Time: 0.050843 (s), Gops: 652.549988, GBytesS: 0.098025
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,270
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1620
+Time: 0.100153 (s), Gops: 662.538574, GBytesS: 0.099461
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,270
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1620
+Time: 0.150736 (s), Gops: 660.311646, GBytesS: 0.099105
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,270
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1620
+Time: 0.197305 (s), Gops: 672.615601, GBytesS: 0.100941
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,270
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1620
+Time: 0.246906 (s), Gops: 671.866882, GBytesS: 0.100822
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,270
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1620
+Time: 0.295945 (s), Gops: 672.643555, GBytesS: 0.100934
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,270
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1620
+Time: 0.345241 (s), Gops: 672.698669, GBytesS: 0.100939
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,285
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1710
+Time: 0.056348 (s), Gops: 621.508240, GBytesS: 0.093361
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,285
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1710
+Time: 0.105591 (s), Gops: 663.328918, GBytesS: 0.099579
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,285
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1710
+Time: 0.157119 (s), Gops: 668.680237, GBytesS: 0.100360
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,285
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1710
+Time: 0.208260 (s), Gops: 672.635925, GBytesS: 0.100943
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,285
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1710
+Time: 0.261016 (s), Gops: 670.855713, GBytesS: 0.100669
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,285
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1710
+Time: 0.312385 (s), Gops: 672.646667, GBytesS: 0.100934
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,285
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1710
+Time: 0.365067 (s), Gops: 671.508545, GBytesS: 0.100760
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,300
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1800
+Time: 0.056358 (s), Gops: 654.105713, GBytesS: 0.098257
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,300
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1800
+Time: 0.111061 (s), Gops: 663.852234, GBytesS: 0.099656
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,300
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1800
+Time: 0.167191 (s), Gops: 661.470886, GBytesS: 0.099277
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,300
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1800
+Time: 0.219217 (s), Gops: 672.648376, GBytesS: 0.100944
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,300
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1800
+Time: 0.274280 (s), Gops: 672.014404, GBytesS: 0.100842
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,300
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1800
+Time: 0.328816 (s), Gops: 672.668152, GBytesS: 0.100936
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,300
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1800
+Time: 0.383603 (s), Gops: 672.695740, GBytesS: 0.100937
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,315
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1890
+Time: 0.061812 (s), Gops: 626.209290, GBytesS: 0.094066
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,315
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1890
+Time: 0.116550 (s), Gops: 664.216431, GBytesS: 0.099711
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,315
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1890
+Time: 0.173557 (s), Gops: 669.069702, GBytesS: 0.100417
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,315
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1890
+Time: 0.230186 (s), Gops: 672.624817, GBytesS: 0.100940
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,315
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1890
+Time: 0.288283 (s), Gops: 671.340637, GBytesS: 0.100741
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,315
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1890
+Time: 0.345251 (s), Gops: 672.679138, GBytesS: 0.100937
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,315
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1890
+Time: 0.403420 (s), Gops: 671.633179, GBytesS: 0.100777
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,330
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1980
+Time: 0.061850 (s), Gops: 655.624146, GBytesS: 0.098484
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,330
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1980
+Time: 0.122029 (s), Gops: 664.602356, GBytesS: 0.099768
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,330
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1980
+Time: 0.183606 (s), Gops: 662.566956, GBytesS: 0.099441
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,330
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1980
+Time: 0.241179 (s), Gops: 672.536194, GBytesS: 0.100926
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,330
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1980
+Time: 0.301678 (s), Gops: 672.080994, GBytesS: 0.100851
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,330
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1980
+Time: 0.361694 (s), Gops: 672.674500, GBytesS: 0.100936
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,330
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1980
+Time: 0.421959 (s), Gops: 672.702454, GBytesS: 0.100937
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,345
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2070
+Time: 0.067262 (s), Gops: 630.276245, GBytesS: 0.094676
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,345
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2070
+Time: 0.127502 (s), Gops: 664.987366, GBytesS: 0.099825
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,345
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2070
+Time: 0.189991 (s), Gops: 669.404358, GBytesS: 0.100466
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,345
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2070
+Time: 0.252124 (s), Gops: 672.583130, GBytesS: 0.100932
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,345
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2070
+Time: 0.315799 (s), Gops: 671.211792, GBytesS: 0.100720
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,345
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2070
+Time: 0.378122 (s), Gops: 672.697021, GBytesS: 0.100939
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,345
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2070
+Time: 0.441758 (s), Gops: 671.759766, GBytesS: 0.100795
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,360
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2160
+Time: 0.067325 (s), Gops: 657.062378, GBytesS: 0.098699
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,360
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2160
+Time: 0.132983 (s), Gops: 665.299072, GBytesS: 0.099871
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,360
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2160
+Time: 0.200039 (s), Gops: 663.422180, GBytesS: 0.099568
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,360
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2160
+Time: 0.263050 (s), Gops: 672.674927, GBytesS: 0.100946
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,360
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2160
+Time: 0.329055 (s), Gops: 672.179260, GBytesS: 0.100865
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,360
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2160
+Time: 0.394557 (s), Gops: 672.705872, GBytesS: 0.100939
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,360
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2160
+Time: 0.460304 (s), Gops: 672.724426, GBytesS: 0.100939
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,375
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2250
+Time: 0.072748 (s), Gops: 633.419922, GBytesS: 0.095147
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,375
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2250
+Time: 0.138455 (s), Gops: 665.631836, GBytesS: 0.099921
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,375
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2250
+Time: 0.206425 (s), Gops: 669.686523, GBytesS: 0.100508
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,375
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2250
+Time: 0.274022 (s), Gops: 672.646484, GBytesS: 0.100941
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,375
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2250
+Time: 0.343166 (s), Gops: 671.395386, GBytesS: 0.100747
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,375
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2250
+Time: 0.410998 (s), Gops: 672.703857, GBytesS: 0.100939
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,375
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2250
+Time: 0.480049 (s), Gops: 671.931213, GBytesS: 0.100820
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,390
+y=,32
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2340
+Time: 0.072752 (s), Gops: 658.720032, GBytesS: 0.098947
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,390
+y=,64
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2340
+Time: 0.143983 (s), Gops: 665.679077, GBytesS: 0.099928
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,390
+y=,96
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2340
+Time: 0.216498 (s), Gops: 664.068542, GBytesS: 0.099664
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,390
+y=,128
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2340
+Time: 0.284959 (s), Gops: 672.702942, GBytesS: 0.100949
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,390
+y=,160
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2340
+Time: 0.356472 (s), Gops: 672.187439, GBytesS: 0.100865
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,390
+y=,192
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2340
+Time: 0.427426 (s), Gops: 672.722595, GBytesS: 0.100941
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,390
+y=,224
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2340
+Time: 0.498646 (s), Gops: 672.746582, GBytesS: 0.100942
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
