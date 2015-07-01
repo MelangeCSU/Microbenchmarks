@@ -49,6 +49,12 @@ tsse4l12: testSSE4L1.2.c timer.o
 tsse4l12p: testSSE4L1.2.c timer.o
 	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o -DOMP
 
+tsse4l13: testSSE4L1.3.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) timer.o
+
+tsse4l13p: testSSE4L1.3.c timer.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o -DOMP
+
 
 tsse401p: testSSE401.c timer.o
 	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
