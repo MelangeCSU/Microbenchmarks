@@ -1,0 +1,124 @@
+x=,120
+y=,448
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 2688, Size of B: 720
+Time: 0.307424 (s), Gops: 671.510254, GBytesS: 0.100771
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,120
+y=,672
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 4032, Size of B: 720
+W: too many resources requested for launch
+error: no error cuda malloc or cuda thread exit failed 
+x=,120
+y=,896
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 5376, Size of B: 720
+W: too many resources requested for launch
+error: no error cuda malloc or cuda thread exit failed 
+x=,240
+y=,448
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 2688, Size of B: 1440
+Time: 0.614733 (s), Gops: 671.635986, GBytesS: 0.100772
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,240
+y=,672
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 4032, Size of B: 1440
+W: too many resources requested for launch
+error: no error cuda malloc or cuda thread exit failed 
+x=,240
+y=,896
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 5376, Size of B: 1440
+W: too many resources requested for launch
+error: no error cuda malloc or cuda thread exit failed 
+x=,390
+y=,448
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 2688, Size of B: 2340
+Time: 0.998748 (s), Gops: 671.765808, GBytesS: 0.100785
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,390
+y=,672
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 4032, Size of B: 2340
+W: too many resources requested for launch
+error: no error cuda malloc or cuda thread exit failed 
+x=,390
+y=,896
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 5376, Size of B: 2340
+W: too many resources requested for launch
+error: no error cuda malloc or cuda thread exit failed 
+x=,450
+y=,448
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 2688, Size of B: 2700
+Time: 1.152381 (s), Gops: 671.777710, GBytesS: 0.100785
+Result error: i=0, j=0, expected 0, got 1296020875
+Test FAILED 
+x=,450
+y=,672
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 4032, Size of B: 2700
+W: too many resources requested for launch
+error: no error cuda malloc or cuda thread exit failed 
+x=,450
+y=,896
+gcc -o intmaxaddF1CG intmaxaddF1CG.c
+rm *.o intmaxaddF1CG intmaxaddF1
+nvcc intmaxaddF1K.cu -c -o intmaxaddF1K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF1.cu intmaxaddF1K.o timer.o -o intmaxaddF1  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 5376, Size of B: 2700
+W: too many resources requested for launch
+error: no error cuda malloc or cuda thread exit failed 

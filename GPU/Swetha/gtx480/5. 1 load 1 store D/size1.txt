@@ -1,0 +1,2544 @@
+x=,255
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1530
+Time: 0.081949 (s), Gops: 382.364655, GBytesS: 0.057439
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1530
+Time: 0.146687 (s), Gops: 427.228668, GBytesS: 0.064136
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1530
+Time: 0.218984 (s), Gops: 429.269470, GBytesS: 0.064429
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1530
+Time: 0.289936 (s), Gops: 432.293945, GBytesS: 0.064876
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1530
+Time: 0.360361 (s), Gops: 434.763916, GBytesS: 0.065242
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1530
+Time: 0.451762 (s), Gops: 416.162506, GBytesS: 0.062448
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1530
+Time: 0.525340 (s), Gops: 417.521545, GBytesS: 0.062650
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 1530
+Time: 0.590172 (s), Gops: 424.749359, GBytesS: 0.063733
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 1530
+Time: 0.663007 (s), Gops: 425.349335, GBytesS: 0.063822
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 1530
+Time: 0.714954 (s), Gops: 438.271606, GBytesS: 0.065760
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,255
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,255
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,255
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,255
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,255
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,255
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,255
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,270
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1620
+Time: 0.082270 (s), Gops: 403.276306, GBytesS: 0.060580
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1620
+Time: 0.155183 (s), Gops: 427.593658, GBytesS: 0.064191
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1620
+Time: 0.231821 (s), Gops: 429.351837, GBytesS: 0.064441
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1620
+Time: 0.306598 (s), Gops: 432.847931, GBytesS: 0.064958
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1620
+Time: 0.381651 (s), Gops: 434.658966, GBytesS: 0.065226
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1620
+Time: 0.476497 (s), Gops: 417.768707, GBytesS: 0.062689
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1620
+Time: 0.556366 (s), Gops: 417.428833, GBytesS: 0.062636
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 1620
+Time: 0.628523 (s), Gops: 422.292969, GBytesS: 0.063364
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 1620
+Time: 0.701886 (s), Gops: 425.422974, GBytesS: 0.063833
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 1620
+Time: 0.757652 (s), Gops: 437.900208, GBytesS: 0.065704
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,270
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,270
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,270
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,270
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,270
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,270
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,270
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,285
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1710
+Time: 0.087424 (s), Gops: 400.585449, GBytesS: 0.060175
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1710
+Time: 0.163579 (s), Gops: 428.182129, GBytesS: 0.064279
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1710
+Time: 0.244359 (s), Gops: 429.950989, GBytesS: 0.064530
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1710
+Time: 0.323485 (s), Gops: 433.044037, GBytesS: 0.064987
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1710
+Time: 0.402830 (s), Gops: 434.684723, GBytesS: 0.065229
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1710
+Time: 0.502102 (s), Gops: 418.490356, GBytesS: 0.062796
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1710
+Time: 0.587118 (s), Gops: 417.540497, GBytesS: 0.062652
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 1710
+Time: 0.661816 (s), Gops: 423.329834, GBytesS: 0.063519
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 1710
+Time: 0.741114 (s), Gops: 425.288452, GBytesS: 0.063812
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 1710
+Time: 0.799684 (s), Gops: 437.932953, GBytesS: 0.065708
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,285
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,285
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,285
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,285
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,285
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,285
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,285
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,300
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1800
+Time: 0.087611 (s), Gops: 420.769257, GBytesS: 0.063206
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1800
+Time: 0.172004 (s), Gops: 428.641235, GBytesS: 0.064347
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1800
+Time: 0.257067 (s), Gops: 430.206970, GBytesS: 0.064568
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1800
+Time: 0.340412 (s), Gops: 433.169342, GBytesS: 0.065006
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1800
+Time: 0.423832 (s), Gops: 434.889374, GBytesS: 0.065259
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1800
+Time: 0.532385 (s), Gops: 415.458862, GBytesS: 0.062341
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1800
+Time: 0.617876 (s), Gops: 417.637329, GBytesS: 0.062666
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 1800
+Time: 0.697307 (s), Gops: 422.929871, GBytesS: 0.063459
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 1800
+Time: 0.779907 (s), Gops: 425.404572, GBytesS: 0.063829
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 1800
+Time: 0.842429 (s), Gops: 437.591705, GBytesS: 0.065656
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,300
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,300
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,300
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,300
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,300
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,300
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,300
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,315
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1890
+Time: 0.095785 (s), Gops: 404.105438, GBytesS: 0.060703
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1890
+Time: 0.180319 (s), Gops: 429.319550, GBytesS: 0.064448
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1890
+Time: 0.269886 (s), Gops: 430.261627, GBytesS: 0.064576
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1890
+Time: 0.357282 (s), Gops: 433.351898, GBytesS: 0.065033
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1890
+Time: 0.444869 (s), Gops: 435.040375, GBytesS: 0.065282
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1890
+Time: 0.556666 (s), Gops: 417.203735, GBytesS: 0.062602
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1890
+Time: 0.648957 (s), Gops: 417.516724, GBytesS: 0.062647
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 1890
+Time: 0.730007 (s), Gops: 424.184479, GBytesS: 0.063646
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 1890
+Time: 0.818889 (s), Gops: 425.411530, GBytesS: 0.063829
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 1890
+Time: 0.884464 (s), Gops: 437.634674, GBytesS: 0.065662
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,315
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,315
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,315
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,315
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,315
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,315
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,315
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,330
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 1980
+Time: 0.095596 (s), Gops: 424.185822, GBytesS: 0.063719
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 1980
+Time: 0.188857 (s), Gops: 429.430054, GBytesS: 0.064465
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 1980
+Time: 0.282327 (s), Gops: 430.887695, GBytesS: 0.064669
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 1980
+Time: 0.374597 (s), Gops: 433.002838, GBytesS: 0.064980
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 1980
+Time: 0.466053 (s), Gops: 435.040649, GBytesS: 0.065281
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 1980
+Time: 0.584055 (s), Gops: 416.574341, GBytesS: 0.062508
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 1980
+Time: 0.679880 (s), Gops: 417.504333, GBytesS: 0.062645
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 1980
+Time: 0.767526 (s), Gops: 422.660767, GBytesS: 0.063417
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 1980
+Time: 0.857996 (s), Gops: 425.355835, GBytesS: 0.063821
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 1980
+Time: 0.926427 (s), Gops: 437.707367, GBytesS: 0.065673
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,330
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,330
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,330
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,330
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,330
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,330
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,330
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,345
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2070
+Time: 0.105503 (s), Gops: 401.824249, GBytesS: 0.060359
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2070
+Time: 0.197332 (s), Gops: 429.667969, GBytesS: 0.064500
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2070
+Time: 0.294983 (s), Gops: 431.145966, GBytesS: 0.064708
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2070
+Time: 0.391122 (s), Gops: 433.558990, GBytesS: 0.065063
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2070
+Time: 0.487068 (s), Gops: 435.191833, GBytesS: 0.065304
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2070
+Time: 0.609314 (s), Gops: 417.455750, GBytesS: 0.062640
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2070
+Time: 0.710438 (s), Gops: 417.707397, GBytesS: 0.062675
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2070
+Time: 0.799510 (s), Gops: 424.195831, GBytesS: 0.063647
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2070
+Time: 0.896860 (s), Gops: 425.420197, GBytesS: 0.063830
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2070
+Time: 0.968424 (s), Gops: 437.758636, GBytesS: 0.065680
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,345
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,345
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,345
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,345
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,345
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,345
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,345
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,360
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2160
+Time: 0.105534 (s), Gops: 419.170776, GBytesS: 0.062965
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2160
+Time: 0.205727 (s), Gops: 430.053711, GBytesS: 0.064558
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2160
+Time: 0.307783 (s), Gops: 431.181854, GBytesS: 0.064713
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2160
+Time: 0.408255 (s), Gops: 433.423370, GBytesS: 0.065042
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2160
+Time: 0.508292 (s), Gops: 435.151459, GBytesS: 0.065297
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2160
+Time: 0.637581 (s), Gops: 416.293549, GBytesS: 0.062465
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2160
+Time: 0.741251 (s), Gops: 417.750000, GBytesS: 0.062681
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2160
+Time: 0.835960 (s), Gops: 423.338837, GBytesS: 0.063519
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2160
+Time: 0.935827 (s), Gops: 425.432495, GBytesS: 0.063831
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2160
+Time: 1.009728 (s), Gops: 438.106018, GBytesS: 0.065732
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,360
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,360
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,360
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,360
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,360
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,360
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,360
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,375
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2250
+Time: 0.114587 (s), Gops: 402.139618, GBytesS: 0.060406
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2250
+Time: 0.214197 (s), Gops: 430.258301, GBytesS: 0.064588
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2250
+Time: 0.320465 (s), Gops: 431.373352, GBytesS: 0.064741
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2250
+Time: 0.425196 (s), Gops: 433.494263, GBytesS: 0.065053
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2250
+Time: 0.529322 (s), Gops: 435.273682, GBytesS: 0.065315
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2250
+Time: 0.663295 (s), Gops: 416.828094, GBytesS: 0.062545
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2250
+Time: 0.772991 (s), Gops: 417.288177, GBytesS: 0.062612
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2250
+Time: 0.869243 (s), Gops: 424.093079, GBytesS: 0.063631
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2250
+Time: 0.974909 (s), Gops: 425.393524, GBytesS: 0.063825
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2250
+Time: 1.051710 (s), Gops: 438.143555, GBytesS: 0.065737
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,375
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,375
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,375
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,375
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,375
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,375
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,375
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,390
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2340
+Time: 0.114971 (s), Gops: 416.828003, GBytesS: 0.062612
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2340
+Time: 0.222418 (s), Gops: 430.929016, GBytesS: 0.064688
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2340
+Time: 0.333253 (s), Gops: 431.412567, GBytesS: 0.064747
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2340
+Time: 0.442042 (s), Gops: 433.652802, GBytesS: 0.065076
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2340
+Time: 0.550504 (s), Gops: 435.266632, GBytesS: 0.065314
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2340
+Time: 0.686393 (s), Gops: 418.913361, GBytesS: 0.062857
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2340
+Time: 0.803357 (s), Gops: 417.575684, GBytesS: 0.062655
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2340
+Time: 0.908032 (s), Gops: 422.215881, GBytesS: 0.063349
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2340
+Time: 1.013809 (s), Gops: 425.433990, GBytesS: 0.063831
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2340
+Time: 1.094413 (s), Gops: 437.889618, GBytesS: 0.065699
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,390
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,390
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,390
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,390
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,390
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,390
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,390
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,405
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2430
+Time: 0.121395 (s), Gops: 409.953888, GBytesS: 0.061579
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2430
+Time: 0.230946 (s), Gops: 430.978577, GBytesS: 0.064696
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2430
+Time: 0.345867 (s), Gops: 431.666595, GBytesS: 0.064785
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2430
+Time: 0.458742 (s), Gops: 433.938141, GBytesS: 0.065119
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2430
+Time: 0.571531 (s), Gops: 435.377930, GBytesS: 0.065330
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2430
+Time: 0.715321 (s), Gops: 417.432709, GBytesS: 0.062635
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2430
+Time: 0.834724 (s), Gops: 417.341339, GBytesS: 0.062619
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2430
+Time: 0.941025 (s), Gops: 423.082489, GBytesS: 0.063479
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2430
+Time: 1.052736 (s), Gops: 425.460510, GBytesS: 0.063835
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2430
+Time: 1.137230 (s), Gops: 437.610596, GBytesS: 0.065657
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,405
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,405
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,405
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,405
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,405
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,405
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,405
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,420
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2520
+Time: 0.121473 (s), Gops: 424.864502, GBytesS: 0.063819
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2520
+Time: 0.239431 (s), Gops: 431.102234, GBytesS: 0.064714
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2520
+Time: 0.358683 (s), Gops: 431.659332, GBytesS: 0.064783
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2520
+Time: 0.475529 (s), Gops: 434.123749, GBytesS: 0.065146
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2520
+Time: 0.592752 (s), Gops: 435.338898, GBytesS: 0.065324
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2520
+Time: 0.740665 (s), Gops: 418.080383, GBytesS: 0.062732
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2520
+Time: 0.865742 (s), Gops: 417.291992, GBytesS: 0.062612
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2520
+Time: 0.973965 (s), Gops: 423.913422, GBytesS: 0.063604
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2520
+Time: 1.091948 (s), Gops: 425.374176, GBytesS: 0.063822
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2520
+Time: 1.178532 (s), Gops: 437.914337, GBytesS: 0.065702
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,420
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,420
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,420
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,420
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,420
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,420
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,420
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,435
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2610
+Time: 0.130064 (s), Gops: 410.973022, GBytesS: 0.061732
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2610
+Time: 0.247853 (s), Gops: 431.326569, GBytesS: 0.064747
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2610
+Time: 0.371061 (s), Gops: 432.161713, GBytesS: 0.064859
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2610
+Time: 0.492570 (s), Gops: 434.072784, GBytesS: 0.065138
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2610
+Time: 0.613743 (s), Gops: 435.465790, GBytesS: 0.065343
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2610
+Time: 0.767957 (s), Gops: 417.623413, GBytesS: 0.062663
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2610
+Time: 0.896109 (s), Gops: 417.549164, GBytesS: 0.062650
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2610
+Time: 1.007386 (s), Gops: 424.487152, GBytesS: 0.063690
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2610
+Time: 1.130643 (s), Gops: 425.488098, GBytesS: 0.063839
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2610
+Time: 1.222750 (s), Gops: 437.152344, GBytesS: 0.065588
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,435
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,435
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,435
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,435
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,435
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,435
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,435
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,450
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2700
+Time: 0.129929 (s), Gops: 425.586853, GBytesS: 0.063927
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2700
+Time: 0.256188 (s), Gops: 431.683105, GBytesS: 0.064801
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2700
+Time: 0.383904 (s), Gops: 432.108032, GBytesS: 0.064850
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2700
+Time: 0.509883 (s), Gops: 433.793701, GBytesS: 0.065096
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2700
+Time: 0.634957 (s), Gops: 435.431183, GBytesS: 0.065338
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2700
+Time: 0.795335 (s), Gops: 417.152618, GBytesS: 0.062592
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2700
+Time: 0.927081 (s), Gops: 417.516876, GBytesS: 0.062645
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2700
+Time: 1.043797 (s), Gops: 423.806519, GBytesS: 0.063587
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2700
+Time: 1.169740 (s), Gops: 425.448303, GBytesS: 0.063832
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2700
+Time: 1.263269 (s), Gops: 437.721527, GBytesS: 0.065673
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,450
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,450
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,450
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,450
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,450
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,450
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,450
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,465
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2790
+Time: 0.139207 (s), Gops: 410.462463, GBytesS: 0.061655
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2790
+Time: 0.264549 (s), Gops: 431.974396, GBytesS: 0.064844
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2790
+Time: 0.396510 (s), Gops: 432.316101, GBytesS: 0.064881
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2790
+Time: 0.526621 (s), Gops: 434.006165, GBytesS: 0.065128
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2790
+Time: 0.656019 (s), Gops: 435.499603, GBytesS: 0.065348
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2790
+Time: 0.821662 (s), Gops: 417.245911, GBytesS: 0.062606
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2790
+Time: 0.958262 (s), Gops: 417.395569, GBytesS: 0.062627
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2790
+Time: 1.082183 (s), Gops: 422.399475, GBytesS: 0.063376
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2790
+Time: 1.208863 (s), Gops: 425.402039, GBytesS: 0.063825
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2790
+Time: 1.305215 (s), Gops: 437.776184, GBytesS: 0.065681
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,465
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,465
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,465
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,465
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,465
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,465
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,465
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,480
+y=,32
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 192, Size of B: 2880
+Time: 0.139634 (s), Gops: 422.407471, GBytesS: 0.063449
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,64
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 384, Size of B: 2880
+Time: 0.273115 (s), Gops: 431.923309, GBytesS: 0.064836
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,96
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 576, Size of B: 2880
+Time: 0.409155 (s), Gops: 432.469971, GBytesS: 0.064904
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,128
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 768, Size of B: 2880
+Time: 0.543499 (s), Gops: 434.093903, GBytesS: 0.065141
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,160
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 960, Size of B: 2880
+Time: 0.677190 (s), Gops: 435.493713, GBytesS: 0.065347
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,192
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1152, Size of B: 2880
+Time: 0.847695 (s), Gops: 417.478516, GBytesS: 0.062641
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,224
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1344, Size of B: 2880
+Time: 0.988436 (s), Gops: 417.707153, GBytesS: 0.062673
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,256
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1536, Size of B: 2880
+Time: 1.109076 (s), Gops: 425.452545, GBytesS: 0.063834
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,288
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1728, Size of B: 2880
+Time: 1.247627 (s), Gops: 425.481018, GBytesS: 0.063837
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,320
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+gcc -O3  -o timer.o -c timer.c
+nvcc intmaxaddF5.cu intmaxaddF5K.o timer.o -o intmaxaddF5  -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21 
+Size of A: 1920, Size of B: 2880
+Time: 1.346524 (s), Gops: 438.034515, GBytesS: 0.065719
+Result error: i=0, j=0, expected 0, got 1674839056
+Test FAILED 
+x=,480
+y=,352
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,480
+y=,384
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,480
+y=,416
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,480
+y=,448
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,480
+y=,480
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,480
+y=,512
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
+x=,480
+y=,544
+gcc -o intmaxaddF5CG intmaxaddF5CG.c
+rm *.o intmaxaddF5CG intmaxaddF5
+Makefile:36: recipe for target 'clean' failed
+nvcc intmaxaddF5K.cu -c -o intmaxaddF5K.o -O3 --maxrregcount=124 --ptxas-options -v -arch=sm_21
+Makefile:28: recipe for target 'intmaxaddF5K.o' failed
