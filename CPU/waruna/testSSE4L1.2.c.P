@@ -19,9 +19,9 @@
 			     _a > _b ? _a : _b; })
 
 //#define IREPS 10000
-#define REPS 200000000
+#define REPS __REPS__
 //sun 20
-#define ARRAY_SIZE 320
+#define ARRAY_SIZE __ARRAY_SIZE__
 #define OUT_ARRAY_SIZE (ARRAY_SIZE)*4
 #define VECTOR_ARRAY_SIZE 2
 
