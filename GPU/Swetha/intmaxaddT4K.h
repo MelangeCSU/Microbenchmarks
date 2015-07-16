@@ -6,5 +6,5 @@ Changes made:
 	2. Changed the Kernel name
 	3. Included iteration "k" in the Kernel call 
 */
-__global__ void IntmaxaddF5(const int* A, const int* B, int* C, int x, int k);
+__global__ void IntmaxaddT4(int* C,  int k, int sl, int N);
 
