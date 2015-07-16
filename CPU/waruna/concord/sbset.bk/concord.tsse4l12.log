@@ -1,0 +1,4466 @@
+====================tsse4
+Threads: 1 ArraySize: 64 time: 2.56 s GOPS: 6.24
+sum: 755359720
+Threads: 1 ArraySize: 64 time: 2.33 s GOPS: 6.86
+sum: 755359720
+Threads: 1 ArraySize: 64 time: 2.41 s GOPS: 6.65
+sum: 755359720
+Threads: 1 ArraySize: 64 time: 2.41 s GOPS: 6.65
+sum: 755359720
+Threads: 1 ArraySize: 64 time: 2.33 s GOPS: 6.86
+sum: 755359720
+Threads: 1 ArraySize: 128 time: 6.09 s GOPS: 3.94
+sum: -1014444056
+Threads: 1 ArraySize: 128 time: 6.13 s GOPS: 3.91
+sum: -1014444056
+Threads: 1 ArraySize: 128 time: 6.15 s GOPS: 3.90
+sum: -1014444056
+Threads: 1 ArraySize: 128 time: 6.16 s GOPS: 3.90
+sum: -1014444056
+Threads: 1 ArraySize: 128 time: 6.16 s GOPS: 3.90
+sum: -1014444056
+Threads: 1 ArraySize: 192 time: 8.82 s GOPS: 3.02
+sum: -1604378728
+Threads: 1 ArraySize: 192 time: 8.89 s GOPS: 3.00
+sum: -1604378728
+Threads: 1 ArraySize: 192 time: 8.89 s GOPS: 3.00
+sum: -1604378728
+Threads: 1 ArraySize: 192 time: 8.79 s GOPS: 3.04
+sum: -1604378728
+Threads: 1 ArraySize: 192 time: 8.89 s GOPS: 3.00
+sum: -1604378728
+Threads: 1 ArraySize: 256 time: 4.26 s GOPS: 6.57
+sum: -1899345944
+Threads: 1 ArraySize: 256 time: 4.33 s GOPS: 6.46
+sum: -1899345944
+Threads: 1 ArraySize: 256 time: 4.27 s GOPS: 6.56
+sum: -1899345944
+Threads: 1 ArraySize: 256 time: 4.34 s GOPS: 6.46
+sum: -1899345944
+Threads: 1 ArraySize: 256 time: 4.30 s GOPS: 6.51
+sum: -1899345944
+Threads: 1 ArraySize: 320 time: 5.74 s GOPS: 5.02
+sum: 500654056
+Threads: 1 ArraySize: 320 time: 5.80 s GOPS: 4.96
+sum: 500654056
+Threads: 1 ArraySize: 320 time: 5.80 s GOPS: 4.96
+sum: 500654056
+Threads: 1 ArraySize: 320 time: 5.79 s GOPS: 4.97
+sum: 500654056
+Threads: 1 ArraySize: 320 time: 5.80 s GOPS: 4.96
+sum: 500654056
+Threads: 1 ArraySize: 384 time: 5.81 s GOPS: 5.05
+sum: 2100653704
+Threads: 1 ArraySize: 384 time: 5.88 s GOPS: 4.99
+sum: 2100653704
+Threads: 1 ArraySize: 384 time: 5.80 s GOPS: 5.06
+sum: 2100653704
+Threads: 1 ArraySize: 384 time: 5.81 s GOPS: 5.05
+sum: 2100653704
+Threads: 1 ArraySize: 384 time: 5.88 s GOPS: 4.99
+sum: 2100653704
+Threads: 1 ArraySize: 448 time: 5.89 s GOPS: 5.05
+sum: -1051456632
+Threads: 1 ArraySize: 448 time: 5.95 s GOPS: 5.00
+sum: -1051456632
+Threads: 1 ArraySize: 448 time: 5.89 s GOPS: 5.05
+sum: -1051456632
+Threads: 1 ArraySize: 448 time: 5.96 s GOPS: 4.99
+sum: -1051456632
+Threads: 1 ArraySize: 448 time: 5.96 s GOPS: 4.98
+sum: -1051456632
+Threads: 1 ArraySize: 512 time: 5.94 s GOPS: 5.05
+sum: -194313240
+Threads: 1 ArraySize: 512 time: 6.01 s GOPS: 4.99
+sum: -194313240
+Threads: 1 ArraySize: 512 time: 5.95 s GOPS: 5.05
+sum: -194313240
+Threads: 1 ArraySize: 512 time: 5.95 s GOPS: 5.04
+sum: -194313240
+Threads: 1 ArraySize: 512 time: 6.00 s GOPS: 5.00
+sum: -194313240
+Threads: 1 ArraySize: 576 time: 5.99 s GOPS: 5.05
+sum: 472353336
+Threads: 1 ArraySize: 576 time: 6.04 s GOPS: 5.00
+sum: 472353336
+Threads: 1 ArraySize: 576 time: 5.99 s GOPS: 5.05
+sum: 472353336
+Threads: 1 ArraySize: 576 time: 6.07 s GOPS: 4.98
+sum: 472353336
+Threads: 1 ArraySize: 576 time: 6.05 s GOPS: 4.99
+sum: 472353336
+Threads: 1 ArraySize: 640 time: 6.00 s GOPS: 5.06
+sum: 1005686760
+Threads: 1 ArraySize: 640 time: 6.07 s GOPS: 5.00
+sum: 1005686760
+Threads: 1 ArraySize: 640 time: 6.00 s GOPS: 5.07
+sum: 1005686760
+Threads: 1 ArraySize: 640 time: 6.00 s GOPS: 5.07
+sum: 1005686760
+Threads: 1 ArraySize: 640 time: 6.00 s GOPS: 5.07
+sum: 1005686760
+Threads: 1 ArraySize: 704 time: 6.04 s GOPS: 5.05
+sum: 1442049480
+Threads: 1 ArraySize: 704 time: 6.71 s GOPS: 4.55
+sum: 1442049480
+Threads: 1 ArraySize: 704 time: 6.04 s GOPS: 5.06
+sum: 1442049480
+Threads: 1 ArraySize: 704 time: 6.11 s GOPS: 5.00
+sum: 1442049480
+Threads: 1 ArraySize: 704 time: 6.12 s GOPS: 4.99
+sum: 1442049480
+Threads: 1 ArraySize: 768 time: 6.07 s GOPS: 5.05
+sum: 1805686392
+Threads: 1 ArraySize: 768 time: 6.13 s GOPS: 5.00
+sum: 1805686392
+Threads: 1 ArraySize: 768 time: 6.07 s GOPS: 5.05
+sum: 1805686392
+Threads: 1 ArraySize: 768 time: 6.06 s GOPS: 5.06
+sum: 1805686392
+Threads: 1 ArraySize: 768 time: 6.07 s GOPS: 5.05
+sum: 1805686392
+Threads: 1 ArraySize: 832 time: 6.06 s GOPS: 5.08
+sum: 2113377960
+Threads: 1 ArraySize: 832 time: 6.12 s GOPS: 5.03
+sum: 2113377960
+Threads: 1 ArraySize: 832 time: 6.05 s GOPS: 5.08
+sum: 2113377960
+Threads: 1 ArraySize: 832 time: 6.13 s GOPS: 5.02
+sum: 2113377960
+Threads: 1 ArraySize: 832 time: 6.12 s GOPS: 5.03
+sum: 2113377960
+Threads: 1 ArraySize: 896 time: 6.07 s GOPS: 5.08
+sum: -1917852520
+Threads: 1 ArraySize: 896 time: 6.15 s GOPS: 5.02
+sum: -1917852520
+Threads: 1 ArraySize: 896 time: 6.07 s GOPS: 5.08
+sum: -1917852520
+Threads: 1 ArraySize: 896 time: 6.08 s GOPS: 5.08
+sum: -1917852520
+Threads: 1 ArraySize: 896 time: 6.07 s GOPS: 5.08
+sum: -1917852520
+Threads: 1 ArraySize: 960 time: 6.09 s GOPS: 5.08
+sum: -1689281464
+Threads: 1 ArraySize: 960 time: 6.09 s GOPS: 5.08
+sum: -1689281464
+Threads: 1 ArraySize: 960 time: 6.09 s GOPS: 5.08
+sum: -1689281464
+Threads: 1 ArraySize: 960 time: 6.16 s GOPS: 5.02
+sum: -1689281464
+Threads: 1 ArraySize: 960 time: 6.16 s GOPS: 5.02
+sum: -1689281464
+Threads: 1 ArraySize: 1024 time: 6.43 s GOPS: 4.82
+sum: -1489280536
+Threads: 1 ArraySize: 1024 time: 6.45 s GOPS: 4.81
+sum: -1489280536
+Threads: 1 ArraySize: 1024 time: 6.42 s GOPS: 4.83
+sum: -1489280536
+Threads: 1 ArraySize: 1024 time: 6.43 s GOPS: 4.82
+sum: -1489280536
+Threads: 1 ArraySize: 1024 time: 6.42 s GOPS: 4.83
+sum: -1489280536
+Threads: 1 ArraySize: 1088 time: 6.46 s GOPS: 4.81
+sum: -1312810600
+Threads: 1 ArraySize: 1088 time: 6.52 s GOPS: 4.76
+sum: -1312810600
+Threads: 1 ArraySize: 1088 time: 6.45 s GOPS: 4.81
+sum: -1312810600
+Threads: 1 ArraySize: 1088 time: 6.52 s GOPS: 4.76
+sum: -1312810600
+Threads: 1 ArraySize: 1088 time: 6.52 s GOPS: 4.76
+sum: -1312810600
+Threads: 1 ArraySize: 1152 time: 6.45 s GOPS: 4.82
+sum: -1155948136
+Threads: 1 ArraySize: 1152 time: 6.52 s GOPS: 4.77
+sum: -1155948136
+Threads: 1 ArraySize: 1152 time: 6.47 s GOPS: 4.81
+sum: -1155948136
+Threads: 1 ArraySize: 1152 time: 6.44 s GOPS: 4.83
+sum: -1155948136
+Threads: 1 ArraySize: 1152 time: 6.44 s GOPS: 4.83
+sum: -1155948136
+Threads: 1 ArraySize: 1216 time: 6.48 s GOPS: 4.81
+sum: -1015598008
+Threads: 1 ArraySize: 1216 time: 6.50 s GOPS: 4.79
+sum: -1015598008
+Threads: 1 ArraySize: 1216 time: 6.45 s GOPS: 4.83
+sum: -1015598008
+Threads: 1 ArraySize: 1216 time: 6.52 s GOPS: 4.78
+sum: -1015598008
+Threads: 1 ArraySize: 1216 time: 6.52 s GOPS: 4.78
+sum: -1015598008
+Threads: 1 ArraySize: 1280 time: 6.45 s GOPS: 4.84
+sum: -889280536
+Threads: 1 ArraySize: 1280 time: 6.52 s GOPS: 4.78
+sum: -889280536
+Threads: 1 ArraySize: 1280 time: 6.45 s GOPS: 4.84
+sum: -889280536
+Threads: 1 ArraySize: 1280 time: 6.45 s GOPS: 4.84
+sum: -889280536
+Threads: 1 ArraySize: 1280 time: 6.45 s GOPS: 4.84
+sum: -889280536
+Threads: 1 ArraySize: 1344 time: 6.46 s GOPS: 4.83
+sum: -774996040
+Threads: 1 ArraySize: 1344 time: 6.54 s GOPS: 4.78
+sum: -774996040
+Threads: 1 ArraySize: 1344 time: 6.46 s GOPS: 4.83
+sum: -774996040
+Threads: 1 ArraySize: 1344 time: 6.53 s GOPS: 4.78
+sum: -774996040
+Threads: 1 ArraySize: 1344 time: 6.54 s GOPS: 4.78
+sum: -774996040
+Threads: 1 ArraySize: 1408 time: 6.46 s GOPS: 4.84
+sum: -671099656
+Threads: 1 ArraySize: 1408 time: 6.53 s GOPS: 4.79
+sum: -671099656
+Threads: 1 ArraySize: 1408 time: 6.46 s GOPS: 4.84
+sum: -671099656
+Threads: 1 ArraySize: 1408 time: 6.46 s GOPS: 4.84
+sum: -671099656
+Threads: 1 ArraySize: 1408 time: 6.46 s GOPS: 4.84
+sum: -671099656
+Threads: 1 ArraySize: 1472 time: 6.46 s GOPS: 4.85
+sum: -576238936
+Threads: 1 ArraySize: 1472 time: 6.52 s GOPS: 4.80
+sum: -576238936
+Threads: 1 ArraySize: 1472 time: 6.46 s GOPS: 4.85
+sum: -576238936
+Threads: 1 ArraySize: 1472 time: 6.53 s GOPS: 4.79
+sum: -576238936
+Threads: 1 ArraySize: 1472 time: 6.53 s GOPS: 4.80
+sum: -576238936
+Threads: 1 ArraySize: 1536 time: 6.48 s GOPS: 4.84
+sum: -489282040
+Threads: 1 ArraySize: 1536 time: 6.54 s GOPS: 4.79
+sum: -489282040
+Threads: 1 ArraySize: 1536 time: 6.46 s GOPS: 4.85
+sum: -489282040
+Threads: 1 ArraySize: 1536 time: 6.46 s GOPS: 4.85
+sum: -489282040
+Threads: 1 ArraySize: 1536 time: 6.47 s GOPS: 4.85
+sum: -489282040
+====================tsse4p
+THREADS=1
+Threads: 1 ArraySize: 64 time: 2.34 s GOPS: 6.85
+sum: 755359720
+Threads: 1 ArraySize: 64 time: 2.33 s GOPS: 6.86
+sum: 755359720
+Threads: 1 ArraySize: 64 time: 2.33 s GOPS: 6.85
+sum: 755359720
+Threads: 1 ArraySize: 64 time: 2.33 s GOPS: 6.86
+sum: 755359720
+Threads: 1 ArraySize: 64 time: 2.33 s GOPS: 6.86
+sum: 755359720
+THREADS=2
+Threads: 2 ArraySize: 64 time: 2.40 s GOPS: 13.31
+sum: 1510719440
+Threads: 2 ArraySize: 64 time: 2.40 s GOPS: 13.31
+sum: 1510719440
+Threads: 2 ArraySize: 64 time: 2.40 s GOPS: 13.31
+sum: 1510719440
+Threads: 2 ArraySize: 64 time: 2.40 s GOPS: 13.31
+sum: 1510719440
+Threads: 2 ArraySize: 64 time: 2.40 s GOPS: 13.31
+sum: 1510719440
+THREADS=3
+Threads: 3 ArraySize: 64 time: 2.48 s GOPS: 19.36
+sum: -2028888136
+Threads: 3 ArraySize: 64 time: 2.48 s GOPS: 19.36
+sum: -2028888136
+Threads: 3 ArraySize: 64 time: 2.48 s GOPS: 19.37
+sum: -2028888136
+Threads: 3 ArraySize: 64 time: 2.48 s GOPS: 19.37
+sum: -2028888136
+Threads: 3 ArraySize: 64 time: 2.48 s GOPS: 19.37
+sum: -2028888136
+THREADS=4
+Threads: 4 ArraySize: 64 time: 2.56 s GOPS: 25.02
+sum: -1273528416
+Threads: 4 ArraySize: 64 time: 2.56 s GOPS: 25.02
+sum: -1273528416
+Threads: 4 ArraySize: 64 time: 2.56 s GOPS: 25.04
+sum: -1273528416
+Threads: 4 ArraySize: 64 time: 2.56 s GOPS: 25.03
+sum: -1273528416
+Threads: 4 ArraySize: 64 time: 2.56 s GOPS: 25.03
+sum: -1273528416
+THREADS=5
+Threads: 5 ArraySize: 64 time: 2.64 s GOPS: 30.31
+sum: -518168696
+Threads: 5 ArraySize: 64 time: 2.64 s GOPS: 30.31
+sum: -518168696
+Threads: 5 ArraySize: 64 time: 2.64 s GOPS: 30.32
+sum: -518168696
+Threads: 5 ArraySize: 64 time: 2.64 s GOPS: 30.32
+sum: -518168696
+Threads: 5 ArraySize: 64 time: 2.64 s GOPS: 30.32
+sum: -518168696
+THREADS=6
+Threads: 6 ArraySize: 64 time: 2.64 s GOPS: 36.38
+sum: 237191024
+Threads: 6 ArraySize: 64 time: 2.64 s GOPS: 36.38
+sum: 237191024
+Threads: 6 ArraySize: 64 time: 2.64 s GOPS: 36.38
+sum: 237191024
+Threads: 6 ArraySize: 64 time: 2.64 s GOPS: 36.38
+sum: 237191024
+Threads: 6 ArraySize: 64 time: 2.64 s GOPS: 36.37
+sum: 237191024
+THREADS=7
+Threads: 7 ArraySize: 64 time: 2.64 s GOPS: 42.44
+sum: 992550744
+Threads: 7 ArraySize: 64 time: 2.64 s GOPS: 42.45
+sum: 992550744
+Threads: 7 ArraySize: 64 time: 2.64 s GOPS: 42.44
+sum: 992550744
+Threads: 7 ArraySize: 64 time: 2.64 s GOPS: 42.43
+sum: 992550744
+Threads: 7 ArraySize: 64 time: 2.64 s GOPS: 42.43
+sum: 992550744
+THREADS=8
+Threads: 8 ArraySize: 64 time: 2.64 s GOPS: 48.50
+sum: 1747910464
+Threads: 8 ArraySize: 64 time: 2.64 s GOPS: 48.51
+sum: 1747910464
+Threads: 8 ArraySize: 64 time: 2.64 s GOPS: 48.49
+sum: 1747910464
+Threads: 8 ArraySize: 64 time: 2.64 s GOPS: 48.50
+sum: 1747910464
+Threads: 8 ArraySize: 64 time: 2.64 s GOPS: 48.50
+sum: 1747910464
+THREADS=9
+Threads: 9 ArraySize: 64 time: 3.82 s GOPS: 37.71
+sum: -1791697112
+Threads: 9 ArraySize: 64 time: 3.80 s GOPS: 37.86
+sum: -1791697112
+Threads: 9 ArraySize: 64 time: 3.72 s GOPS: 38.74
+sum: -1791697112
+Threads: 9 ArraySize: 64 time: 3.94 s GOPS: 36.57
+sum: -1791697112
+Threads: 9 ArraySize: 64 time: 4.10 s GOPS: 35.11
+sum: -1791697112
+THREADS=10
+Threads: 10 ArraySize: 64 time: 4.78 s GOPS: 33.50
+sum: -1036337392
+Threads: 10 ArraySize: 64 time: 3.77 s GOPS: 42.49
+sum: -1036337392
+Threads: 10 ArraySize: 64 time: 3.83 s GOPS: 41.80
+sum: -1036337392
+Threads: 10 ArraySize: 64 time: 3.92 s GOPS: 40.86
+sum: -1036337392
+Threads: 10 ArraySize: 64 time: 3.95 s GOPS: 40.52
+sum: -1036337392
+THREADS=11
+Threads: 11 ArraySize: 64 time: 4.85 s GOPS: 36.27
+sum: -280977672
+Threads: 11 ArraySize: 64 time: 4.48 s GOPS: 39.27
+sum: -280977672
+Threads: 11 ArraySize: 64 time: 4.65 s GOPS: 37.89
+sum: -280977672
+Threads: 11 ArraySize: 64 time: 4.88 s GOPS: 36.06
+sum: -280977672
+Threads: 11 ArraySize: 64 time: 4.94 s GOPS: 35.64
+sum: -280977672
+THREADS=12
+Threads: 12 ArraySize: 64 time: 4.66 s GOPS: 41.18
+sum: 474382048
+Threads: 12 ArraySize: 64 time: 4.88 s GOPS: 39.37
+sum: 474382048
+Threads: 12 ArraySize: 64 time: 4.84 s GOPS: 39.67
+sum: 474382048
+Threads: 12 ArraySize: 64 time: 4.75 s GOPS: 40.42
+sum: 474382048
+Threads: 12 ArraySize: 64 time: 4.84 s GOPS: 39.65
+sum: 474382048
+THREADS=13
+Threads: 13 ArraySize: 64 time: 4.92 s GOPS: 42.24
+sum: 1229741768
+Threads: 13 ArraySize: 64 time: 4.87 s GOPS: 42.71
+sum: 1229741768
+Threads: 13 ArraySize: 64 time: 4.92 s GOPS: 42.28
+sum: 1229741768
+Threads: 13 ArraySize: 64 time: 4.90 s GOPS: 42.44
+sum: 1229741768
+Threads: 13 ArraySize: 64 time: 4.61 s GOPS: 45.12
+sum: 1229741768
+THREADS=14
+Threads: 14 ArraySize: 64 time: 4.93 s GOPS: 45.40
+sum: 1985101488
+Threads: 14 ArraySize: 64 time: 4.96 s GOPS: 45.13
+sum: 1985101488
+Threads: 14 ArraySize: 64 time: 4.98 s GOPS: 44.96
+sum: 1985101488
+Threads: 14 ArraySize: 64 time: 4.97 s GOPS: 45.09
+sum: 1985101488
+Threads: 14 ArraySize: 64 time: 4.95 s GOPS: 45.25
+sum: 1985101488
+THREADS=15
+Threads: 15 ArraySize: 64 time: 4.97 s GOPS: 48.29
+sum: -1554506088
+Threads: 15 ArraySize: 64 time: 4.99 s GOPS: 48.13
+sum: -1554506088
+Threads: 15 ArraySize: 64 time: 4.96 s GOPS: 48.39
+sum: -1554506088
+Threads: 15 ArraySize: 64 time: 5.00 s GOPS: 48.04
+sum: -1554506088
+Threads: 15 ArraySize: 64 time: 4.98 s GOPS: 48.16
+sum: -1554506088
+THREADS=16
+Threads: 16 ArraySize: 64 time: 5.00 s GOPS: 51.18
+sum: -799146368
+Threads: 16 ArraySize: 64 time: 5.00 s GOPS: 51.20
+sum: -799146368
+Threads: 16 ArraySize: 64 time: 4.99 s GOPS: 51.28
+sum: -799146368
+Threads: 16 ArraySize: 64 time: 5.00 s GOPS: 51.24
+sum: -799146368
+Threads: 16 ArraySize: 64 time: 5.01 s GOPS: 51.08
+sum: -799146368
+THREADS=1
+Threads: 1 ArraySize: 128 time: 6.06 s GOPS: 3.96
+sum: -1014444056
+Threads: 1 ArraySize: 128 time: 6.05 s GOPS: 3.96
+sum: -1014444056
+Threads: 1 ArraySize: 128 time: 6.05 s GOPS: 3.96
+sum: -1014444056
+Threads: 1 ArraySize: 128 time: 6.06 s GOPS: 3.96
+sum: -1014444056
+Threads: 1 ArraySize: 128 time: 6.06 s GOPS: 3.96
+sum: -1014444056
+THREADS=2
+Threads: 2 ArraySize: 128 time: 6.91 s GOPS: 6.95
+sum: -2028888112
+Threads: 2 ArraySize: 128 time: 6.91 s GOPS: 6.95
+sum: -2028888112
+Threads: 2 ArraySize: 128 time: 6.91 s GOPS: 6.94
+sum: -2028888112
+Threads: 2 ArraySize: 128 time: 6.92 s GOPS: 6.94
+sum: -2028888112
+Threads: 2 ArraySize: 128 time: 6.91 s GOPS: 6.95
+sum: -2028888112
+THREADS=3
+Threads: 3 ArraySize: 128 time: 7.17 s GOPS: 10.04
+sum: 1251635128
+Threads: 3 ArraySize: 128 time: 7.16 s GOPS: 10.05
+sum: 1251635128
+Threads: 3 ArraySize: 128 time: 7.16 s GOPS: 10.06
+sum: 1251635128
+Threads: 3 ArraySize: 128 time: 7.16 s GOPS: 10.05
+sum: 1251635128
+Threads: 3 ArraySize: 128 time: 7.17 s GOPS: 10.04
+sum: 1251635128
+THREADS=4
+Threads: 4 ArraySize: 128 time: 7.41 s GOPS: 12.96
+sum: 237191072
+Threads: 4 ArraySize: 128 time: 7.38 s GOPS: 13.01
+sum: 237191072
+Threads: 4 ArraySize: 128 time: 7.40 s GOPS: 12.97
+sum: 237191072
+Threads: 4 ArraySize: 128 time: 7.40 s GOPS: 12.98
+sum: 237191072
+Threads: 4 ArraySize: 128 time: 7.41 s GOPS: 12.96
+sum: 237191072
+THREADS=5
+Threads: 5 ArraySize: 128 time: 7.67 s GOPS: 15.66
+sum: -777252984
+Threads: 5 ArraySize: 128 time: 7.65 s GOPS: 15.68
+sum: -777252984
+Threads: 5 ArraySize: 128 time: 7.66 s GOPS: 15.67
+sum: -777252984
+Threads: 5 ArraySize: 128 time: 7.64 s GOPS: 15.70
+sum: -777252984
+Threads: 5 ArraySize: 128 time: 7.67 s GOPS: 15.65
+sum: -777252984
+THREADS=6
+Threads: 6 ArraySize: 128 time: 7.69 s GOPS: 18.72
+sum: -1791697040
+Threads: 6 ArraySize: 128 time: 7.71 s GOPS: 18.67
+sum: -1791697040
+Threads: 6 ArraySize: 128 time: 7.73 s GOPS: 18.63
+sum: -1791697040
+Threads: 6 ArraySize: 128 time: 7.68 s GOPS: 18.75
+sum: -1791697040
+Threads: 6 ArraySize: 128 time: 7.70 s GOPS: 18.70
+sum: -1791697040
+THREADS=7
+Threads: 7 ArraySize: 128 time: 7.70 s GOPS: 21.82
+sum: 1488826200
+Threads: 7 ArraySize: 128 time: 7.70 s GOPS: 21.83
+sum: 1488826200
+Threads: 7 ArraySize: 128 time: 7.70 s GOPS: 21.81
+sum: 1488826200
+Threads: 7 ArraySize: 128 time: 7.70 s GOPS: 21.82
+sum: 1488826200
+Threads: 7 ArraySize: 128 time: 7.71 s GOPS: 21.80
+sum: 1488826200
+THREADS=8
+Threads: 8 ArraySize: 128 time: 7.71 s GOPS: 24.89
+sum: 474382144
+Threads: 8 ArraySize: 128 time: 7.71 s GOPS: 24.90
+sum: 474382144
+Threads: 8 ArraySize: 128 time: 7.72 s GOPS: 24.86
+sum: 474382144
+Threads: 8 ArraySize: 128 time: 7.71 s GOPS: 24.89
+sum: 474382144
+Threads: 8 ArraySize: 128 time: 7.72 s GOPS: 24.88
+sum: 474382144
+THREADS=9
+Threads: 9 ArraySize: 128 time: 10.11 s GOPS: 21.37
+sum: -540061912
+Threads: 9 ArraySize: 128 time: 10.34 s GOPS: 20.89
+sum: -540061912
+Threads: 9 ArraySize: 128 time: 10.27 s GOPS: 21.04
+sum: -540061912
+Threads: 9 ArraySize: 128 time: 10.00 s GOPS: 21.61
+sum: -540061912
+Threads: 9 ArraySize: 128 time: 11.79 s GOPS: 18.31
+sum: -540061912
+THREADS=10
+Threads: 10 ArraySize: 128 time: 10.52 s GOPS: 22.82
+sum: -1554505968
+Threads: 10 ArraySize: 128 time: 10.66 s GOPS: 22.52
+sum: -1554505968
+Threads: 10 ArraySize: 128 time: 11.05 s GOPS: 21.73
+sum: -1554505968
+Threads: 10 ArraySize: 128 time: 10.89 s GOPS: 22.04
+sum: -1554505968
+Threads: 10 ArraySize: 128 time: 10.92 s GOPS: 21.98
+sum: -1554505968
+THREADS=11
+Threads: 11 ArraySize: 128 time: 11.37 s GOPS: 23.23
+sum: 1726017272
+Threads: 11 ArraySize: 128 time: 11.73 s GOPS: 22.50
+sum: 1726017272
+Threads: 11 ArraySize: 128 time: 12.77 s GOPS: 20.68
+sum: 1726017272
+Threads: 11 ArraySize: 128 time: 11.61 s GOPS: 22.74
+sum: 1726017272
+Threads: 11 ArraySize: 128 time: 11.95 s GOPS: 22.10
+sum: 1726017272
+THREADS=12
+Threads: 12 ArraySize: 128 time: 11.78 s GOPS: 24.45
+sum: 711573216
+Threads: 12 ArraySize: 128 time: 13.20 s GOPS: 21.81
+sum: 711573216
+Threads: 12 ArraySize: 128 time: 12.49 s GOPS: 23.05
+sum: 711573216
+Threads: 12 ArraySize: 128 time: 12.88 s GOPS: 22.36
+sum: 711573216
+Threads: 12 ArraySize: 128 time: 12.52 s GOPS: 23.01
+sum: 711573216
+THREADS=13
+Threads: 13 ArraySize: 128 time: 12.96 s GOPS: 24.08
+sum: -302870840
+Threads: 13 ArraySize: 128 time: 12.68 s GOPS: 24.60
+sum: -302870840
+Threads: 13 ArraySize: 128 time: 13.03 s GOPS: 23.95
+sum: -302870840
+Threads: 13 ArraySize: 128 time: 13.26 s GOPS: 23.54
+sum: -302870840
+Threads: 13 ArraySize: 128 time: 12.50 s GOPS: 24.96
+sum: -302870840
+THREADS=14
+Threads: 14 ArraySize: 128 time: 13.50 s GOPS: 24.89
+sum: -1317314896
+Threads: 14 ArraySize: 128 time: 13.34 s GOPS: 25.19
+sum: -1317314896
+Threads: 14 ArraySize: 128 time: 13.36 s GOPS: 25.16
+sum: -1317314896
+Threads: 14 ArraySize: 128 time: 12.79 s GOPS: 26.27
+sum: -1317314896
+Threads: 14 ArraySize: 128 time: 13.53 s GOPS: 24.83
+sum: -1317314896
+THREADS=15
+Threads: 15 ArraySize: 128 time: 13.48 s GOPS: 26.70
+sum: 1963208344
+Threads: 15 ArraySize: 128 time: 13.51 s GOPS: 26.64
+sum: 1963208344
+Threads: 15 ArraySize: 128 time: 13.37 s GOPS: 26.93
+sum: 1963208344
+Threads: 15 ArraySize: 128 time: 13.57 s GOPS: 26.53
+sum: 1963208344
+Threads: 15 ArraySize: 128 time: 13.53 s GOPS: 26.61
+sum: 1963208344
+THREADS=16
+Threads: 16 ArraySize: 128 time: 13.71 s GOPS: 28.00
+sum: 948764288
+Threads: 16 ArraySize: 128 time: 14.00 s GOPS: 27.42
+sum: 948764288
+Threads: 16 ArraySize: 128 time: 13.70 s GOPS: 28.02
+sum: 948764288
+Threads: 16 ArraySize: 128 time: 13.94 s GOPS: 27.55
+sum: 948764288
+Threads: 16 ArraySize: 128 time: 13.93 s GOPS: 27.57
+sum: 948764288
+THREADS=1
+Threads: 1 ArraySize: 192 time: 8.79 s GOPS: 3.03
+sum: -1604378728
+Threads: 1 ArraySize: 192 time: 8.79 s GOPS: 3.03
+sum: -1604378728
+Threads: 1 ArraySize: 192 time: 8.79 s GOPS: 3.03
+sum: -1604378728
+Threads: 1 ArraySize: 192 time: 8.81 s GOPS: 3.03
+sum: -1604378728
+Threads: 1 ArraySize: 192 time: 8.79 s GOPS: 3.04
+sum: -1604378728
+THREADS=2
+Threads: 2 ArraySize: 192 time: 9.98 s GOPS: 5.35
+sum: 1086209840
+Threads: 2 ArraySize: 192 time: 10.00 s GOPS: 5.34
+sum: 1086209840
+Threads: 2 ArraySize: 192 time: 10.00 s GOPS: 5.33
+sum: 1086209840
+Threads: 2 ArraySize: 192 time: 10.00 s GOPS: 5.33
+sum: 1086209840
+Threads: 2 ArraySize: 192 time: 10.03 s GOPS: 5.32
+sum: 1086209840
+THREADS=3
+Threads: 3 ArraySize: 192 time: 10.38 s GOPS: 7.71
+sum: -518168888
+Threads: 3 ArraySize: 192 time: 10.39 s GOPS: 7.70
+sum: -518168888
+Threads: 3 ArraySize: 192 time: 10.38 s GOPS: 7.70
+sum: -518168888
+Threads: 3 ArraySize: 192 time: 10.41 s GOPS: 7.69
+sum: -518168888
+Threads: 3 ArraySize: 192 time: 10.40 s GOPS: 7.69
+sum: -518168888
+THREADS=4
+Threads: 4 ArraySize: 192 time: 10.77 s GOPS: 9.90
+sum: -2122547616
+Threads: 4 ArraySize: 192 time: 10.76 s GOPS: 9.91
+sum: -2122547616
+Threads: 4 ArraySize: 192 time: 10.76 s GOPS: 9.91
+sum: -2122547616
+Threads: 4 ArraySize: 192 time: 10.75 s GOPS: 9.93
+sum: -2122547616
+Threads: 4 ArraySize: 192 time: 10.75 s GOPS: 9.92
+sum: -2122547616
+THREADS=5
+Threads: 5 ArraySize: 192 time: 11.13 s GOPS: 11.98
+sum: 568040952
+Threads: 5 ArraySize: 192 time: 11.11 s GOPS: 12.01
+sum: 568040952
+Threads: 5 ArraySize: 192 time: 11.13 s GOPS: 11.98
+sum: 568040952
+Threads: 5 ArraySize: 192 time: 11.09 s GOPS: 12.02
+sum: 568040952
+Threads: 5 ArraySize: 192 time: 11.12 s GOPS: 11.99
+sum: 568040952
+THREADS=6
+Threads: 6 ArraySize: 192 time: 11.14 s GOPS: 14.36
+sum: -1036337776
+Threads: 6 ArraySize: 192 time: 11.16 s GOPS: 14.34
+sum: -1036337776
+Threads: 6 ArraySize: 192 time: 11.18 s GOPS: 14.32
+sum: -1036337776
+Threads: 6 ArraySize: 192 time: 11.15 s GOPS: 14.35
+sum: -1036337776
+Threads: 6 ArraySize: 192 time: 11.15 s GOPS: 14.34
+sum: -1036337776
+THREADS=7
+Threads: 7 ArraySize: 192 time: 11.15 s GOPS: 16.75
+sum: 1654250792
+Threads: 7 ArraySize: 192 time: 11.16 s GOPS: 16.73
+sum: 1654250792
+Threads: 7 ArraySize: 192 time: 11.15 s GOPS: 16.74
+sum: 1654250792
+Threads: 7 ArraySize: 192 time: 11.16 s GOPS: 16.73
+sum: 1654250792
+Threads: 7 ArraySize: 192 time: 11.15 s GOPS: 16.73
+sum: 1654250792
+THREADS=8
+Threads: 8 ArraySize: 192 time: 11.17 s GOPS: 19.10
+sum: 49872064
+Threads: 8 ArraySize: 192 time: 11.16 s GOPS: 19.12
+sum: 49872064
+Threads: 8 ArraySize: 192 time: 11.16 s GOPS: 19.12
+sum: 49872064
+Threads: 8 ArraySize: 192 time: 11.16 s GOPS: 19.12
+sum: 49872064
+Threads: 8 ArraySize: 192 time: 11.15 s GOPS: 19.13
+sum: 49872064
+THREADS=9
+Threads: 9 ArraySize: 192 time: 15.30 s GOPS: 15.69
+sum: -1554506664
+Threads: 9 ArraySize: 192 time: 14.45 s GOPS: 16.61
+sum: -1554506664
+Threads: 9 ArraySize: 192 time: 14.71 s GOPS: 16.31
+sum: -1554506664
+Threads: 9 ArraySize: 192 time: 13.59 s GOPS: 17.66
+sum: -1554506664
+Threads: 9 ArraySize: 192 time: 13.92 s GOPS: 17.24
+sum: -1554506664
+THREADS=10
+Threads: 10 ArraySize: 192 time: 14.21 s GOPS: 18.76
+sum: 1136081904
+Threads: 10 ArraySize: 192 time: 16.11 s GOPS: 16.55
+sum: 1136081904
+Threads: 10 ArraySize: 192 time: 16.77 s GOPS: 15.90
+sum: 1136081904
+Threads: 10 ArraySize: 192 time: 14.87 s GOPS: 17.93
+sum: 1136081904
+Threads: 10 ArraySize: 192 time: 14.98 s GOPS: 17.80
+sum: 1136081904
+THREADS=11
+Threads: 11 ArraySize: 192 time: 16.70 s GOPS: 17.56
+sum: -468296824
+Threads: 11 ArraySize: 192 time: 16.90 s GOPS: 17.36
+sum: -468296824
+Threads: 11 ArraySize: 192 time: 17.05 s GOPS: 17.20
+sum: -468296824
+Threads: 11 ArraySize: 192 time: 17.54 s GOPS: 16.72
+sum: -468296824
+Threads: 11 ArraySize: 192 time: 16.03 s GOPS: 18.30
+sum: -468296824
+THREADS=12
+Threads: 12 ArraySize: 192 time: 17.30 s GOPS: 18.49
+sum: -2072675552
+Threads: 12 ArraySize: 192 time: 17.61 s GOPS: 18.17
+sum: -2072675552
+Threads: 12 ArraySize: 192 time: 18.65 s GOPS: 17.16
+sum: -2072675552
+Threads: 12 ArraySize: 192 time: 17.61 s GOPS: 18.18
+sum: -2072675552
+Threads: 12 ArraySize: 192 time: 17.92 s GOPS: 17.85
+sum: -2072675552
+THREADS=13
+Threads: 13 ArraySize: 192 time: 18.20 s GOPS: 19.05
+sum: 617913016
+Threads: 13 ArraySize: 192 time: 18.81 s GOPS: 18.43
+sum: 617913016
+Threads: 13 ArraySize: 192 time: 18.15 s GOPS: 19.10
+sum: 617913016
+Threads: 13 ArraySize: 192 time: 19.21 s GOPS: 18.05
+sum: 617913016
+Threads: 13 ArraySize: 192 time: 18.64 s GOPS: 18.60
+sum: 617913016
+THREADS=14
+Threads: 14 ArraySize: 192 time: 19.00 s GOPS: 19.65
+sum: -986465712
+Threads: 14 ArraySize: 192 time: 18.51 s GOPS: 20.17
+sum: -986465712
+Threads: 14 ArraySize: 192 time: 19.50 s GOPS: 19.14
+sum: -986465712
+Threads: 14 ArraySize: 192 time: 18.75 s GOPS: 19.91
+sum: -986465712
+Threads: 14 ArraySize: 192 time: 19.20 s GOPS: 19.45
+sum: -986465712
+THREADS=15
+Threads: 15 ArraySize: 192 time: 19.39 s GOPS: 20.63
+sum: 1704122856
+Threads: 15 ArraySize: 192 time: 19.48 s GOPS: 20.53
+sum: 1704122856
+Threads: 15 ArraySize: 192 time: 19.40 s GOPS: 20.62
+sum: 1704122856
+Threads: 15 ArraySize: 192 time: 19.25 s GOPS: 20.78
+sum: 1704122856
+Threads: 15 ArraySize: 192 time: 19.41 s GOPS: 20.61
+sum: 1704122856
+THREADS=16
+Threads: 16 ArraySize: 192 time: 19.90 s GOPS: 21.44
+sum: 99744128
+Threads: 16 ArraySize: 192 time: 19.78 s GOPS: 21.57
+sum: 99744128
+Threads: 16 ArraySize: 192 time: 19.81 s GOPS: 21.53
+sum: 99744128
+Threads: 16 ArraySize: 192 time: 19.88 s GOPS: 21.46
+sum: 99744128
+Threads: 16 ArraySize: 192 time: 19.88 s GOPS: 21.46
+sum: 99744128
+THREADS=1
+Threads: 1 ArraySize: 256 time: 4.22 s GOPS: 6.64
+sum: -1899345944
+Threads: 1 ArraySize: 256 time: 4.22 s GOPS: 6.64
+sum: -1899345944
+Threads: 1 ArraySize: 256 time: 4.22 s GOPS: 6.64
+sum: -1899345944
+Threads: 1 ArraySize: 256 time: 4.22 s GOPS: 6.64
+sum: -1899345944
+Threads: 1 ArraySize: 256 time: 4.22 s GOPS: 6.64
+sum: -1899345944
+THREADS=2
+Threads: 2 ArraySize: 256 time: 5.55 s GOPS: 10.09
+sum: 496275408
+Threads: 2 ArraySize: 256 time: 5.58 s GOPS: 10.04
+sum: 496275408
+Threads: 2 ArraySize: 256 time: 5.49 s GOPS: 10.20
+sum: 496275408
+Threads: 2 ArraySize: 256 time: 5.50 s GOPS: 10.17
+sum: 496275408
+Threads: 2 ArraySize: 256 time: 5.54 s GOPS: 10.10
+sum: 496275408
+THREADS=3
+Threads: 3 ArraySize: 256 time: 6.04 s GOPS: 13.91
+sum: -1403070536
+Threads: 3 ArraySize: 256 time: 6.01 s GOPS: 13.98
+sum: -1403070536
+Threads: 3 ArraySize: 256 time: 6.00 s GOPS: 13.99
+sum: -1403070536
+Threads: 3 ArraySize: 256 time: 6.04 s GOPS: 13.91
+sum: -1403070536
+Threads: 3 ArraySize: 256 time: 6.06 s GOPS: 13.86
+sum: -1403070536
+THREADS=4
+Threads: 4 ArraySize: 256 time: 6.27 s GOPS: 17.86
+sum: 992550816
+Threads: 4 ArraySize: 256 time: 6.32 s GOPS: 17.73
+sum: 992550816
+Threads: 4 ArraySize: 256 time: 6.24 s GOPS: 17.95
+sum: 992550816
+Threads: 4 ArraySize: 256 time: 6.30 s GOPS: 17.77
+sum: 992550816
+Threads: 4 ArraySize: 256 time: 6.32 s GOPS: 17.72
+sum: 992550816
+THREADS=5
+Threads: 5 ArraySize: 256 time: 6.57 s GOPS: 21.30
+sum: -906795128
+Threads: 5 ArraySize: 256 time: 6.59 s GOPS: 21.25
+sum: -906795128
+Threads: 5 ArraySize: 256 time: 6.58 s GOPS: 21.27
+sum: -906795128
+Threads: 5 ArraySize: 256 time: 6.55 s GOPS: 21.39
+sum: -906795128
+Threads: 5 ArraySize: 256 time: 6.56 s GOPS: 21.34
+sum: -906795128
+THREADS=6
+Threads: 6 ArraySize: 256 time: 6.60 s GOPS: 25.44
+sum: 1488826224
+Threads: 6 ArraySize: 256 time: 6.60 s GOPS: 25.46
+sum: 1488826224
+Threads: 6 ArraySize: 256 time: 6.65 s GOPS: 25.25
+sum: 1488826224
+Threads: 6 ArraySize: 256 time: 6.61 s GOPS: 25.42
+sum: 1488826224
+Threads: 6 ArraySize: 256 time: 6.65 s GOPS: 25.27
+sum: 1488826224
+THREADS=7
+Threads: 7 ArraySize: 256 time: 6.70 s GOPS: 29.25
+sum: -410519720
+Threads: 7 ArraySize: 256 time: 6.64 s GOPS: 29.52
+sum: -410519720
+Threads: 7 ArraySize: 256 time: 6.67 s GOPS: 29.37
+sum: -410519720
+Threads: 7 ArraySize: 256 time: 6.63 s GOPS: 29.56
+sum: -410519720
+Threads: 7 ArraySize: 256 time: 6.67 s GOPS: 29.38
+sum: -410519720
+THREADS=8
+Threads: 8 ArraySize: 256 time: 6.64 s GOPS: 33.76
+sum: 1985101632
+Threads: 8 ArraySize: 256 time: 6.66 s GOPS: 33.66
+sum: 1985101632
+Threads: 8 ArraySize: 256 time: 6.67 s GOPS: 33.60
+sum: 1985101632
+Threads: 8 ArraySize: 256 time: 6.67 s GOPS: 33.60
+sum: 1985101632
+Threads: 8 ArraySize: 256 time: 6.66 s GOPS: 33.63
+sum: 1985101632
+THREADS=9
+Threads: 9 ArraySize: 256 time: 8.10 s GOPS: 31.12
+sum: 85755688
+Threads: 9 ArraySize: 256 time: 8.09 s GOPS: 31.16
+sum: 85755688
+Threads: 9 ArraySize: 256 time: 8.11 s GOPS: 31.07
+sum: 85755688
+Threads: 9 ArraySize: 256 time: 7.80 s GOPS: 32.33
+sum: 85755688
+Threads: 9 ArraySize: 256 time: 7.70 s GOPS: 32.74
+sum: 85755688
+THREADS=10
+Threads: 10 ArraySize: 256 time: 9.37 s GOPS: 29.89
+sum: -1813590256
+Threads: 10 ArraySize: 256 time: 9.15 s GOPS: 30.62
+sum: -1813590256
+Threads: 10 ArraySize: 256 time: 8.51 s GOPS: 32.91
+sum: -1813590256
+Threads: 10 ArraySize: 256 time: 8.90 s GOPS: 31.47
+sum: -1813590256
+Threads: 10 ArraySize: 256 time: 8.43 s GOPS: 33.22
+sum: -1813590256
+THREADS=11
+Threads: 11 ArraySize: 256 time: 9.62 s GOPS: 32.02
+sum: 582031096
+Threads: 11 ArraySize: 256 time: 8.65 s GOPS: 35.62
+sum: 582031096
+Threads: 11 ArraySize: 256 time: 8.99 s GOPS: 34.25
+sum: 582031096
+Threads: 11 ArraySize: 256 time: 9.50 s GOPS: 32.42
+sum: 582031096
+Threads: 11 ArraySize: 256 time: 9.72 s GOPS: 31.68
+sum: 582031096
+THREADS=12
+Threads: 12 ArraySize: 256 time: 9.10 s GOPS: 36.92
+sum: -1317314848
+Threads: 12 ArraySize: 256 time: 9.47 s GOPS: 35.48
+sum: -1317314848
+Threads: 12 ArraySize: 256 time: 9.81 s GOPS: 34.24
+sum: -1317314848
+Threads: 12 ArraySize: 256 time: 9.54 s GOPS: 35.23
+sum: -1317314848
+Threads: 12 ArraySize: 256 time: 9.76 s GOPS: 34.42
+sum: -1317314848
+THREADS=13
+Threads: 13 ArraySize: 256 time: 9.45 s GOPS: 38.51
+sum: 1078306504
+Threads: 13 ArraySize: 256 time: 9.76 s GOPS: 37.31
+sum: 1078306504
+Threads: 13 ArraySize: 256 time: 9.96 s GOPS: 36.53
+sum: 1078306504
+Threads: 13 ArraySize: 256 time: 10.36 s GOPS: 35.14
+sum: 1078306504
+Threads: 13 ArraySize: 256 time: 9.61 s GOPS: 37.87
+sum: 1078306504
+THREADS=14
+Threads: 14 ArraySize: 256 time: 10.00 s GOPS: 39.19
+sum: -821039440
+Threads: 14 ArraySize: 256 time: 10.30 s GOPS: 38.06
+sum: -821039440
+Threads: 14 ArraySize: 256 time: 10.06 s GOPS: 38.97
+sum: -821039440
+Threads: 14 ArraySize: 256 time: 10.30 s GOPS: 38.07
+sum: -821039440
+Threads: 14 ArraySize: 256 time: 9.91 s GOPS: 39.58
+sum: -821039440
+THREADS=15
+Threads: 15 ArraySize: 256 time: 10.12 s GOPS: 41.50
+sum: 1574581912
+Threads: 15 ArraySize: 256 time: 10.43 s GOPS: 40.28
+sum: 1574581912
+Threads: 15 ArraySize: 256 time: 10.41 s GOPS: 40.35
+sum: 1574581912
+Threads: 15 ArraySize: 256 time: 10.37 s GOPS: 40.49
+sum: 1574581912
+Threads: 15 ArraySize: 256 time: 10.54 s GOPS: 39.83
+sum: 1574581912
+THREADS=16
+Threads: 16 ArraySize: 256 time: 11.45 s GOPS: 39.13
+sum: -324764032
+Threads: 16 ArraySize: 256 time: 11.05 s GOPS: 40.54
+sum: -324764032
+Threads: 16 ArraySize: 256 time: 10.81 s GOPS: 41.44
+sum: -324764032
+Threads: 16 ArraySize: 256 time: 10.53 s GOPS: 42.53
+sum: -324764032
+Threads: 16 ArraySize: 256 time: 10.74 s GOPS: 41.71
+sum: -324764032
+THREADS=1
+Threads: 1 ArraySize: 320 time: 6.19 s GOPS: 4.65
+sum: 500654056
+Threads: 1 ArraySize: 320 time: 6.25 s GOPS: 4.61
+sum: 500654056
+Threads: 1 ArraySize: 320 time: 6.03 s GOPS: 4.78
+sum: 500654056
+Threads: 1 ArraySize: 320 time: 5.98 s GOPS: 4.81
+sum: 500654056
+Threads: 1 ArraySize: 320 time: 6.05 s GOPS: 4.76
+sum: 500654056
+THREADS=2
+Threads: 2 ArraySize: 320 time: 6.22 s GOPS: 9.26
+sum: 1001308112
+Threads: 2 ArraySize: 320 time: 6.25 s GOPS: 9.21
+sum: 1001308112
+Threads: 2 ArraySize: 320 time: 6.32 s GOPS: 9.12
+sum: 1001308112
+Threads: 2 ArraySize: 320 time: 6.08 s GOPS: 9.47
+sum: 1001308112
+Threads: 2 ArraySize: 320 time: 6.07 s GOPS: 9.49
+sum: 1001308112
+THREADS=3
+Threads: 3 ArraySize: 320 time: 6.31 s GOPS: 13.70
+sum: 1501962168
+Threads: 3 ArraySize: 320 time: 6.30 s GOPS: 13.71
+sum: 1501962168
+Threads: 3 ArraySize: 320 time: 6.27 s GOPS: 13.77
+sum: 1501962168
+Threads: 3 ArraySize: 320 time: 6.28 s GOPS: 13.77
+sum: 1501962168
+Threads: 3 ArraySize: 320 time: 6.25 s GOPS: 13.81
+sum: 1501962168
+THREADS=4
+Threads: 4 ArraySize: 320 time: 6.45 s GOPS: 17.87
+sum: 2002616224
+Threads: 4 ArraySize: 320 time: 6.45 s GOPS: 17.85
+sum: 2002616224
+Threads: 4 ArraySize: 320 time: 6.57 s GOPS: 17.53
+sum: 2002616224
+Threads: 4 ArraySize: 320 time: 6.52 s GOPS: 17.67
+sum: 2002616224
+Threads: 4 ArraySize: 320 time: 6.49 s GOPS: 17.75
+sum: 2002616224
+THREADS=5
+Threads: 5 ArraySize: 320 time: 6.79 s GOPS: 21.21
+sum: -1791697016
+Threads: 5 ArraySize: 320 time: 6.77 s GOPS: 21.26
+sum: -1791697016
+Threads: 5 ArraySize: 320 time: 6.76 s GOPS: 21.31
+sum: -1791697016
+Threads: 5 ArraySize: 320 time: 6.72 s GOPS: 21.43
+sum: -1791697016
+Threads: 5 ArraySize: 320 time: 6.68 s GOPS: 21.57
+sum: -1791697016
+THREADS=6
+Threads: 6 ArraySize: 320 time: 6.72 s GOPS: 25.72
+sum: -1291042960
+Threads: 6 ArraySize: 320 time: 6.91 s GOPS: 25.02
+sum: -1291042960
+Threads: 6 ArraySize: 320 time: 6.74 s GOPS: 25.64
+sum: -1291042960
+Threads: 6 ArraySize: 320 time: 7.44 s GOPS: 23.23
+sum: -1291042960
+Threads: 6 ArraySize: 320 time: 6.81 s GOPS: 25.36
+sum: -1291042960
+THREADS=7
+Threads: 7 ArraySize: 320 time: 8.05 s GOPS: 25.05
+sum: -790388904
+Threads: 7 ArraySize: 320 time: 6.68 s GOPS: 30.17
+sum: -790388904
+Threads: 7 ArraySize: 320 time: 8.34 s GOPS: 24.18
+sum: -790388904
+Threads: 7 ArraySize: 320 time: 8.42 s GOPS: 23.95
+sum: -790388904
+Threads: 7 ArraySize: 320 time: 11.63 s GOPS: 17.34
+sum: -790388904
+THREADS=8
+Threads: 8 ArraySize: 320 time: 7.15 s GOPS: 32.21
+sum: -289734848
+Threads: 8 ArraySize: 320 time: 9.40 s GOPS: 24.51
+sum: -289734848
+Threads: 8 ArraySize: 320 time: 10.90 s GOPS: 21.15
+sum: -289734848
+Threads: 8 ArraySize: 320 time: 9.05 s GOPS: 25.45
+sum: -289734848
+Threads: 8 ArraySize: 320 time: 11.74 s GOPS: 19.62
+sum: -289734848
+THREADS=9
+Threads: 9 ArraySize: 320 time: 11.80 s GOPS: 21.96
+sum: 210919208
+Threads: 9 ArraySize: 320 time: 10.87 s GOPS: 23.84
+sum: 210919208
+Threads: 9 ArraySize: 320 time: 11.09 s GOPS: 23.37
+sum: 210919208
+Threads: 9 ArraySize: 320 time: 10.06 s GOPS: 25.77
+sum: 210919208
+Threads: 9 ArraySize: 320 time: 11.02 s GOPS: 23.52
+sum: 210919208
+THREADS=10
+Threads: 10 ArraySize: 320 time: 11.01 s GOPS: 26.16
+sum: 711573264
+Threads: 10 ArraySize: 320 time: 10.50 s GOPS: 27.44
+sum: 711573264
+Threads: 10 ArraySize: 320 time: 10.70 s GOPS: 26.92
+sum: 711573264
+Threads: 10 ArraySize: 320 time: 11.38 s GOPS: 25.31
+sum: 711573264
+Threads: 10 ArraySize: 320 time: 11.01 s GOPS: 26.16
+sum: 711573264
+THREADS=11
+Threads: 11 ArraySize: 320 time: 11.62 s GOPS: 27.27
+sum: 1212227320
+Threads: 11 ArraySize: 320 time: 11.08 s GOPS: 28.59
+sum: 1212227320
+Threads: 11 ArraySize: 320 time: 11.52 s GOPS: 27.49
+sum: 1212227320
+Threads: 11 ArraySize: 320 time: 11.77 s GOPS: 26.92
+sum: 1212227320
+Threads: 11 ArraySize: 320 time: 11.62 s GOPS: 27.27
+sum: 1212227320
+THREADS=12
+Threads: 12 ArraySize: 320 time: 12.24 s GOPS: 28.24
+sum: 1712881376
+Threads: 12 ArraySize: 320 time: 12.57 s GOPS: 27.49
+sum: 1712881376
+Threads: 12 ArraySize: 320 time: 12.76 s GOPS: 27.10
+sum: 1712881376
+Threads: 12 ArraySize: 320 time: 12.27 s GOPS: 28.16
+sum: 1712881376
+Threads: 12 ArraySize: 320 time: 12.60 s GOPS: 27.43
+sum: 1712881376
+THREADS=13
+Threads: 13 ArraySize: 320 time: 12.43 s GOPS: 30.13
+sum: -2081431864
+Threads: 13 ArraySize: 320 time: 12.09 s GOPS: 30.96
+sum: -2081431864
+Threads: 13 ArraySize: 320 time: 12.68 s GOPS: 29.53
+sum: -2081431864
+Threads: 13 ArraySize: 320 time: 11.94 s GOPS: 31.36
+sum: -2081431864
+Threads: 13 ArraySize: 320 time: 12.53 s GOPS: 29.89
+sum: -2081431864
+THREADS=14
+Threads: 14 ArraySize: 320 time: 12.34 s GOPS: 32.67
+sum: -1580777808
+Threads: 14 ArraySize: 320 time: 12.95 s GOPS: 31.14
+sum: -1580777808
+Threads: 14 ArraySize: 320 time: 12.85 s GOPS: 31.39
+sum: -1580777808
+Threads: 14 ArraySize: 320 time: 12.92 s GOPS: 31.21
+sum: -1580777808
+Threads: 14 ArraySize: 320 time: 12.89 s GOPS: 31.27
+sum: -1580777808
+THREADS=15
+Threads: 15 ArraySize: 320 time: 12.83 s GOPS: 33.68
+sum: -1080123752
+Threads: 15 ArraySize: 320 time: 12.58 s GOPS: 34.35
+sum: -1080123752
+Threads: 15 ArraySize: 320 time: 12.90 s GOPS: 33.48
+sum: -1080123752
+Threads: 15 ArraySize: 320 time: 12.72 s GOPS: 33.96
+sum: -1080123752
+Threads: 15 ArraySize: 320 time: 12.95 s GOPS: 33.35
+sum: -1080123752
+THREADS=16
+Threads: 16 ArraySize: 320 time: 13.83 s GOPS: 33.31
+sum: -579469696
+Threads: 16 ArraySize: 320 time: 14.08 s GOPS: 32.73
+sum: -579469696
+Threads: 16 ArraySize: 320 time: 13.65 s GOPS: 33.77
+sum: -579469696
+Threads: 16 ArraySize: 320 time: 13.36 s GOPS: 34.48
+sum: -579469696
+Threads: 16 ArraySize: 320 time: 13.83 s GOPS: 33.31
+sum: -579469696
+THREADS=1
+Threads: 1 ArraySize: 384 time: 6.12 s GOPS: 4.80
+sum: 2100653704
+Threads: 1 ArraySize: 384 time: 6.04 s GOPS: 4.86
+sum: 2100653704
+Threads: 1 ArraySize: 384 time: 6.09 s GOPS: 4.82
+sum: 2100653704
+Threads: 1 ArraySize: 384 time: 6.11 s GOPS: 4.80
+sum: 2100653704
+Threads: 1 ArraySize: 384 time: 6.09 s GOPS: 4.82
+sum: 2100653704
+THREADS=2
+Threads: 2 ArraySize: 384 time: 6.37 s GOPS: 9.21
+sum: -93659888
+Threads: 2 ArraySize: 384 time: 6.41 s GOPS: 9.16
+sum: -93659888
+Threads: 2 ArraySize: 384 time: 6.34 s GOPS: 9.26
+sum: -93659888
+Threads: 2 ArraySize: 384 time: 6.30 s GOPS: 9.31
+sum: -93659888
+Threads: 2 ArraySize: 384 time: 6.31 s GOPS: 9.30
+sum: -93659888
+THREADS=3
+Threads: 3 ArraySize: 384 time: 6.47 s GOPS: 13.60
+sum: 2006993816
+Threads: 3 ArraySize: 384 time: 6.49 s GOPS: 13.57
+sum: 2006993816
+Threads: 3 ArraySize: 384 time: 6.44 s GOPS: 13.67
+sum: 2006993816
+Threads: 3 ArraySize: 384 time: 6.47 s GOPS: 13.60
+sum: 2006993816
+Threads: 3 ArraySize: 384 time: 6.52 s GOPS: 13.49
+sum: 2006993816
+THREADS=4
+Threads: 4 ArraySize: 384 time: 6.60 s GOPS: 17.77
+sum: -187319776
+Threads: 4 ArraySize: 384 time: 6.58 s GOPS: 17.83
+sum: -187319776
+Threads: 4 ArraySize: 384 time: 6.59 s GOPS: 17.80
+sum: -187319776
+Threads: 4 ArraySize: 384 time: 6.61 s GOPS: 17.76
+sum: -187319776
+Threads: 4 ArraySize: 384 time: 6.86 s GOPS: 17.10
+sum: -187319776
+THREADS=5
+Threads: 5 ArraySize: 384 time: 6.86 s GOPS: 21.37
+sum: 1913333928
+Threads: 5 ArraySize: 384 time: 6.76 s GOPS: 21.70
+sum: 1913333928
+Threads: 5 ArraySize: 384 time: 6.94 s GOPS: 21.13
+sum: 1913333928
+Threads: 5 ArraySize: 384 time: 6.87 s GOPS: 21.36
+sum: 1913333928
+Threads: 5 ArraySize: 384 time: 6.83 s GOPS: 21.47
+sum: 1913333928
+THREADS=6
+Threads: 6 ArraySize: 384 time: 6.79 s GOPS: 25.92
+sum: -280979664
+Threads: 6 ArraySize: 384 time: 9.04 s GOPS: 19.46
+sum: -280979664
+Threads: 6 ArraySize: 384 time: 6.68 s GOPS: 26.33
+sum: -280979664
+Threads: 6 ArraySize: 384 time: 6.72 s GOPS: 26.19
+sum: -280979664
+Threads: 6 ArraySize: 384 time: 6.68 s GOPS: 26.35
+sum: -280979664
+THREADS=7
+Threads: 7 ArraySize: 384 time: 8.45 s GOPS: 24.29
+sum: 1819674040
+Threads: 7 ArraySize: 384 time: 9.25 s GOPS: 22.20
+sum: 1819674040
+Threads: 7 ArraySize: 384 time: 7.00 s GOPS: 29.34
+sum: 1819674040
+Threads: 7 ArraySize: 384 time: 6.82 s GOPS: 30.11
+sum: 1819674040
+Threads: 7 ArraySize: 384 time: 6.91 s GOPS: 29.71
+sum: 1819674040
+THREADS=8
+Threads: 8 ArraySize: 384 time: 9.07 s GOPS: 25.86
+sum: -374639552
+Threads: 8 ArraySize: 384 time: 8.43 s GOPS: 27.83
+sum: -374639552
+Threads: 8 ArraySize: 384 time: 8.62 s GOPS: 27.21
+sum: -374639552
+Threads: 8 ArraySize: 384 time: 7.57 s GOPS: 30.99
+sum: -374639552
+Threads: 8 ArraySize: 384 time: 7.68 s GOPS: 30.55
+sum: -374639552
+THREADS=9
+Threads: 9 ArraySize: 384 time: 10.03 s GOPS: 26.33
+sum: 1726014152
+Threads: 9 ArraySize: 384 time: 10.55 s GOPS: 25.03
+sum: 1726014152
+Threads: 9 ArraySize: 384 time: 11.10 s GOPS: 23.78
+sum: 1726014152
+Threads: 9 ArraySize: 384 time: 10.10 s GOPS: 26.14
+sum: 1726014152
+Threads: 9 ArraySize: 384 time: 10.22 s GOPS: 25.83
+sum: 1726014152
+THREADS=10
+Threads: 10 ArraySize: 384 time: 10.74 s GOPS: 27.31
+sum: -468299440
+Threads: 10 ArraySize: 384 time: 9.88 s GOPS: 29.69
+sum: -468299440
+Threads: 10 ArraySize: 384 time: 10.71 s GOPS: 27.39
+sum: -468299440
+Threads: 10 ArraySize: 384 time: 10.20 s GOPS: 28.76
+sum: -468299440
+Threads: 10 ArraySize: 384 time: 10.48 s GOPS: 28.00
+sum: -468299440
+THREADS=11
+Threads: 11 ArraySize: 384 time: 12.05 s GOPS: 26.78
+sum: 1632354264
+Threads: 11 ArraySize: 384 time: 10.87 s GOPS: 29.69
+sum: 1632354264
+Threads: 11 ArraySize: 384 time: 12.27 s GOPS: 26.30
+sum: 1632354264
+Threads: 11 ArraySize: 384 time: 11.46 s GOPS: 28.15
+sum: 1632354264
+Threads: 11 ArraySize: 384 time: 12.37 s GOPS: 26.09
+sum: 1632354264
+THREADS=12
+Threads: 12 ArraySize: 384 time: 12.08 s GOPS: 29.15
+sum: -561959328
+Threads: 12 ArraySize: 384 time: 11.21 s GOPS: 31.41
+sum: -561959328
+Threads: 12 ArraySize: 384 time: 11.71 s GOPS: 30.06
+sum: -561959328
+Threads: 12 ArraySize: 384 time: 12.54 s GOPS: 28.07
+sum: -561959328
+Threads: 12 ArraySize: 384 time: 11.81 s GOPS: 29.80
+sum: -561959328
+THREADS=13
+Threads: 13 ArraySize: 384 time: 12.50 s GOPS: 30.51
+sum: 1538694376
+Threads: 13 ArraySize: 384 time: 12.90 s GOPS: 29.57
+sum: 1538694376
+Threads: 13 ArraySize: 384 time: 12.18 s GOPS: 31.31
+sum: 1538694376
+Threads: 13 ArraySize: 384 time: 12.25 s GOPS: 31.13
+sum: 1538694376
+Threads: 13 ArraySize: 384 time: 12.43 s GOPS: 30.69
+sum: 1538694376
+THREADS=14
+Threads: 14 ArraySize: 384 time: 13.06 s GOPS: 31.45
+sum: -655619216
+Threads: 14 ArraySize: 384 time: 12.69 s GOPS: 32.36
+sum: -655619216
+Threads: 14 ArraySize: 384 time: 12.74 s GOPS: 32.23
+sum: -655619216
+Threads: 14 ArraySize: 384 time: 12.29 s GOPS: 33.41
+sum: -655619216
+Threads: 14 ArraySize: 384 time: 12.92 s GOPS: 31.79
+sum: -655619216
+THREADS=15
+Threads: 15 ArraySize: 384 time: 13.07 s GOPS: 33.66
+sum: 1445034488
+Threads: 15 ArraySize: 384 time: 13.13 s GOPS: 33.52
+sum: 1445034488
+Threads: 15 ArraySize: 384 time: 12.84 s GOPS: 34.28
+sum: 1445034488
+Threads: 15 ArraySize: 384 time: 13.20 s GOPS: 33.34
+sum: 1445034488
+Threads: 15 ArraySize: 384 time: 13.14 s GOPS: 33.48
+sum: 1445034488
+THREADS=16
+Threads: 16 ArraySize: 384 time: 13.50 s GOPS: 34.77
+sum: -749279104
+Threads: 16 ArraySize: 384 time: 13.32 s GOPS: 35.23
+sum: -749279104
+Threads: 16 ArraySize: 384 time: 13.38 s GOPS: 35.08
+sum: -749279104
+Threads: 16 ArraySize: 384 time: 13.33 s GOPS: 35.20
+sum: -749279104
+Threads: 16 ArraySize: 384 time: 13.41 s GOPS: 34.99
+sum: -749279104
+THREADS=1
+Threads: 1 ArraySize: 448 time: 6.07 s GOPS: 4.90
+sum: -1051456632
+Threads: 1 ArraySize: 448 time: 6.12 s GOPS: 4.86
+sum: -1051456632
+Threads: 1 ArraySize: 448 time: 6.09 s GOPS: 4.88
+sum: -1051456632
+Threads: 1 ArraySize: 448 time: 6.13 s GOPS: 4.85
+sum: -1051456632
+Threads: 1 ArraySize: 448 time: 6.06 s GOPS: 4.90
+sum: -1051456632
+THREADS=2
+Threads: 2 ArraySize: 448 time: 6.29 s GOPS: 9.45
+sum: -2102913264
+Threads: 2 ArraySize: 448 time: 6.36 s GOPS: 9.34
+sum: -2102913264
+Threads: 2 ArraySize: 448 time: 6.34 s GOPS: 9.37
+sum: -2102913264
+Threads: 2 ArraySize: 448 time: 6.30 s GOPS: 9.43
+sum: -2102913264
+Threads: 2 ArraySize: 448 time: 6.39 s GOPS: 9.30
+sum: -2102913264
+THREADS=3
+Threads: 3 ArraySize: 448 time: 6.53 s GOPS: 13.65
+sum: 1140597400
+Threads: 3 ArraySize: 448 time: 6.46 s GOPS: 13.80
+sum: 1140597400
+Threads: 3 ArraySize: 448 time: 6.34 s GOPS: 14.07
+sum: 1140597400
+Threads: 3 ArraySize: 448 time: 6.31 s GOPS: 14.12
+sum: 1140597400
+Threads: 3 ArraySize: 448 time: 6.37 s GOPS: 14.00
+sum: 1140597400
+THREADS=4
+Threads: 4 ArraySize: 448 time: 6.54 s GOPS: 18.16
+sum: 89140768
+Threads: 4 ArraySize: 448 time: 6.56 s GOPS: 18.12
+sum: 89140768
+Threads: 4 ArraySize: 448 time: 6.57 s GOPS: 18.09
+sum: 89140768
+Threads: 4 ArraySize: 448 time: 6.55 s GOPS: 18.15
+sum: 89140768
+Threads: 4 ArraySize: 448 time: 6.58 s GOPS: 18.08
+sum: 89140768
+THREADS=5
+Threads: 5 ArraySize: 448 time: 6.69 s GOPS: 22.21
+sum: -962315864
+Threads: 5 ArraySize: 448 time: 6.71 s GOPS: 22.14
+sum: -962315864
+Threads: 5 ArraySize: 448 time: 6.75 s GOPS: 22.01
+sum: -962315864
+Threads: 5 ArraySize: 448 time: 6.89 s GOPS: 21.55
+sum: -962315864
+Threads: 5 ArraySize: 448 time: 6.76 s GOPS: 21.97
+sum: -962315864
+THREADS=6
+Threads: 6 ArraySize: 448 time: 6.75 s GOPS: 26.41
+sum: -2013772496
+Threads: 6 ArraySize: 448 time: 6.70 s GOPS: 26.59
+sum: -2013772496
+Threads: 6 ArraySize: 448 time: 6.74 s GOPS: 26.45
+sum: -2013772496
+Threads: 6 ArraySize: 448 time: 6.78 s GOPS: 26.30
+sum: -2013772496
+Threads: 6 ArraySize: 448 time: 6.78 s GOPS: 26.29
+sum: -2013772496
+THREADS=7
+Threads: 7 ArraySize: 448 time: 7.49 s GOPS: 27.76
+sum: 1229738168
+Threads: 7 ArraySize: 448 time: 8.46 s GOPS: 24.57
+sum: 1229738168
+Threads: 7 ArraySize: 448 time: 6.82 s GOPS: 30.48
+sum: 1229738168
+Threads: 7 ArraySize: 448 time: 8.79 s GOPS: 23.68
+sum: 1229738168
+Threads: 7 ArraySize: 448 time: 9.40 s GOPS: 22.12
+sum: 1229738168
+THREADS=8
+Threads: 8 ArraySize: 448 time: 8.06 s GOPS: 29.49
+sum: 178281536
+Threads: 8 ArraySize: 448 time: 9.71 s GOPS: 24.47
+sum: 178281536
+Threads: 8 ArraySize: 448 time: 6.97 s GOPS: 34.10
+sum: 178281536
+Threads: 8 ArraySize: 448 time: 10.93 s GOPS: 21.75
+sum: 178281536
+Threads: 8 ArraySize: 448 time: 8.89 s GOPS: 26.75
+sum: 178281536
+THREADS=9
+Threads: 9 ArraySize: 448 time: 10.87 s GOPS: 24.61
+sum: -873175096
+Threads: 9 ArraySize: 448 time: 9.29 s GOPS: 28.77
+sum: -873175096
+Threads: 9 ArraySize: 448 time: 10.91 s GOPS: 24.52
+sum: -873175096
+Threads: 9 ArraySize: 448 time: 11.67 s GOPS: 22.92
+sum: -873175096
+Threads: 9 ArraySize: 448 time: 9.35 s GOPS: 28.61
+sum: -873175096
+THREADS=10
+Threads: 10 ArraySize: 448 time: 11.94 s GOPS: 24.88
+sum: -1924631728
+Threads: 10 ArraySize: 448 time: 9.35 s GOPS: 31.79
+sum: -1924631728
+Threads: 10 ArraySize: 448 time: 10.77 s GOPS: 27.59
+sum: -1924631728
+Threads: 10 ArraySize: 448 time: 11.33 s GOPS: 26.23
+sum: -1924631728
+Threads: 10 ArraySize: 448 time: 10.77 s GOPS: 27.58
+sum: -1924631728
+THREADS=11
+Threads: 11 ArraySize: 448 time: 10.58 s GOPS: 30.90
+sum: 1318878936
+Threads: 11 ArraySize: 448 time: 12.67 s GOPS: 25.80
+sum: 1318878936
+Threads: 11 ArraySize: 448 time: 12.19 s GOPS: 26.82
+sum: 1318878936
+Threads: 11 ArraySize: 448 time: 12.33 s GOPS: 26.52
+sum: 1318878936
+Threads: 11 ArraySize: 448 time: 11.88 s GOPS: 27.50
+sum: 1318878936
+THREADS=12
+Threads: 12 ArraySize: 448 time: 12.37 s GOPS: 28.83
+sum: 267422304
+Threads: 12 ArraySize: 448 time: 12.13 s GOPS: 29.40
+sum: 267422304
+Threads: 12 ArraySize: 448 time: 11.79 s GOPS: 30.24
+sum: 267422304
+Threads: 12 ArraySize: 448 time: 12.27 s GOPS: 29.05
+sum: 267422304
+Threads: 12 ArraySize: 448 time: 12.18 s GOPS: 29.28
+sum: 267422304
+THREADS=13
+Threads: 13 ArraySize: 448 time: 13.27 s GOPS: 29.10
+sum: -784034328
+Threads: 13 ArraySize: 448 time: 12.67 s GOPS: 30.48
+sum: -784034328
+Threads: 13 ArraySize: 448 time: 12.35 s GOPS: 31.28
+sum: -784034328
+Threads: 13 ArraySize: 448 time: 12.88 s GOPS: 30.00
+sum: -784034328
+Threads: 13 ArraySize: 448 time: 11.96 s GOPS: 32.29
+sum: -784034328
+THREADS=14
+Threads: 14 ArraySize: 448 time: 12.41 s GOPS: 33.51
+sum: -1835490960
+Threads: 14 ArraySize: 448 time: 12.73 s GOPS: 32.67
+sum: -1835490960
+Threads: 14 ArraySize: 448 time: 13.13 s GOPS: 31.68
+sum: -1835490960
+Threads: 14 ArraySize: 448 time: 13.20 s GOPS: 31.53
+sum: -1835490960
+Threads: 14 ArraySize: 448 time: 12.91 s GOPS: 32.23
+sum: -1835490960
+THREADS=15
+Threads: 15 ArraySize: 448 time: 13.22 s GOPS: 33.72
+sum: 1408019704
+Threads: 15 ArraySize: 448 time: 12.87 s GOPS: 34.63
+sum: 1408019704
+Threads: 15 ArraySize: 448 time: 12.92 s GOPS: 34.50
+sum: 1408019704
+Threads: 15 ArraySize: 448 time: 13.18 s GOPS: 33.83
+sum: 1408019704
+Threads: 15 ArraySize: 448 time: 13.24 s GOPS: 33.66
+sum: 1408019704
+THREADS=16
+Threads: 16 ArraySize: 448 time: 13.71 s GOPS: 34.67
+sum: 356563072
+Threads: 16 ArraySize: 448 time: 13.70 s GOPS: 34.70
+sum: 356563072
+Threads: 16 ArraySize: 448 time: 13.52 s GOPS: 35.17
+sum: 356563072
+Threads: 16 ArraySize: 448 time: 13.56 s GOPS: 35.07
+sum: 356563072
+Threads: 16 ArraySize: 448 time: 13.65 s GOPS: 34.83
+sum: 356563072
+THREADS=1
+Threads: 1 ArraySize: 512 time: 6.26 s GOPS: 4.79
+sum: -194313240
+Threads: 1 ArraySize: 512 time: 6.34 s GOPS: 4.73
+sum: -194313240
+Threads: 1 ArraySize: 512 time: 6.16 s GOPS: 4.87
+sum: -194313240
+Threads: 1 ArraySize: 512 time: 6.15 s GOPS: 4.88
+sum: -194313240
+Threads: 1 ArraySize: 512 time: 6.16 s GOPS: 4.87
+sum: -194313240
+THREADS=2
+Threads: 2 ArraySize: 512 time: 6.30 s GOPS: 9.53
+sum: -388626480
+Threads: 2 ArraySize: 512 time: 6.25 s GOPS: 9.60
+sum: -388626480
+Threads: 2 ArraySize: 512 time: 6.24 s GOPS: 9.61
+sum: -388626480
+Threads: 2 ArraySize: 512 time: 6.31 s GOPS: 9.52
+sum: -388626480
+Threads: 2 ArraySize: 512 time: 6.33 s GOPS: 9.48
+sum: -388626480
+THREADS=3
+Threads: 3 ArraySize: 512 time: 6.47 s GOPS: 13.90
+sum: -582939720
+Threads: 3 ArraySize: 512 time: 6.50 s GOPS: 13.84
+sum: -582939720
+Threads: 3 ArraySize: 512 time: 6.52 s GOPS: 13.81
+sum: -582939720
+Threads: 3 ArraySize: 512 time: 6.51 s GOPS: 13.83
+sum: -582939720
+Threads: 3 ArraySize: 512 time: 6.51 s GOPS: 13.83
+sum: -582939720
+THREADS=4
+Threads: 4 ArraySize: 512 time: 6.66 s GOPS: 18.01
+sum: -777252960
+Threads: 4 ArraySize: 512 time: 6.64 s GOPS: 18.06
+sum: -777252960
+Threads: 4 ArraySize: 512 time: 6.64 s GOPS: 18.07
+sum: -777252960
+Threads: 4 ArraySize: 512 time: 6.64 s GOPS: 18.08
+sum: -777252960
+Threads: 4 ArraySize: 512 time: 6.58 s GOPS: 18.23
+sum: -777252960
+THREADS=5
+Threads: 5 ArraySize: 512 time: 6.77 s GOPS: 22.16
+sum: -971566200
+Threads: 5 ArraySize: 512 time: 6.75 s GOPS: 22.21
+sum: -971566200
+Threads: 5 ArraySize: 512 time: 6.74 s GOPS: 22.25
+sum: -971566200
+Threads: 5 ArraySize: 512 time: 6.77 s GOPS: 22.16
+sum: -971566200
+Threads: 5 ArraySize: 512 time: 6.75 s GOPS: 22.23
+sum: -971566200
+THREADS=6
+Threads: 6 ArraySize: 512 time: 6.78 s GOPS: 26.55
+sum: -1165879440
+Threads: 6 ArraySize: 512 time: 6.73 s GOPS: 26.74
+sum: -1165879440
+Threads: 6 ArraySize: 512 time: 6.74 s GOPS: 26.72
+sum: -1165879440
+Threads: 6 ArraySize: 512 time: 7.01 s GOPS: 25.69
+sum: -1165879440
+Threads: 6 ArraySize: 512 time: 6.80 s GOPS: 26.49
+sum: -1165879440
+THREADS=7
+Threads: 7 ArraySize: 512 time: 7.27 s GOPS: 28.88
+sum: -1360192680
+Threads: 7 ArraySize: 512 time: 6.85 s GOPS: 30.65
+sum: -1360192680
+Threads: 7 ArraySize: 512 time: 8.10 s GOPS: 25.94
+sum: -1360192680
+Threads: 7 ArraySize: 512 time: 6.83 s GOPS: 30.73
+sum: -1360192680
+Threads: 7 ArraySize: 512 time: 8.97 s GOPS: 23.42
+sum: -1360192680
+THREADS=8
+Threads: 8 ArraySize: 512 time: 8.99 s GOPS: 26.69
+sum: -1554505920
+Threads: 8 ArraySize: 512 time: 8.78 s GOPS: 27.33
+sum: -1554505920
+Threads: 8 ArraySize: 512 time: 6.82 s GOPS: 35.20
+sum: -1554505920
+Threads: 8 ArraySize: 512 time: 7.43 s GOPS: 32.28
+sum: -1554505920
+Threads: 8 ArraySize: 512 time: 6.78 s GOPS: 35.38
+sum: -1554505920
+THREADS=9
+Threads: 9 ArraySize: 512 time: 9.63 s GOPS: 28.03
+sum: -1748819160
+Threads: 9 ArraySize: 512 time: 10.10 s GOPS: 26.74
+sum: -1748819160
+Threads: 9 ArraySize: 512 time: 11.29 s GOPS: 23.91
+sum: -1748819160
+Threads: 9 ArraySize: 512 time: 10.68 s GOPS: 25.29
+sum: -1748819160
+Threads: 9 ArraySize: 512 time: 10.46 s GOPS: 25.82
+sum: -1748819160
+THREADS=10
+Threads: 10 ArraySize: 512 time: 11.17 s GOPS: 26.85
+sum: -1943132400
+Threads: 10 ArraySize: 512 time: 9.99 s GOPS: 30.02
+sum: -1943132400
+Threads: 10 ArraySize: 512 time: 10.98 s GOPS: 27.31
+sum: -1943132400
+Threads: 10 ArraySize: 512 time: 10.39 s GOPS: 28.86
+sum: -1943132400
+Threads: 10 ArraySize: 512 time: 11.65 s GOPS: 25.75
+sum: -1943132400
+THREADS=11
+Threads: 11 ArraySize: 512 time: 11.47 s GOPS: 28.78
+sum: -2137445640
+Threads: 11 ArraySize: 512 time: 12.17 s GOPS: 27.12
+sum: -2137445640
+Threads: 11 ArraySize: 512 time: 10.57 s GOPS: 31.22
+sum: -2137445640
+Threads: 11 ArraySize: 512 time: 11.05 s GOPS: 29.88
+sum: -2137445640
+Threads: 11 ArraySize: 512 time: 12.13 s GOPS: 27.20
+sum: -2137445640
+THREADS=12
+Threads: 12 ArraySize: 512 time: 12.80 s GOPS: 28.12
+sum: 1963208416
+Threads: 12 ArraySize: 512 time: 12.39 s GOPS: 29.05
+sum: 1963208416
+Threads: 12 ArraySize: 512 time: 12.01 s GOPS: 29.98
+sum: 1963208416
+Threads: 12 ArraySize: 512 time: 12.58 s GOPS: 28.61
+sum: 1963208416
+Threads: 12 ArraySize: 512 time: 12.11 s GOPS: 29.72
+sum: 1963208416
+THREADS=13
+Threads: 13 ArraySize: 512 time: 12.63 s GOPS: 30.89
+sum: 1768895176
+Threads: 13 ArraySize: 512 time: 13.09 s GOPS: 29.80
+sum: 1768895176
+Threads: 13 ArraySize: 512 time: 11.88 s GOPS: 32.82
+sum: 1768895176
+Threads: 13 ArraySize: 512 time: 12.81 s GOPS: 30.45
+sum: 1768895176
+Threads: 13 ArraySize: 512 time: 12.89 s GOPS: 30.25
+sum: 1768895176
+THREADS=14
+Threads: 14 ArraySize: 512 time: 13.03 s GOPS: 32.22
+sum: 1574581936
+Threads: 14 ArraySize: 512 time: 12.71 s GOPS: 33.04
+sum: 1574581936
+Threads: 14 ArraySize: 512 time: 13.35 s GOPS: 31.46
+sum: 1574581936
+Threads: 14 ArraySize: 512 time: 13.10 s GOPS: 32.05
+sum: 1574581936
+Threads: 14 ArraySize: 512 time: 13.39 s GOPS: 31.36
+sum: 1574581936
+THREADS=15
+Threads: 15 ArraySize: 512 time: 13.41 s GOPS: 33.55
+sum: 1380268696
+Threads: 15 ArraySize: 512 time: 13.46 s GOPS: 33.43
+sum: 1380268696
+Threads: 15 ArraySize: 512 time: 13.41 s GOPS: 33.55
+sum: 1380268696
+Threads: 15 ArraySize: 512 time: 13.30 s GOPS: 33.83
+sum: 1380268696
+Threads: 15 ArraySize: 512 time: 13.41 s GOPS: 33.55
+sum: 1380268696
+THREADS=16
+Threads: 16 ArraySize: 512 time: 13.67 s GOPS: 35.10
+sum: 1185955456
+Threads: 16 ArraySize: 512 time: 13.69 s GOPS: 35.07
+sum: 1185955456
+Threads: 16 ArraySize: 512 time: 13.64 s GOPS: 35.19
+sum: 1185955456
+Threads: 16 ArraySize: 512 time: 13.64 s GOPS: 35.18
+sum: 1185955456
+Threads: 16 ArraySize: 512 time: 13.59 s GOPS: 35.32
+sum: 1185955456
+THREADS=1
+Threads: 1 ArraySize: 576 time: 6.16 s GOPS: 4.91
+sum: 472353336
+Threads: 1 ArraySize: 576 time: 6.16 s GOPS: 4.91
+sum: 472353336
+Threads: 1 ArraySize: 576 time: 6.12 s GOPS: 4.94
+sum: 472353336
+Threads: 1 ArraySize: 576 time: 6.14 s GOPS: 4.92
+sum: 472353336
+Threads: 1 ArraySize: 576 time: 6.16 s GOPS: 4.91
+sum: 472353336
+THREADS=2
+Threads: 2 ArraySize: 576 time: 6.31 s GOPS: 9.58
+sum: 944706672
+Threads: 2 ArraySize: 576 time: 6.31 s GOPS: 9.58
+sum: 944706672
+Threads: 2 ArraySize: 576 time: 6.33 s GOPS: 9.55
+sum: 944706672
+Threads: 2 ArraySize: 576 time: 6.31 s GOPS: 9.58
+sum: 944706672
+Threads: 2 ArraySize: 576 time: 6.38 s GOPS: 9.47
+sum: 944706672
+THREADS=3
+Threads: 3 ArraySize: 576 time: 6.60 s GOPS: 13.74
+sum: 1417060008
+Threads: 3 ArraySize: 576 time: 6.81 s GOPS: 13.32
+sum: 1417060008
+Threads: 3 ArraySize: 576 time: 6.50 s GOPS: 13.95
+sum: 1417060008
+Threads: 3 ArraySize: 576 time: 6.52 s GOPS: 13.90
+sum: 1417060008
+Threads: 3 ArraySize: 576 time: 6.50 s GOPS: 13.95
+sum: 1417060008
+THREADS=4
+Threads: 4 ArraySize: 576 time: 6.68 s GOPS: 18.09
+sum: 1889413344
+Threads: 4 ArraySize: 576 time: 6.66 s GOPS: 18.16
+sum: 1889413344
+Threads: 4 ArraySize: 576 time: 6.66 s GOPS: 18.15
+sum: 1889413344
+Threads: 4 ArraySize: 576 time: 6.66 s GOPS: 18.14
+sum: 1889413344
+Threads: 4 ArraySize: 576 time: 6.65 s GOPS: 18.18
+sum: 1889413344
+THREADS=5
+Threads: 5 ArraySize: 576 time: 6.79 s GOPS: 22.27
+sum: -1933200616
+Threads: 5 ArraySize: 576 time: 6.78 s GOPS: 22.27
+sum: -1933200616
+Threads: 5 ArraySize: 576 time: 6.79 s GOPS: 22.27
+sum: -1933200616
+Threads: 5 ArraySize: 576 time: 6.79 s GOPS: 22.25
+sum: -1933200616
+Threads: 5 ArraySize: 576 time: 6.80 s GOPS: 22.22
+sum: -1933200616
+THREADS=6
+Threads: 6 ArraySize: 576 time: 6.81 s GOPS: 26.63
+sum: -1460847280
+Threads: 6 ArraySize: 576 time: 6.80 s GOPS: 26.66
+sum: -1460847280
+Threads: 6 ArraySize: 576 time: 6.80 s GOPS: 26.65
+sum: -1460847280
+Threads: 6 ArraySize: 576 time: 6.83 s GOPS: 26.56
+sum: -1460847280
+Threads: 6 ArraySize: 576 time: 6.84 s GOPS: 26.50
+sum: -1460847280
+THREADS=7
+Threads: 7 ArraySize: 576 time: 6.88 s GOPS: 30.75
+sum: -988493944
+Threads: 7 ArraySize: 576 time: 6.89 s GOPS: 30.70
+sum: -988493944
+Threads: 7 ArraySize: 576 time: 6.87 s GOPS: 30.80
+sum: -988493944
+Threads: 7 ArraySize: 576 time: 6.81 s GOPS: 31.08
+sum: -988493944
+Threads: 7 ArraySize: 576 time: 6.88 s GOPS: 30.76
+sum: -988493944
+THREADS=8
+Threads: 8 ArraySize: 576 time: 6.88 s GOPS: 35.14
+sum: -516140608
+Threads: 8 ArraySize: 576 time: 6.86 s GOPS: 35.27
+sum: -516140608
+Threads: 8 ArraySize: 576 time: 8.86 s GOPS: 27.29
+sum: -516140608
+Threads: 8 ArraySize: 576 time: 8.15 s GOPS: 29.66
+sum: -516140608
+Threads: 8 ArraySize: 576 time: 7.63 s GOPS: 31.70
+sum: -516140608
+THREADS=9
+Threads: 9 ArraySize: 576 time: 9.91 s GOPS: 27.45
+sum: -43787272
+Threads: 9 ArraySize: 576 time: 9.87 s GOPS: 27.55
+sum: -43787272
+Threads: 9 ArraySize: 576 time: 9.66 s GOPS: 28.15
+sum: -43787272
+Threads: 9 ArraySize: 576 time: 8.22 s GOPS: 33.09
+sum: -43787272
+Threads: 9 ArraySize: 576 time: 9.44 s GOPS: 28.82
+sum: -43787272
+THREADS=10
+Threads: 10 ArraySize: 576 time: 11.44 s GOPS: 26.42
+sum: 428566064
+Threads: 10 ArraySize: 576 time: 11.43 s GOPS: 26.43
+sum: 428566064
+Threads: 10 ArraySize: 576 time: 11.24 s GOPS: 26.88
+sum: 428566064
+Threads: 10 ArraySize: 576 time: 11.54 s GOPS: 26.19
+sum: 428566064
+Threads: 10 ArraySize: 576 time: 10.91 s GOPS: 27.70
+sum: 428566064
+THREADS=11
+Threads: 11 ArraySize: 576 time: 11.58 s GOPS: 28.71
+sum: 900919400
+Threads: 11 ArraySize: 576 time: 12.76 s GOPS: 26.05
+sum: 900919400
+Threads: 11 ArraySize: 576 time: 10.79 s GOPS: 30.81
+sum: 900919400
+Threads: 11 ArraySize: 576 time: 11.45 s GOPS: 29.05
+sum: 900919400
+Threads: 11 ArraySize: 576 time: 12.11 s GOPS: 27.45
+sum: 900919400
+THREADS=12
+Threads: 12 ArraySize: 576 time: 11.92 s GOPS: 30.43
+sum: 1373272736
+Threads: 12 ArraySize: 576 time: 12.40 s GOPS: 29.24
+sum: 1373272736
+Threads: 12 ArraySize: 576 time: 11.99 s GOPS: 30.26
+sum: 1373272736
+Threads: 12 ArraySize: 576 time: 12.41 s GOPS: 29.23
+sum: 1373272736
+Threads: 12 ArraySize: 576 time: 12.76 s GOPS: 28.42
+sum: 1373272736
+THREADS=13
+Threads: 13 ArraySize: 576 time: 12.66 s GOPS: 31.03
+sum: 1845626072
+Threads: 13 ArraySize: 576 time: 12.93 s GOPS: 30.39
+sum: 1845626072
+Threads: 13 ArraySize: 576 time: 12.04 s GOPS: 32.64
+sum: 1845626072
+Threads: 13 ArraySize: 576 time: 12.56 s GOPS: 31.28
+sum: 1845626072
+Threads: 13 ArraySize: 576 time: 12.56 s GOPS: 31.27
+sum: 1845626072
+THREADS=14
+Threads: 14 ArraySize: 576 time: 12.31 s GOPS: 34.38
+sum: -1976987888
+Threads: 14 ArraySize: 576 time: 12.80 s GOPS: 33.06
+sum: -1976987888
+Threads: 14 ArraySize: 576 time: 12.88 s GOPS: 32.85
+sum: -1976987888
+Threads: 14 ArraySize: 576 time: 13.08 s GOPS: 32.35
+sum: -1976987888
+Threads: 14 ArraySize: 576 time: 13.10 s GOPS: 32.30
+sum: -1976987888
+THREADS=15
+Threads: 15 ArraySize: 576 time: 13.42 s GOPS: 33.77
+sum: -1504634552
+Threads: 15 ArraySize: 576 time: 13.40 s GOPS: 33.83
+sum: -1504634552
+Threads: 15 ArraySize: 576 time: 13.41 s GOPS: 33.81
+sum: -1504634552
+Threads: 15 ArraySize: 576 time: 13.43 s GOPS: 33.75
+sum: -1504634552
+Threads: 15 ArraySize: 576 time: 13.31 s GOPS: 34.07
+sum: -1504634552
+THREADS=16
+Threads: 16 ArraySize: 576 time: 13.76 s GOPS: 35.15
+sum: -1032281216
+Threads: 16 ArraySize: 576 time: 13.73 s GOPS: 35.21
+sum: -1032281216
+Threads: 16 ArraySize: 576 time: 13.72 s GOPS: 35.24
+sum: -1032281216
+Threads: 16 ArraySize: 576 time: 13.76 s GOPS: 35.13
+sum: -1032281216
+Threads: 16 ArraySize: 576 time: 13.64 s GOPS: 35.46
+sum: -1032281216
+THREADS=1
+Threads: 1 ArraySize: 640 time: 6.18 s GOPS: 4.92
+sum: 1005686760
+Threads: 1 ArraySize: 640 time: 6.20 s GOPS: 4.90
+sum: 1005686760
+Threads: 1 ArraySize: 640 time: 6.21 s GOPS: 4.90
+sum: 1005686760
+Threads: 1 ArraySize: 640 time: 6.21 s GOPS: 4.89
+sum: 1005686760
+Threads: 1 ArraySize: 640 time: 6.17 s GOPS: 4.93
+sum: 1005686760
+THREADS=2
+Threads: 2 ArraySize: 640 time: 6.34 s GOPS: 9.59
+sum: 2011373520
+Threads: 2 ArraySize: 640 time: 6.53 s GOPS: 9.30
+sum: 2011373520
+Threads: 2 ArraySize: 640 time: 6.43 s GOPS: 9.46
+sum: 2011373520
+Threads: 2 ArraySize: 640 time: 6.42 s GOPS: 9.47
+sum: 2011373520
+Threads: 2 ArraySize: 640 time: 6.37 s GOPS: 9.55
+sum: 2011373520
+THREADS=3
+Threads: 3 ArraySize: 640 time: 6.57 s GOPS: 13.89
+sum: -1277907016
+Threads: 3 ArraySize: 640 time: 6.51 s GOPS: 14.00
+sum: -1277907016
+Threads: 3 ArraySize: 640 time: 6.53 s GOPS: 13.97
+sum: -1277907016
+Threads: 3 ArraySize: 640 time: 6.50 s GOPS: 14.02
+sum: -1277907016
+Threads: 3 ArraySize: 640 time: 6.52 s GOPS: 13.99
+sum: -1277907016
+THREADS=4
+Threads: 4 ArraySize: 640 time: 6.69 s GOPS: 18.18
+sum: -272220256
+Threads: 4 ArraySize: 640 time: 6.70 s GOPS: 18.16
+sum: -272220256
+Threads: 4 ArraySize: 640 time: 6.72 s GOPS: 18.10
+sum: -272220256
+Threads: 4 ArraySize: 640 time: 6.70 s GOPS: 18.14
+sum: -272220256
+Threads: 4 ArraySize: 640 time: 6.71 s GOPS: 18.12
+sum: -272220256
+THREADS=5
+Threads: 5 ArraySize: 640 time: 6.92 s GOPS: 21.96
+sum: 733466504
+Threads: 5 ArraySize: 640 time: 7.05 s GOPS: 21.57
+sum: 733466504
+Threads: 5 ArraySize: 640 time: 6.83 s GOPS: 22.25
+sum: 733466504
+Threads: 5 ArraySize: 640 time: 6.89 s GOPS: 22.05
+sum: 733466504
+Threads: 5 ArraySize: 640 time: 6.93 s GOPS: 21.93
+sum: 733466504
+THREADS=6
+Threads: 6 ArraySize: 640 time: 6.85 s GOPS: 26.62
+sum: 1739153264
+Threads: 6 ArraySize: 640 time: 6.84 s GOPS: 26.67
+sum: 1739153264
+Threads: 6 ArraySize: 640 time: 6.89 s GOPS: 26.49
+sum: 1739153264
+Threads: 6 ArraySize: 640 time: 6.85 s GOPS: 26.62
+sum: 1739153264
+Threads: 6 ArraySize: 640 time: 6.82 s GOPS: 26.76
+sum: 1739153264
+THREADS=7
+Threads: 7 ArraySize: 640 time: 6.86 s GOPS: 31.04
+sum: -1550127272
+Threads: 7 ArraySize: 640 time: 6.87 s GOPS: 30.97
+sum: -1550127272
+Threads: 7 ArraySize: 640 time: 6.86 s GOPS: 31.04
+sum: -1550127272
+Threads: 7 ArraySize: 640 time: 6.85 s GOPS: 31.08
+sum: -1550127272
+Threads: 7 ArraySize: 640 time: 6.84 s GOPS: 31.10
+sum: -1550127272
+THREADS=8
+Threads: 8 ArraySize: 640 time: 9.82 s GOPS: 24.77
+sum: -544440512
+Threads: 8 ArraySize: 640 time: 6.89 s GOPS: 35.29
+sum: -544440512
+Threads: 8 ArraySize: 640 time: 6.88 s GOPS: 35.33
+sum: -544440512
+Threads: 8 ArraySize: 640 time: 6.87 s GOPS: 35.39
+sum: -544440512
+Threads: 8 ArraySize: 640 time: 8.00 s GOPS: 30.41
+sum: -544440512
+THREADS=9
+Threads: 9 ArraySize: 640 time: 10.86 s GOPS: 25.20
+sum: 461246248
+Threads: 9 ArraySize: 640 time: 9.38 s GOPS: 29.18
+sum: 461246248
+Threads: 9 ArraySize: 640 time: 9.48 s GOPS: 28.85
+sum: 461246248
+Threads: 9 ArraySize: 640 time: 10.09 s GOPS: 27.13
+sum: 461246248
+Threads: 9 ArraySize: 640 time: 11.45 s GOPS: 23.90
+sum: 461246248
+THREADS=10
+Threads: 10 ArraySize: 640 time: 11.85 s GOPS: 25.65
+sum: 1466933008
+Threads: 10 ArraySize: 640 time: 9.87 s GOPS: 30.79
+sum: 1466933008
+Threads: 10 ArraySize: 640 time: 10.52 s GOPS: 28.89
+sum: 1466933008
+Threads: 10 ArraySize: 640 time: 11.00 s GOPS: 27.64
+sum: 1466933008
+Threads: 10 ArraySize: 640 time: 10.05 s GOPS: 30.26
+sum: 1466933008
+THREADS=11
+Threads: 11 ArraySize: 640 time: 11.62 s GOPS: 28.78
+sum: -1822347528
+Threads: 11 ArraySize: 640 time: 11.52 s GOPS: 29.03
+sum: -1822347528
+Threads: 11 ArraySize: 640 time: 11.42 s GOPS: 29.28
+sum: -1822347528
+Threads: 11 ArraySize: 640 time: 12.20 s GOPS: 27.41
+sum: -1822347528
+Threads: 11 ArraySize: 640 time: 11.51 s GOPS: 29.06
+sum: -1822347528
+THREADS=12
+Threads: 12 ArraySize: 640 time: 11.83 s GOPS: 30.85
+sum: -816660768
+Threads: 12 ArraySize: 640 time: 12.55 s GOPS: 29.07
+sum: -816660768
+Threads: 12 ArraySize: 640 time: 13.14 s GOPS: 27.75
+sum: -816660768
+Threads: 12 ArraySize: 640 time: 12.86 s GOPS: 28.37
+sum: -816660768
+Threads: 12 ArraySize: 640 time: 12.82 s GOPS: 28.46
+sum: -816660768
+THREADS=13
+Threads: 13 ArraySize: 640 time: 12.59 s GOPS: 31.40
+sum: 189025992
+Threads: 13 ArraySize: 640 time: 12.34 s GOPS: 32.03
+sum: 189025992
+Threads: 13 ArraySize: 640 time: 12.65 s GOPS: 31.24
+sum: 189025992
+Threads: 13 ArraySize: 640 time: 11.71 s GOPS: 33.76
+sum: 189025992
+Threads: 13 ArraySize: 640 time: 12.81 s GOPS: 30.86
+sum: 189025992
+THREADS=14
+Threads: 14 ArraySize: 640 time: 12.92 s GOPS: 32.95
+sum: 1194712752
+Threads: 14 ArraySize: 640 time: 13.38 s GOPS: 31.81
+sum: 1194712752
+Threads: 14 ArraySize: 640 time: 12.64 s GOPS: 33.66
+sum: 1194712752
+Threads: 14 ArraySize: 640 time: 13.05 s GOPS: 32.62
+sum: 1194712752
+Threads: 14 ArraySize: 640 time: 13.51 s GOPS: 31.51
+sum: 1194712752
+THREADS=15
+Threads: 15 ArraySize: 640 time: 13.27 s GOPS: 34.37
+sum: -2094567784
+Threads: 15 ArraySize: 640 time: 13.47 s GOPS: 33.86
+sum: -2094567784
+Threads: 15 ArraySize: 640 time: 13.55 s GOPS: 33.67
+sum: -2094567784
+Threads: 15 ArraySize: 640 time: 13.25 s GOPS: 34.41
+sum: -2094567784
+Threads: 15 ArraySize: 640 time: 13.56 s GOPS: 33.62
+sum: -2094567784
+THREADS=16
+Threads: 16 ArraySize: 640 time: 14.08 s GOPS: 34.54
+sum: -1088881024
+Threads: 16 ArraySize: 640 time: 13.86 s GOPS: 35.10
+sum: -1088881024
+Threads: 16 ArraySize: 640 time: 13.89 s GOPS: 35.01
+sum: -1088881024
+Threads: 16 ArraySize: 640 time: 13.75 s GOPS: 35.36
+sum: -1088881024
+Threads: 16 ArraySize: 640 time: 13.82 s GOPS: 35.19
+sum: -1088881024
+THREADS=1
+Threads: 1 ArraySize: 704 time: 6.16 s GOPS: 4.96
+sum: 1442049480
+Threads: 1 ArraySize: 704 time: 6.18 s GOPS: 4.94
+sum: 1442049480
+Threads: 1 ArraySize: 704 time: 6.18 s GOPS: 4.94
+sum: 1442049480
+Threads: 1 ArraySize: 704 time: 6.19 s GOPS: 4.94
+sum: 1442049480
+Threads: 1 ArraySize: 704 time: 6.20 s GOPS: 4.92
+sum: 1442049480
+THREADS=2
+Threads: 2 ArraySize: 704 time: 6.35 s GOPS: 9.63
+sum: -1410868336
+Threads: 2 ArraySize: 704 time: 6.38 s GOPS: 9.58
+sum: -1410868336
+Threads: 2 ArraySize: 704 time: 6.39 s GOPS: 9.55
+sum: -1410868336
+Threads: 2 ArraySize: 704 time: 7.14 s GOPS: 8.56
+sum: -1410868336
+Threads: 2 ArraySize: 704 time: 6.48 s GOPS: 9.42
+sum: -1410868336
+THREADS=3
+Threads: 3 ArraySize: 704 time: 6.62 s GOPS: 13.85
+sum: 31181144
+Threads: 3 ArraySize: 704 time: 7.18 s GOPS: 12.77
+sum: 31181144
+Threads: 3 ArraySize: 704 time: 6.48 s GOPS: 14.14
+sum: 31181144
+Threads: 3 ArraySize: 704 time: 7.26 s GOPS: 12.61
+sum: 31181144
+Threads: 3 ArraySize: 704 time: 6.61 s GOPS: 13.87
+sum: 31181144
+THREADS=4
+Threads: 4 ArraySize: 704 time: 6.74 s GOPS: 18.14
+sum: 1473230624
+Threads: 4 ArraySize: 704 time: 6.72 s GOPS: 18.17
+sum: 1473230624
+Threads: 4 ArraySize: 704 time: 7.47 s GOPS: 16.37
+sum: 1473230624
+Threads: 4 ArraySize: 704 time: 6.73 s GOPS: 18.15
+sum: 1473230624
+Threads: 4 ArraySize: 704 time: 7.44 s GOPS: 16.41
+sum: 1473230624
+THREADS=5
+Threads: 5 ArraySize: 704 time: 6.87 s GOPS: 22.23
+sum: -1379687192
+Threads: 5 ArraySize: 704 time: 6.90 s GOPS: 22.12
+sum: -1379687192
+Threads: 5 ArraySize: 704 time: 6.86 s GOPS: 22.27
+sum: -1379687192
+Threads: 5 ArraySize: 704 time: 6.90 s GOPS: 22.15
+sum: -1379687192
+Threads: 5 ArraySize: 704 time: 7.48 s GOPS: 20.43
+sum: -1379687192
+THREADS=6
+Threads: 6 ArraySize: 704 time: 7.40 s GOPS: 24.77
+sum: 62362288
+Threads: 6 ArraySize: 704 time: 7.59 s GOPS: 24.14
+sum: 62362288
+Threads: 6 ArraySize: 704 time: 7.07 s GOPS: 25.91
+sum: 62362288
+Threads: 6 ArraySize: 704 time: 6.86 s GOPS: 26.72
+sum: 62362288
+Threads: 6 ArraySize: 704 time: 6.86 s GOPS: 26.72
+sum: 62362288
+THREADS=7
+Threads: 7 ArraySize: 704 time: 7.02 s GOPS: 30.44
+sum: 1504411768
+Threads: 7 ArraySize: 704 time: 8.14 s GOPS: 26.28
+sum: 1504411768
+Threads: 7 ArraySize: 704 time: 7.08 s GOPS: 30.20
+sum: 1504411768
+Threads: 7 ArraySize: 704 time: 7.01 s GOPS: 30.49
+sum: 1504411768
+Threads: 7 ArraySize: 704 time: 7.24 s GOPS: 29.53
+sum: 1504411768
+THREADS=8
+Threads: 8 ArraySize: 704 time: 8.97 s GOPS: 27.24
+sum: -1348506048
+Threads: 8 ArraySize: 704 time: 7.01 s GOPS: 34.85
+sum: -1348506048
+Threads: 8 ArraySize: 704 time: 6.94 s GOPS: 35.19
+sum: -1348506048
+Threads: 8 ArraySize: 704 time: 7.26 s GOPS: 33.65
+sum: -1348506048
+Threads: 8 ArraySize: 704 time: 8.00 s GOPS: 30.54
+sum: -1348506048
+THREADS=9
+Threads: 9 ArraySize: 704 time: 8.78 s GOPS: 31.32
+sum: 93543432
+Threads: 9 ArraySize: 704 time: 11.65 s GOPS: 23.60
+sum: 93543432
+Threads: 9 ArraySize: 704 time: 9.72 s GOPS: 28.28
+sum: 93543432
+Threads: 9 ArraySize: 704 time: 9.28 s GOPS: 29.62
+sum: 93543432
+Threads: 9 ArraySize: 704 time: 10.07 s GOPS: 27.29
+sum: 93543432
+THREADS=10
+Threads: 10 ArraySize: 704 time: 11.38 s GOPS: 26.84
+sum: 1535592912
+Threads: 10 ArraySize: 704 time: 10.97 s GOPS: 27.84
+sum: 1535592912
+Threads: 10 ArraySize: 704 time: 10.67 s GOPS: 28.63
+sum: 1535592912
+Threads: 10 ArraySize: 704 time: 11.23 s GOPS: 27.21
+sum: 1535592912
+Threads: 10 ArraySize: 704 time: 12.29 s GOPS: 24.86
+sum: 1535592912
+THREADS=11
+Threads: 11 ArraySize: 704 time: 11.82 s GOPS: 28.44
+sum: -1317324904
+Threads: 11 ArraySize: 704 time: 11.12 s GOPS: 30.22
+sum: -1317324904
+Threads: 11 ArraySize: 704 time: 12.52 s GOPS: 26.84
+sum: -1317324904
+Threads: 11 ArraySize: 704 time: 12.55 s GOPS: 26.78
+sum: -1317324904
+Threads: 11 ArraySize: 704 time: 12.87 s GOPS: 26.10
+sum: -1317324904
+THREADS=12
+Threads: 12 ArraySize: 704 time: 11.85 s GOPS: 30.94
+sum: 124724576
+Threads: 12 ArraySize: 704 time: 12.42 s GOPS: 29.51
+sum: 124724576
+Threads: 12 ArraySize: 704 time: 12.38 s GOPS: 29.62
+sum: 124724576
+Threads: 12 ArraySize: 704 time: 12.56 s GOPS: 29.19
+sum: 124724576
+Threads: 12 ArraySize: 704 time: 13.02 s GOPS: 28.16
+sum: 124724576
+THREADS=13
+Threads: 13 ArraySize: 704 time: 12.65 s GOPS: 31.40
+sum: 1566774056
+Threads: 13 ArraySize: 704 time: 12.36 s GOPS: 32.13
+sum: 1566774056
+Threads: 13 ArraySize: 704 time: 13.11 s GOPS: 30.29
+sum: 1566774056
+Threads: 13 ArraySize: 704 time: 12.92 s GOPS: 30.73
+sum: 1566774056
+Threads: 13 ArraySize: 704 time: 12.90 s GOPS: 30.78
+sum: 1566774056
+THREADS=14
+Threads: 14 ArraySize: 704 time: 13.21 s GOPS: 32.36
+sum: -1286143760
+Threads: 14 ArraySize: 704 time: 13.18 s GOPS: 32.45
+sum: -1286143760
+Threads: 14 ArraySize: 704 time: 13.97 s GOPS: 30.61
+sum: -1286143760
+Threads: 14 ArraySize: 704 time: 13.56 s GOPS: 31.53
+sum: -1286143760
+Threads: 14 ArraySize: 704 time: 13.65 s GOPS: 31.33
+sum: -1286143760
+THREADS=15
+Threads: 15 ArraySize: 704 time: 13.65 s GOPS: 33.56
+sum: 155905720
+Threads: 15 ArraySize: 704 time: 13.78 s GOPS: 33.26
+sum: 155905720
+Threads: 15 ArraySize: 704 time: 13.64 s GOPS: 33.59
+sum: 155905720
+Threads: 15 ArraySize: 704 time: 13.59 s GOPS: 33.72
+sum: 155905720
+Threads: 15 ArraySize: 704 time: 13.55 s GOPS: 33.82
+sum: 155905720
+THREADS=16
+Threads: 16 ArraySize: 704 time: 14.19 s GOPS: 34.45
+sum: 1597955200
+Threads: 16 ArraySize: 704 time: 13.89 s GOPS: 35.19
+sum: 1597955200
+Threads: 16 ArraySize: 704 time: 14.11 s GOPS: 34.65
+sum: 1597955200
+Threads: 16 ArraySize: 704 time: 14.35 s GOPS: 34.05
+sum: 1597955200
+Threads: 16 ArraySize: 704 time: 14.53 s GOPS: 33.63
+sum: 1597955200
+THREADS=1
+Threads: 1 ArraySize: 768 time: 6.29 s GOPS: 4.88
+sum: 1805686392
+Threads: 1 ArraySize: 768 time: 6.26 s GOPS: 4.90
+sum: 1805686392
+Threads: 1 ArraySize: 768 time: 6.13 s GOPS: 5.00
+sum: 1805686392
+Threads: 1 ArraySize: 768 time: 6.11 s GOPS: 5.02
+sum: 1805686392
+Threads: 1 ArraySize: 768 time: 6.11 s GOPS: 5.02
+sum: 1805686392
+THREADS=2
+Threads: 2 ArraySize: 768 time: 6.30 s GOPS: 9.73
+sum: -683594512
+Threads: 2 ArraySize: 768 time: 6.30 s GOPS: 9.73
+sum: -683594512
+Threads: 2 ArraySize: 768 time: 6.30 s GOPS: 9.73
+sum: -683594512
+Threads: 2 ArraySize: 768 time: 6.30 s GOPS: 9.74
+sum: -683594512
+Threads: 2 ArraySize: 768 time: 6.30 s GOPS: 9.74
+sum: -683594512
+THREADS=3
+Threads: 3 ArraySize: 768 time: 6.48 s GOPS: 14.20
+sum: 1122091880
+Threads: 3 ArraySize: 768 time: 6.49 s GOPS: 14.17
+sum: 1122091880
+Threads: 3 ArraySize: 768 time: 6.50 s GOPS: 14.16
+sum: 1122091880
+Threads: 3 ArraySize: 768 time: 6.49 s GOPS: 14.18
+sum: 1122091880
+Threads: 3 ArraySize: 768 time: 6.49 s GOPS: 14.17
+sum: 1122091880
+THREADS=4
+Threads: 4 ArraySize: 768 time: 6.71 s GOPS: 18.29
+sum: -1367189024
+Threads: 4 ArraySize: 768 time: 6.71 s GOPS: 18.29
+sum: -1367189024
+Threads: 4 ArraySize: 768 time: 6.79 s GOPS: 18.07
+sum: -1367189024
+Threads: 4 ArraySize: 768 time: 6.78 s GOPS: 18.10
+sum: -1367189024
+Threads: 4 ArraySize: 768 time: 6.75 s GOPS: 18.16
+sum: -1367189024
+THREADS=5
+Threads: 5 ArraySize: 768 time: 7.06 s GOPS: 21.72
+sum: 438497368
+Threads: 5 ArraySize: 768 time: 6.93 s GOPS: 22.14
+sum: 438497368
+Threads: 5 ArraySize: 768 time: 6.91 s GOPS: 22.18
+sum: 438497368
+Threads: 5 ArraySize: 768 time: 6.93 s GOPS: 22.11
+sum: 438497368
+Threads: 5 ArraySize: 768 time: 6.93 s GOPS: 22.13
+sum: 438497368
+THREADS=6
+Threads: 6 ArraySize: 768 time: 7.44 s GOPS: 24.73
+sum: -2050783536
+Threads: 6 ArraySize: 768 time: 6.95 s GOPS: 26.46
+sum: -2050783536
+Threads: 6 ArraySize: 768 time: 6.95 s GOPS: 26.48
+sum: -2050783536
+Threads: 6 ArraySize: 768 time: 7.05 s GOPS: 26.10
+sum: -2050783536
+Threads: 6 ArraySize: 768 time: 7.08 s GOPS: 26.00
+sum: -2050783536
+THREADS=7
+Threads: 7 ArraySize: 768 time: 7.03 s GOPS: 30.54
+sum: -245097144
+Threads: 7 ArraySize: 768 time: 8.38 s GOPS: 25.61
+sum: -245097144
+Threads: 7 ArraySize: 768 time: 7.43 s GOPS: 28.90
+sum: -245097144
+Threads: 7 ArraySize: 768 time: 7.00 s GOPS: 30.67
+sum: -245097144
+Threads: 7 ArraySize: 768 time: 6.92 s GOPS: 31.00
+sum: -245097144
+THREADS=8
+Threads: 8 ArraySize: 768 time: 10.13 s GOPS: 24.22
+sum: 1560589248
+Threads: 8 ArraySize: 768 time: 9.55 s GOPS: 25.69
+sum: 1560589248
+Threads: 8 ArraySize: 768 time: 6.90 s GOPS: 35.58
+sum: 1560589248
+Threads: 8 ArraySize: 768 time: 6.89 s GOPS: 35.60
+sum: 1560589248
+Threads: 8 ArraySize: 768 time: 6.89 s GOPS: 35.59
+sum: 1560589248
+THREADS=9
+Threads: 9 ArraySize: 768 time: 8.89 s GOPS: 31.04
+sum: -928691656
+Threads: 9 ArraySize: 768 time: 10.37 s GOPS: 26.61
+sum: -928691656
+Threads: 9 ArraySize: 768 time: 8.64 s GOPS: 31.93
+sum: -928691656
+Threads: 9 ArraySize: 768 time: 9.18 s GOPS: 30.05
+sum: -928691656
+Threads: 9 ArraySize: 768 time: 10.31 s GOPS: 26.76
+sum: -928691656
+THREADS=10
+Threads: 10 ArraySize: 768 time: 10.63 s GOPS: 28.85
+sum: 876994736
+Threads: 10 ArraySize: 768 time: 10.96 s GOPS: 27.98
+sum: 876994736
+Threads: 10 ArraySize: 768 time: 10.33 s GOPS: 29.68
+sum: 876994736
+Threads: 10 ArraySize: 768 time: 11.00 s GOPS: 27.88
+sum: 876994736
+Threads: 10 ArraySize: 768 time: 11.37 s GOPS: 26.97
+sum: 876994736
+THREADS=11
+Threads: 11 ArraySize: 768 time: 11.59 s GOPS: 29.11
+sum: -1612286168
+Threads: 11 ArraySize: 768 time: 11.37 s GOPS: 29.66
+sum: -1612286168
+Threads: 11 ArraySize: 768 time: 11.46 s GOPS: 29.43
+sum: -1612286168
+Threads: 11 ArraySize: 768 time: 11.25 s GOPS: 29.98
+sum: -1612286168
+Threads: 11 ArraySize: 768 time: 12.39 s GOPS: 27.22
+sum: -1612286168
+THREADS=12
+Threads: 12 ArraySize: 768 time: 11.81 s GOPS: 31.17
+sum: 193400224
+Threads: 12 ArraySize: 768 time: 11.65 s GOPS: 31.58
+sum: 193400224
+Threads: 12 ArraySize: 768 time: 12.67 s GOPS: 29.04
+sum: 193400224
+Threads: 12 ArraySize: 768 time: 12.61 s GOPS: 29.19
+sum: 193400224
+Threads: 12 ArraySize: 768 time: 12.55 s GOPS: 29.31
+sum: 193400224
+THREADS=13
+Threads: 13 ArraySize: 768 time: 12.64 s GOPS: 31.55
+sum: 1999086616
+Threads: 13 ArraySize: 768 time: 13.00 s GOPS: 30.67
+sum: 1999086616
+Threads: 13 ArraySize: 768 time: 12.47 s GOPS: 31.96
+sum: 1999086616
+Threads: 13 ArraySize: 768 time: 13.21 s GOPS: 30.18
+sum: 1999086616
+Threads: 13 ArraySize: 768 time: 12.93 s GOPS: 30.84
+sum: 1999086616
+THREADS=14
+Threads: 14 ArraySize: 768 time: 12.92 s GOPS: 33.22
+sum: -490194288
+Threads: 14 ArraySize: 768 time: 13.29 s GOPS: 32.29
+sum: -490194288
+Threads: 14 ArraySize: 768 time: 12.89 s GOPS: 33.30
+sum: -490194288
+Threads: 14 ArraySize: 768 time: 12.88 s GOPS: 33.34
+sum: -490194288
+Threads: 14 ArraySize: 768 time: 13.49 s GOPS: 31.84
+sum: -490194288
+THREADS=15
+Threads: 15 ArraySize: 768 time: 13.39 s GOPS: 34.35
+sum: 1315492104
+Threads: 15 ArraySize: 768 time: 13.60 s GOPS: 33.83
+sum: 1315492104
+Threads: 15 ArraySize: 768 time: 13.46 s GOPS: 34.16
+sum: 1315492104
+Threads: 15 ArraySize: 768 time: 13.44 s GOPS: 34.22
+sum: 1315492104
+Threads: 15 ArraySize: 768 time: 13.62 s GOPS: 33.77
+sum: 1315492104
+THREADS=16
+Threads: 16 ArraySize: 768 time: 13.92 s GOPS: 35.24
+sum: -1173788800
+Threads: 16 ArraySize: 768 time: 13.68 s GOPS: 35.87
+sum: -1173788800
+Threads: 16 ArraySize: 768 time: 13.72 s GOPS: 35.77
+sum: -1173788800
+Threads: 16 ArraySize: 768 time: 14.09 s GOPS: 34.82
+sum: -1173788800
+Threads: 16 ArraySize: 768 time: 14.00 s GOPS: 35.04
+sum: -1173788800
+THREADS=1
+Threads: 1 ArraySize: 832 time: 6.22 s GOPS: 4.95
+sum: 2113377960
+Threads: 1 ArraySize: 832 time: 6.21 s GOPS: 4.96
+sum: 2113377960
+Threads: 1 ArraySize: 832 time: 6.29 s GOPS: 4.89
+sum: 2113377960
+Threads: 1 ArraySize: 832 time: 6.18 s GOPS: 4.98
+sum: 2113377960
+Threads: 1 ArraySize: 832 time: 6.16 s GOPS: 5.00
+sum: 2113377960
+THREADS=2
+Threads: 2 ArraySize: 832 time: 6.35 s GOPS: 9.69
+sum: -68211376
+Threads: 2 ArraySize: 832 time: 6.41 s GOPS: 9.60
+sum: -68211376
+Threads: 2 ArraySize: 832 time: 6.47 s GOPS: 9.51
+sum: -68211376
+Threads: 2 ArraySize: 832 time: 6.36 s GOPS: 9.68
+sum: -68211376
+Threads: 2 ArraySize: 832 time: 6.35 s GOPS: 9.69
+sum: -68211376
+THREADS=3
+Threads: 3 ArraySize: 832 time: 6.55 s GOPS: 14.10
+sum: 2045166584
+Threads: 3 ArraySize: 832 time: 6.54 s GOPS: 14.12
+sum: 2045166584
+Threads: 3 ArraySize: 832 time: 6.52 s GOPS: 14.15
+sum: 2045166584
+Threads: 3 ArraySize: 832 time: 6.56 s GOPS: 14.07
+sum: 2045166584
+Threads: 3 ArraySize: 832 time: 6.67 s GOPS: 13.83
+sum: 2045166584
+THREADS=4
+Threads: 4 ArraySize: 832 time: 6.79 s GOPS: 18.12
+sum: -136422752
+Threads: 4 ArraySize: 832 time: 6.77 s GOPS: 18.18
+sum: -136422752
+Threads: 4 ArraySize: 832 time: 6.73 s GOPS: 18.28
+sum: -136422752
+Threads: 4 ArraySize: 832 time: 6.80 s GOPS: 18.09
+sum: -136422752
+Threads: 4 ArraySize: 832 time: 6.75 s GOPS: 18.23
+sum: -136422752
+THREADS=5
+Threads: 5 ArraySize: 832 time: 6.95 s GOPS: 22.14
+sum: 1976955208
+Threads: 5 ArraySize: 832 time: 6.95 s GOPS: 22.15
+sum: 1976955208
+Threads: 5 ArraySize: 832 time: 6.93 s GOPS: 22.21
+sum: 1976955208
+Threads: 5 ArraySize: 832 time: 6.92 s GOPS: 22.25
+sum: 1976955208
+Threads: 5 ArraySize: 832 time: 6.97 s GOPS: 22.07
+sum: 1976955208
+THREADS=6
+Threads: 6 ArraySize: 832 time: 6.93 s GOPS: 26.66
+sum: -204634128
+Threads: 6 ArraySize: 832 time: 6.97 s GOPS: 26.48
+sum: -204634128
+Threads: 6 ArraySize: 832 time: 6.96 s GOPS: 26.52
+sum: -204634128
+Threads: 6 ArraySize: 832 time: 6.95 s GOPS: 26.57
+sum: -204634128
+Threads: 6 ArraySize: 832 time: 6.89 s GOPS: 26.80
+sum: -204634128
+THREADS=7
+Threads: 7 ArraySize: 832 time: 8.79 s GOPS: 24.51
+sum: 1908743832
+Threads: 7 ArraySize: 832 time: 7.05 s GOPS: 30.55
+sum: 1908743832
+Threads: 7 ArraySize: 832 time: 6.90 s GOPS: 31.21
+sum: 1908743832
+Threads: 7 ArraySize: 832 time: 7.69 s GOPS: 28.00
+sum: 1908743832
+Threads: 7 ArraySize: 832 time: 6.92 s GOPS: 31.13
+sum: 1908743832
+THREADS=8
+Threads: 8 ArraySize: 832 time: 6.97 s GOPS: 35.30
+sum: -272845504
+Threads: 8 ArraySize: 832 time: 6.93 s GOPS: 35.52
+sum: -272845504
+Threads: 8 ArraySize: 832 time: 7.97 s GOPS: 30.89
+sum: -272845504
+Threads: 8 ArraySize: 832 time: 7.58 s GOPS: 32.46
+sum: -272845504
+Threads: 8 ArraySize: 832 time: 7.62 s GOPS: 32.31
+sum: -272845504
+THREADS=9
+Threads: 9 ArraySize: 832 time: 10.21 s GOPS: 27.12
+sum: 1840532456
+Threads: 9 ArraySize: 832 time: 10.20 s GOPS: 27.15
+sum: 1840532456
+Threads: 9 ArraySize: 832 time: 9.64 s GOPS: 28.72
+sum: 1840532456
+Threads: 9 ArraySize: 832 time: 10.19 s GOPS: 27.19
+sum: 1840532456
+Threads: 9 ArraySize: 832 time: 9.54 s GOPS: 29.03
+sum: 1840532456
+THREADS=10
+Threads: 10 ArraySize: 832 time: 10.88 s GOPS: 28.28
+sum: -341056880
+Threads: 10 ArraySize: 832 time: 11.67 s GOPS: 26.37
+sum: -341056880
+Threads: 10 ArraySize: 832 time: 11.40 s GOPS: 26.99
+sum: -341056880
+Threads: 10 ArraySize: 832 time: 11.93 s GOPS: 25.80
+sum: -341056880
+Threads: 10 ArraySize: 832 time: 10.62 s GOPS: 28.97
+sum: -341056880
+THREADS=11
+Threads: 11 ArraySize: 832 time: 12.50 s GOPS: 27.09
+sum: 1772321080
+Threads: 11 ArraySize: 832 time: 11.68 s GOPS: 28.97
+sum: 1772321080
+Threads: 11 ArraySize: 832 time: 12.18 s GOPS: 27.79
+sum: 1772321080
+Threads: 11 ArraySize: 832 time: 11.89 s GOPS: 28.46
+sum: 1772321080
+Threads: 11 ArraySize: 832 time: 11.42 s GOPS: 29.64
+sum: 1772321080
+THREADS=12
+Threads: 12 ArraySize: 832 time: 12.81 s GOPS: 28.81
+sum: -409268256
+Threads: 12 ArraySize: 832 time: 11.86 s GOPS: 31.14
+sum: -409268256
+Threads: 12 ArraySize: 832 time: 11.67 s GOPS: 31.64
+sum: -409268256
+Threads: 12 ArraySize: 832 time: 11.94 s GOPS: 30.92
+sum: -409268256
+Threads: 12 ArraySize: 832 time: 11.84 s GOPS: 31.18
+sum: -409268256
+THREADS=13
+Threads: 13 ArraySize: 832 time: 12.83 s GOPS: 31.19
+sum: 1704109704
+Threads: 13 ArraySize: 832 time: 12.11 s GOPS: 33.03
+sum: 1704109704
+Threads: 13 ArraySize: 832 time: 13.40 s GOPS: 29.86
+sum: 1704109704
+Threads: 13 ArraySize: 832 time: 13.02 s GOPS: 30.73
+sum: 1704109704
+Threads: 13 ArraySize: 832 time: 13.31 s GOPS: 30.06
+sum: 1704109704
+THREADS=14
+Threads: 14 ArraySize: 832 time: 13.47 s GOPS: 31.98
+sum: -477479632
+Threads: 14 ArraySize: 832 time: 13.53 s GOPS: 31.83
+sum: -477479632
+Threads: 14 ArraySize: 832 time: 13.14 s GOPS: 32.79
+sum: -477479632
+Threads: 14 ArraySize: 832 time: 12.82 s GOPS: 33.60
+sum: -477479632
+Threads: 14 ArraySize: 832 time: 12.78 s GOPS: 33.69
+sum: -477479632
+THREADS=15
+Threads: 15 ArraySize: 832 time: 13.61 s GOPS: 33.92
+sum: 1635898328
+Threads: 15 ArraySize: 832 time: 13.67 s GOPS: 33.77
+sum: 1635898328
+Threads: 15 ArraySize: 832 time: 13.58 s GOPS: 34.00
+sum: 1635898328
+Threads: 15 ArraySize: 832 time: 13.40 s GOPS: 34.43
+sum: 1635898328
+Threads: 15 ArraySize: 832 time: 13.41 s GOPS: 34.42
+sum: 1635898328
+THREADS=16
+Threads: 16 ArraySize: 832 time: 13.73 s GOPS: 35.87
+sum: -545691008
+Threads: 16 ArraySize: 832 time: 13.71 s GOPS: 35.91
+sum: -545691008
+Threads: 16 ArraySize: 832 time: 13.76 s GOPS: 35.78
+sum: -545691008
+Threads: 16 ArraySize: 832 time: 13.71 s GOPS: 35.91
+sum: -545691008
+Threads: 16 ArraySize: 832 time: 13.69 s GOPS: 35.96
+sum: -545691008
+THREADS=1
+Threads: 1 ArraySize: 896 time: 6.13 s GOPS: 5.03
+sum: -1917852520
+Threads: 1 ArraySize: 896 time: 6.08 s GOPS: 5.07
+sum: -1917852520
+Threads: 1 ArraySize: 896 time: 6.08 s GOPS: 5.08
+sum: -1917852520
+Threads: 1 ArraySize: 896 time: 6.08 s GOPS: 5.08
+sum: -1917852520
+Threads: 1 ArraySize: 896 time: 6.08 s GOPS: 5.07
+sum: -1917852520
+THREADS=2
+Threads: 2 ArraySize: 896 time: 6.27 s GOPS: 9.84
+sum: 459262256
+Threads: 2 ArraySize: 896 time: 6.28 s GOPS: 9.83
+sum: 459262256
+Threads: 2 ArraySize: 896 time: 6.28 s GOPS: 9.83
+sum: 459262256
+Threads: 2 ArraySize: 896 time: 6.27 s GOPS: 9.84
+sum: 459262256
+Threads: 2 ArraySize: 896 time: 6.27 s GOPS: 9.84
+sum: 459262256
+THREADS=3
+Threads: 3 ArraySize: 896 time: 6.46 s GOPS: 14.32
+sum: -1458590264
+Threads: 3 ArraySize: 896 time: 6.46 s GOPS: 14.32
+sum: -1458590264
+Threads: 3 ArraySize: 896 time: 6.47 s GOPS: 14.32
+sum: -1458590264
+Threads: 3 ArraySize: 896 time: 6.47 s GOPS: 14.31
+sum: -1458590264
+Threads: 3 ArraySize: 896 time: 6.47 s GOPS: 14.31
+sum: -1458590264
+THREADS=4
+Threads: 4 ArraySize: 896 time: 6.67 s GOPS: 18.50
+sum: 918524512
+Threads: 4 ArraySize: 896 time: 6.67 s GOPS: 18.51
+sum: 918524512
+Threads: 4 ArraySize: 896 time: 6.75 s GOPS: 18.28
+sum: 918524512
+Threads: 4 ArraySize: 896 time: 6.71 s GOPS: 18.38
+sum: 918524512
+Threads: 4 ArraySize: 896 time: 6.67 s GOPS: 18.49
+sum: 918524512
+THREADS=5
+Threads: 5 ArraySize: 896 time: 6.89 s GOPS: 22.40
+sum: -999328008
+Threads: 5 ArraySize: 896 time: 6.89 s GOPS: 22.39
+sum: -999328008
+Threads: 5 ArraySize: 896 time: 6.89 s GOPS: 22.40
+sum: -999328008
+Threads: 5 ArraySize: 896 time: 6.89 s GOPS: 22.41
+sum: -999328008
+Threads: 5 ArraySize: 896 time: 6.89 s GOPS: 22.40
+sum: -999328008
+THREADS=6
+Threads: 6 ArraySize: 896 time: 6.89 s GOPS: 26.89
+sum: 1377786768
+Threads: 6 ArraySize: 896 time: 6.89 s GOPS: 26.88
+sum: 1377786768
+Threads: 6 ArraySize: 896 time: 6.89 s GOPS: 26.88
+sum: 1377786768
+Threads: 6 ArraySize: 896 time: 6.89 s GOPS: 26.88
+sum: 1377786768
+Threads: 6 ArraySize: 896 time: 6.89 s GOPS: 26.88
+sum: 1377786768
+THREADS=7
+Threads: 7 ArraySize: 896 time: 6.89 s GOPS: 31.36
+sum: -540065752
+Threads: 7 ArraySize: 896 time: 6.89 s GOPS: 31.36
+sum: -540065752
+Threads: 7 ArraySize: 896 time: 6.89 s GOPS: 31.36
+sum: -540065752
+Threads: 7 ArraySize: 896 time: 6.89 s GOPS: 31.36
+sum: -540065752
+Threads: 7 ArraySize: 896 time: 6.89 s GOPS: 31.37
+sum: -540065752
+THREADS=8
+Threads: 8 ArraySize: 896 time: 6.89 s GOPS: 35.84
+sum: 1837049024
+Threads: 8 ArraySize: 896 time: 6.89 s GOPS: 35.84
+sum: 1837049024
+Threads: 8 ArraySize: 896 time: 6.89 s GOPS: 35.83
+sum: 1837049024
+Threads: 8 ArraySize: 896 time: 6.89 s GOPS: 35.83
+sum: 1837049024
+Threads: 8 ArraySize: 896 time: 7.23 s GOPS: 34.17
+sum: 1837049024
+THREADS=9
+Threads: 9 ArraySize: 896 time: 9.29 s GOPS: 29.90
+sum: -80803496
+Threads: 9 ArraySize: 896 time: 9.14 s GOPS: 30.39
+sum: -80803496
+Threads: 9 ArraySize: 896 time: 10.37 s GOPS: 26.78
+sum: -80803496
+Threads: 9 ArraySize: 896 time: 9.82 s GOPS: 28.28
+sum: -80803496
+Threads: 9 ArraySize: 896 time: 10.07 s GOPS: 27.57
+sum: -80803496
+THREADS=10
+Threads: 10 ArraySize: 896 time: 10.52 s GOPS: 29.32
+sum: -1998656016
+Threads: 10 ArraySize: 896 time: 9.98 s GOPS: 30.92
+sum: -1998656016
+Threads: 10 ArraySize: 896 time: 11.36 s GOPS: 27.16
+sum: -1998656016
+Threads: 10 ArraySize: 896 time: 10.29 s GOPS: 29.99
+sum: -1998656016
+Threads: 10 ArraySize: 896 time: 10.80 s GOPS: 28.58
+sum: -1998656016
+THREADS=11
+Threads: 11 ArraySize: 896 time: 11.94 s GOPS: 28.42
+sum: 378458760
+Threads: 11 ArraySize: 896 time: 12.70 s GOPS: 26.72
+sum: 378458760
+Threads: 11 ArraySize: 896 time: 11.96 s GOPS: 28.39
+sum: 378458760
+Threads: 11 ArraySize: 896 time: 12.16 s GOPS: 27.92
+sum: 378458760
+Threads: 11 ArraySize: 896 time: 10.90 s GOPS: 31.14
+sum: 378458760
+THREADS=12
+Threads: 12 ArraySize: 896 time: 12.54 s GOPS: 29.52
+sum: -1539393760
+Threads: 12 ArraySize: 896 time: 13.10 s GOPS: 28.27
+sum: -1539393760
+Threads: 12 ArraySize: 896 time: 11.63 s GOPS: 31.84
+sum: -1539393760
+Threads: 12 ArraySize: 896 time: 11.92 s GOPS: 31.06
+sum: -1539393760
+Threads: 12 ArraySize: 896 time: 12.11 s GOPS: 30.57
+sum: -1539393760
+THREADS=13
+Threads: 13 ArraySize: 896 time: 13.02 s GOPS: 30.81
+sum: 837721016
+Threads: 13 ArraySize: 896 time: 13.20 s GOPS: 30.40
+sum: 837721016
+Threads: 13 ArraySize: 896 time: 12.74 s GOPS: 31.49
+sum: 837721016
+Threads: 13 ArraySize: 896 time: 12.92 s GOPS: 31.06
+sum: 837721016
+Threads: 13 ArraySize: 896 time: 12.89 s GOPS: 31.13
+sum: 837721016
+THREADS=14
+Threads: 14 ArraySize: 896 time: 13.62 s GOPS: 31.72
+sum: -1080131504
+Threads: 14 ArraySize: 896 time: 13.00 s GOPS: 33.23
+sum: -1080131504
+Threads: 14 ArraySize: 896 time: 13.49 s GOPS: 32.03
+sum: -1080131504
+Threads: 14 ArraySize: 896 time: 13.64 s GOPS: 31.67
+sum: -1080131504
+Threads: 14 ArraySize: 896 time: 13.14 s GOPS: 32.88
+sum: -1080131504
+THREADS=15
+Threads: 15 ArraySize: 896 time: 13.46 s GOPS: 34.39
+sum: 1296983272
+Threads: 15 ArraySize: 896 time: 13.67 s GOPS: 33.86
+sum: 1296983272
+Threads: 15 ArraySize: 896 time: 13.62 s GOPS: 33.99
+sum: 1296983272
+Threads: 15 ArraySize: 896 time: 13.41 s GOPS: 34.53
+sum: 1296983272
+Threads: 15 ArraySize: 896 time: 13.61 s GOPS: 34.01
+sum: 1296983272
+THREADS=16
+Threads: 16 ArraySize: 896 time: 13.74 s GOPS: 35.93
+sum: -620869248
+Threads: 16 ArraySize: 896 time: 13.69 s GOPS: 36.07
+sum: -620869248
+Threads: 16 ArraySize: 896 time: 13.74 s GOPS: 35.93
+sum: -620869248
+Threads: 16 ArraySize: 896 time: 13.75 s GOPS: 35.91
+sum: -620869248
+Threads: 16 ArraySize: 896 time: 13.75 s GOPS: 35.91
+sum: -620869248
+THREADS=1
+Threads: 1 ArraySize: 960 time: 6.11 s GOPS: 5.06
+sum: -1689281464
+Threads: 1 ArraySize: 960 time: 6.11 s GOPS: 5.07
+sum: -1689281464
+Threads: 1 ArraySize: 960 time: 6.11 s GOPS: 5.06
+sum: -1689281464
+Threads: 1 ArraySize: 960 time: 6.11 s GOPS: 5.07
+sum: -1689281464
+Threads: 1 ArraySize: 960 time: 6.11 s GOPS: 5.07
+sum: -1689281464
+THREADS=2
+Threads: 2 ArraySize: 960 time: 6.30 s GOPS: 9.82
+sum: 916404368
+Threads: 2 ArraySize: 960 time: 6.30 s GOPS: 9.83
+sum: 916404368
+Threads: 2 ArraySize: 960 time: 6.30 s GOPS: 9.82
+sum: 916404368
+Threads: 2 ArraySize: 960 time: 6.30 s GOPS: 9.82
+sum: 916404368
+Threads: 2 ArraySize: 960 time: 6.30 s GOPS: 9.82
+sum: 916404368
+THREADS=3
+Threads: 3 ArraySize: 960 time: 6.50 s GOPS: 14.28
+sum: -772877096
+Threads: 3 ArraySize: 960 time: 6.50 s GOPS: 14.28
+sum: -772877096
+Threads: 3 ArraySize: 960 time: 6.50 s GOPS: 14.28
+sum: -772877096
+Threads: 3 ArraySize: 960 time: 6.49 s GOPS: 14.30
+sum: -772877096
+Threads: 3 ArraySize: 960 time: 6.50 s GOPS: 14.28
+sum: -772877096
+THREADS=4
+Threads: 4 ArraySize: 960 time: 6.72 s GOPS: 18.41
+sum: 1832808736
+Threads: 4 ArraySize: 960 time: 6.71 s GOPS: 18.44
+sum: 1832808736
+Threads: 4 ArraySize: 960 time: 6.71 s GOPS: 18.45
+sum: 1832808736
+Threads: 4 ArraySize: 960 time: 6.71 s GOPS: 18.45
+sum: 1832808736
+Threads: 4 ArraySize: 960 time: 6.71 s GOPS: 18.45
+sum: 1832808736
+THREADS=5
+Threads: 5 ArraySize: 960 time: 6.92 s GOPS: 22.34
+sum: 143527272
+Threads: 5 ArraySize: 960 time: 6.92 s GOPS: 22.35
+sum: 143527272
+Threads: 5 ArraySize: 960 time: 6.92 s GOPS: 22.35
+sum: 143527272
+Threads: 5 ArraySize: 960 time: 6.92 s GOPS: 22.35
+sum: 143527272
+Threads: 5 ArraySize: 960 time: 6.92 s GOPS: 22.35
+sum: 143527272
+THREADS=6
+Threads: 6 ArraySize: 960 time: 6.92 s GOPS: 26.81
+sum: -1545754192
+Threads: 6 ArraySize: 960 time: 6.92 s GOPS: 26.82
+sum: -1545754192
+Threads: 6 ArraySize: 960 time: 6.92 s GOPS: 26.82
+sum: -1545754192
+Threads: 6 ArraySize: 960 time: 6.92 s GOPS: 26.81
+sum: -1545754192
+Threads: 6 ArraySize: 960 time: 6.92 s GOPS: 26.82
+sum: -1545754192
+THREADS=7
+Threads: 7 ArraySize: 960 time: 6.92 s GOPS: 31.29
+sum: 1059931640
+Threads: 7 ArraySize: 960 time: 6.92 s GOPS: 31.28
+sum: 1059931640
+Threads: 7 ArraySize: 960 time: 6.92 s GOPS: 31.28
+sum: 1059931640
+Threads: 7 ArraySize: 960 time: 6.92 s GOPS: 31.29
+sum: 1059931640
+Threads: 7 ArraySize: 960 time: 6.92 s GOPS: 31.28
+sum: 1059931640
+THREADS=8
+Threads: 8 ArraySize: 960 time: 6.92 s GOPS: 35.75
+sum: -629349824
+Threads: 8 ArraySize: 960 time: 6.92 s GOPS: 35.75
+sum: -629349824
+Threads: 8 ArraySize: 960 time: 6.92 s GOPS: 35.75
+sum: -629349824
+Threads: 8 ArraySize: 960 time: 6.92 s GOPS: 35.75
+sum: -629349824
+Threads: 8 ArraySize: 960 time: 6.92 s GOPS: 35.75
+sum: -629349824
+THREADS=9
+Threads: 9 ArraySize: 960 time: 10.37 s GOPS: 26.84
+sum: 1976336008
+Threads: 9 ArraySize: 960 time: 9.94 s GOPS: 28.00
+sum: 1976336008
+Threads: 9 ArraySize: 960 time: 11.88 s GOPS: 23.43
+sum: 1976336008
+Threads: 9 ArraySize: 960 time: 10.02 s GOPS: 27.77
+sum: 1976336008
+Threads: 9 ArraySize: 960 time: 10.14 s GOPS: 27.46
+sum: 1976336008
+THREADS=10
+Threads: 10 ArraySize: 960 time: 9.83 s GOPS: 31.48
+sum: 287054544
+Threads: 10 ArraySize: 960 time: 9.98 s GOPS: 31.00
+sum: 287054544
+Threads: 10 ArraySize: 960 time: 11.13 s GOPS: 27.80
+sum: 287054544
+Threads: 10 ArraySize: 960 time: 11.48 s GOPS: 26.94
+sum: 287054544
+Threads: 10 ArraySize: 960 time: 10.78 s GOPS: 28.69
+sum: 287054544
+THREADS=11
+Threads: 11 ArraySize: 960 time: 12.20 s GOPS: 27.88
+sum: -1402226920
+Threads: 11 ArraySize: 960 time: 11.32 s GOPS: 30.06
+sum: -1402226920
+Threads: 11 ArraySize: 960 time: 10.77 s GOPS: 31.59
+sum: -1402226920
+Threads: 11 ArraySize: 960 time: 12.64 s GOPS: 26.92
+sum: -1402226920
+Threads: 11 ArraySize: 960 time: 10.65 s GOPS: 31.95
+sum: -1402226920
+THREADS=12
+Threads: 12 ArraySize: 960 time: 11.65 s GOPS: 31.86
+sum: 1203458912
+Threads: 12 ArraySize: 960 time: 11.82 s GOPS: 31.40
+sum: 1203458912
+Threads: 12 ArraySize: 960 time: 11.95 s GOPS: 31.07
+sum: 1203458912
+Threads: 12 ArraySize: 960 time: 13.11 s GOPS: 28.32
+sum: 1203458912
+Threads: 12 ArraySize: 960 time: 11.46 s GOPS: 32.38
+sum: 1203458912
+THREADS=13
+Threads: 13 ArraySize: 960 time: 12.76 s GOPS: 31.52
+sum: -485822552
+Threads: 13 ArraySize: 960 time: 12.99 s GOPS: 30.95
+sum: -485822552
+Threads: 13 ArraySize: 960 time: 12.47 s GOPS: 32.24
+sum: -485822552
+Threads: 13 ArraySize: 960 time: 12.65 s GOPS: 31.78
+sum: -485822552
+Threads: 13 ArraySize: 960 time: 12.32 s GOPS: 32.65
+sum: -485822552
+THREADS=14
+Threads: 14 ArraySize: 960 time: 13.65 s GOPS: 31.74
+sum: 2119863280
+Threads: 14 ArraySize: 960 time: 13.46 s GOPS: 32.17
+sum: 2119863280
+Threads: 14 ArraySize: 960 time: 13.35 s GOPS: 32.44
+sum: 2119863280
+Threads: 14 ArraySize: 960 time: 13.49 s GOPS: 32.09
+sum: 2119863280
+Threads: 14 ArraySize: 960 time: 13.15 s GOPS: 32.94
+sum: 2119863280
+THREADS=15
+Threads: 15 ArraySize: 960 time: 13.65 s GOPS: 34.00
+sum: 430581816
+Threads: 15 ArraySize: 960 time: 13.63 s GOPS: 34.05
+sum: 430581816
+Threads: 15 ArraySize: 960 time: 13.60 s GOPS: 34.11
+sum: 430581816
+Threads: 15 ArraySize: 960 time: 13.65 s GOPS: 33.98
+sum: 430581816
+Threads: 15 ArraySize: 960 time: 13.32 s GOPS: 34.82
+sum: 430581816
+THREADS=16
+Threads: 16 ArraySize: 960 time: 13.77 s GOPS: 35.95
+sum: -1258699648
+Threads: 16 ArraySize: 960 time: 13.76 s GOPS: 35.96
+sum: -1258699648
+Threads: 16 ArraySize: 960 time: 13.76 s GOPS: 35.97
+sum: -1258699648
+Threads: 16 ArraySize: 960 time: 13.77 s GOPS: 35.94
+sum: -1258699648
+Threads: 16 ArraySize: 960 time: 13.74 s GOPS: 36.03
+sum: -1258699648
+THREADS=1
+Threads: 1 ArraySize: 1024 time: 6.59 s GOPS: 4.71
+sum: -1489280536
+Threads: 1 ArraySize: 1024 time: 6.60 s GOPS: 4.70
+sum: -1489280536
+Threads: 1 ArraySize: 1024 time: 6.60 s GOPS: 4.70
+sum: -1489280536
+Threads: 1 ArraySize: 1024 time: 6.60 s GOPS: 4.70
+sum: -1489280536
+Threads: 1 ArraySize: 1024 time: 6.59 s GOPS: 4.70
+sum: -1489280536
+THREADS=2
+Threads: 2 ArraySize: 1024 time: 6.81 s GOPS: 9.10
+sum: 1316406224
+Threads: 2 ArraySize: 1024 time: 6.80 s GOPS: 9.11
+sum: 1316406224
+Threads: 2 ArraySize: 1024 time: 6.81 s GOPS: 9.11
+sum: 1316406224
+Threads: 2 ArraySize: 1024 time: 6.81 s GOPS: 9.10
+sum: 1316406224
+Threads: 2 ArraySize: 1024 time: 6.81 s GOPS: 9.11
+sum: 1316406224
+THREADS=3
+Threads: 3 ArraySize: 1024 time: 7.01 s GOPS: 13.26
+sum: -172874312
+Threads: 3 ArraySize: 1024 time: 7.02 s GOPS: 13.25
+sum: -172874312
+Threads: 3 ArraySize: 1024 time: 7.03 s GOPS: 13.23
+sum: -172874312
+Threads: 3 ArraySize: 1024 time: 7.02 s GOPS: 13.24
+sum: -172874312
+Threads: 3 ArraySize: 1024 time: 7.02 s GOPS: 13.24
+sum: -172874312
+THREADS=4
+Threads: 4 ArraySize: 1024 time: 7.26 s GOPS: 17.09
+sum: -1662154848
+Threads: 4 ArraySize: 1024 time: 7.26 s GOPS: 17.09
+sum: -1662154848
+Threads: 4 ArraySize: 1024 time: 7.26 s GOPS: 17.08
+sum: -1662154848
+Threads: 4 ArraySize: 1024 time: 7.25 s GOPS: 17.09
+sum: -1662154848
+Threads: 4 ArraySize: 1024 time: 7.26 s GOPS: 17.08
+sum: -1662154848
+THREADS=5
+Threads: 5 ArraySize: 1024 time: 7.48 s GOPS: 20.73
+sum: 1143531912
+Threads: 5 ArraySize: 1024 time: 7.47 s GOPS: 20.74
+sum: 1143531912
+Threads: 5 ArraySize: 1024 time: 7.48 s GOPS: 20.73
+sum: 1143531912
+Threads: 5 ArraySize: 1024 time: 7.48 s GOPS: 20.71
+sum: 1143531912
+Threads: 5 ArraySize: 1024 time: 7.48 s GOPS: 20.72
+sum: 1143531912
+THREADS=6
+Threads: 6 ArraySize: 1024 time: 7.48 s GOPS: 24.86
+sum: -345748624
+Threads: 6 ArraySize: 1024 time: 7.48 s GOPS: 24.86
+sum: -345748624
+Threads: 6 ArraySize: 1024 time: 7.48 s GOPS: 24.87
+sum: -345748624
+Threads: 6 ArraySize: 1024 time: 7.48 s GOPS: 24.85
+sum: -345748624
+Threads: 6 ArraySize: 1024 time: 7.48 s GOPS: 24.86
+sum: -345748624
+THREADS=7
+Threads: 7 ArraySize: 1024 time: 7.48 s GOPS: 29.01
+sum: -1835029160
+Threads: 7 ArraySize: 1024 time: 7.48 s GOPS: 29.01
+sum: -1835029160
+Threads: 7 ArraySize: 1024 time: 7.48 s GOPS: 29.01
+sum: -1835029160
+Threads: 7 ArraySize: 1024 time: 7.48 s GOPS: 29.00
+sum: -1835029160
+Threads: 7 ArraySize: 1024 time: 7.48 s GOPS: 29.01
+sum: -1835029160
+THREADS=8
+Threads: 8 ArraySize: 1024 time: 7.49 s GOPS: 33.11
+sum: 970657600
+Threads: 8 ArraySize: 1024 time: 7.48 s GOPS: 33.15
+sum: 970657600
+Threads: 8 ArraySize: 1024 time: 7.49 s GOPS: 33.13
+sum: 970657600
+Threads: 8 ArraySize: 1024 time: 7.48 s GOPS: 33.15
+sum: 970657600
+Threads: 8 ArraySize: 1024 time: 7.49 s GOPS: 33.13
+sum: 970657600
+THREADS=9
+Threads: 9 ArraySize: 1024 time: 10.17 s GOPS: 27.42
+sum: -518622936
+Threads: 9 ArraySize: 1024 time: 10.67 s GOPS: 26.14
+sum: -518622936
+Threads: 9 ArraySize: 1024 time: 10.83 s GOPS: 25.77
+sum: -518622936
+Threads: 9 ArraySize: 1024 time: 11.18 s GOPS: 24.95
+sum: -518622936
+Threads: 9 ArraySize: 1024 time: 10.12 s GOPS: 27.56
+sum: -518622936
+THREADS=10
+Threads: 10 ArraySize: 1024 time: 10.92 s GOPS: 28.38
+sum: -2007903472
+Threads: 10 ArraySize: 1024 time: 10.65 s GOPS: 29.11
+sum: -2007903472
+Threads: 10 ArraySize: 1024 time: 11.19 s GOPS: 27.70
+sum: -2007903472
+Threads: 10 ArraySize: 1024 time: 10.97 s GOPS: 28.27
+sum: -2007903472
+Threads: 10 ArraySize: 1024 time: 10.35 s GOPS: 29.96
+sum: -2007903472
+THREADS=11
+Threads: 11 ArraySize: 1024 time: 11.44 s GOPS: 29.81
+sum: 797783288
+Threads: 11 ArraySize: 1024 time: 11.09 s GOPS: 30.75
+sum: 797783288
+Threads: 11 ArraySize: 1024 time: 11.85 s GOPS: 28.77
+sum: 797783288
+Threads: 11 ArraySize: 1024 time: 11.27 s GOPS: 30.25
+sum: 797783288
+Threads: 11 ArraySize: 1024 time: 11.64 s GOPS: 29.31
+sum: 797783288
+THREADS=12
+Threads: 12 ArraySize: 1024 time: 12.24 s GOPS: 30.38
+sum: -691497248
+Threads: 12 ArraySize: 1024 time: 12.55 s GOPS: 29.65
+sum: -691497248
+Threads: 12 ArraySize: 1024 time: 12.49 s GOPS: 29.79
+sum: -691497248
+Threads: 12 ArraySize: 1024 time: 12.89 s GOPS: 28.86
+sum: -691497248
+Threads: 12 ArraySize: 1024 time: 13.14 s GOPS: 28.31
+sum: -691497248
+THREADS=13
+Threads: 13 ArraySize: 1024 time: 12.95 s GOPS: 31.11
+sum: 2114189512
+Threads: 13 ArraySize: 1024 time: 13.33 s GOPS: 30.24
+sum: 2114189512
+Threads: 13 ArraySize: 1024 time: 12.97 s GOPS: 31.06
+sum: 2114189512
+Threads: 13 ArraySize: 1024 time: 13.29 s GOPS: 30.32
+sum: 2114189512
+Threads: 13 ArraySize: 1024 time: 12.88 s GOPS: 31.29
+sum: 2114189512
+THREADS=14
+Threads: 14 ArraySize: 1024 time: 13.63 s GOPS: 31.85
+sum: 624908976
+Threads: 14 ArraySize: 1024 time: 13.57 s GOPS: 31.98
+sum: 624908976
+Threads: 14 ArraySize: 1024 time: 13.62 s GOPS: 31.87
+sum: 624908976
+Threads: 14 ArraySize: 1024 time: 13.66 s GOPS: 31.78
+sum: 624908976
+Threads: 14 ArraySize: 1024 time: 12.95 s GOPS: 33.51
+sum: 624908976
+THREADS=15
+Threads: 15 ArraySize: 1024 time: 13.59 s GOPS: 34.22
+sum: -864371560
+Threads: 15 ArraySize: 1024 time: 13.59 s GOPS: 34.21
+sum: -864371560
+Threads: 15 ArraySize: 1024 time: 13.67 s GOPS: 34.01
+sum: -864371560
+Threads: 15 ArraySize: 1024 time: 13.65 s GOPS: 34.06
+sum: -864371560
+Threads: 15 ArraySize: 1024 time: 13.64 s GOPS: 34.08
+sum: -864371560
+THREADS=16
+Threads: 16 ArraySize: 1024 time: 13.78 s GOPS: 35.99
+sum: 1941315200
+Threads: 16 ArraySize: 1024 time: 13.76 s GOPS: 36.05
+sum: 1941315200
+Threads: 16 ArraySize: 1024 time: 13.82 s GOPS: 35.90
+sum: 1941315200
+Threads: 16 ArraySize: 1024 time: 13.81 s GOPS: 35.92
+sum: 1941315200
+Threads: 16 ArraySize: 1024 time: 13.78 s GOPS: 35.99
+sum: 1941315200
+THREADS=1
+Threads: 1 ArraySize: 1088 time: 6.61 s GOPS: 4.70
+sum: -1312810600
+Threads: 1 ArraySize: 1088 time: 6.61 s GOPS: 4.70
+sum: -1312810600
+Threads: 1 ArraySize: 1088 time: 6.62 s GOPS: 4.69
+sum: -1312810600
+Threads: 1 ArraySize: 1088 time: 6.61 s GOPS: 4.70
+sum: -1312810600
+Threads: 1 ArraySize: 1088 time: 6.62 s GOPS: 4.69
+sum: -1312810600
+THREADS=2
+Threads: 2 ArraySize: 1088 time: 6.83 s GOPS: 9.09
+sum: 1669346096
+Threads: 2 ArraySize: 1088 time: 6.83 s GOPS: 9.10
+sum: 1669346096
+Threads: 2 ArraySize: 1088 time: 6.84 s GOPS: 9.08
+sum: 1669346096
+Threads: 2 ArraySize: 1088 time: 6.84 s GOPS: 9.09
+sum: 1669346096
+Threads: 2 ArraySize: 1088 time: 6.84 s GOPS: 9.09
+sum: 1669346096
+THREADS=3
+Threads: 3 ArraySize: 1088 time: 7.04 s GOPS: 13.24
+sum: 356535496
+Threads: 3 ArraySize: 1088 time: 7.04 s GOPS: 13.23
+sum: 356535496
+Threads: 3 ArraySize: 1088 time: 7.04 s GOPS: 13.23
+sum: 356535496
+Threads: 3 ArraySize: 1088 time: 7.04 s GOPS: 13.23
+sum: 356535496
+Threads: 3 ArraySize: 1088 time: 7.04 s GOPS: 13.24
+sum: 356535496
+THREADS=4
+Threads: 4 ArraySize: 1088 time: 7.26 s GOPS: 17.11
+sum: -956275104
+Threads: 4 ArraySize: 1088 time: 7.26 s GOPS: 17.10
+sum: -956275104
+Threads: 4 ArraySize: 1088 time: 7.26 s GOPS: 17.11
+sum: -956275104
+Threads: 4 ArraySize: 1088 time: 7.27 s GOPS: 17.09
+sum: -956275104
+Threads: 4 ArraySize: 1088 time: 7.26 s GOPS: 17.11
+sum: -956275104
+THREADS=5
+Threads: 5 ArraySize: 1088 time: 7.50 s GOPS: 20.71
+sum: 2025881592
+Threads: 5 ArraySize: 1088 time: 7.50 s GOPS: 20.72
+sum: 2025881592
+Threads: 5 ArraySize: 1088 time: 7.50 s GOPS: 20.71
+sum: 2025881592
+Threads: 5 ArraySize: 1088 time: 7.50 s GOPS: 20.72
+sum: 2025881592
+Threads: 5 ArraySize: 1088 time: 7.50 s GOPS: 20.71
+sum: 2025881592
+THREADS=6
+Threads: 6 ArraySize: 1088 time: 7.50 s GOPS: 24.86
+sum: 713070992
+Threads: 6 ArraySize: 1088 time: 7.50 s GOPS: 24.84
+sum: 713070992
+Threads: 6 ArraySize: 1088 time: 7.50 s GOPS: 24.85
+sum: 713070992
+Threads: 6 ArraySize: 1088 time: 7.49 s GOPS: 24.87
+sum: 713070992
+Threads: 6 ArraySize: 1088 time: 7.49 s GOPS: 24.87
+sum: 713070992
+THREADS=7
+Threads: 7 ArraySize: 1088 time: 7.50 s GOPS: 29.00
+sum: -599739608
+Threads: 7 ArraySize: 1088 time: 7.50 s GOPS: 29.00
+sum: -599739608
+Threads: 7 ArraySize: 1088 time: 7.50 s GOPS: 29.00
+sum: -599739608
+Threads: 7 ArraySize: 1088 time: 7.50 s GOPS: 28.99
+sum: -599739608
+Threads: 7 ArraySize: 1088 time: 7.50 s GOPS: 28.99
+sum: -599739608
+THREADS=8
+Threads: 8 ArraySize: 1088 time: 7.50 s GOPS: 33.14
+sum: -1912550208
+Threads: 8 ArraySize: 1088 time: 7.50 s GOPS: 33.13
+sum: -1912550208
+Threads: 8 ArraySize: 1088 time: 7.50 s GOPS: 33.14
+sum: -1912550208
+Threads: 8 ArraySize: 1088 time: 7.50 s GOPS: 33.14
+sum: -1912550208
+Threads: 8 ArraySize: 1088 time: 7.50 s GOPS: 33.14
+sum: -1912550208
+THREADS=9
+Threads: 9 ArraySize: 1088 time: 10.80 s GOPS: 25.88
+sum: 1069606488
+Threads: 9 ArraySize: 1088 time: 9.79 s GOPS: 28.56
+sum: 1069606488
+Threads: 9 ArraySize: 1088 time: 10.98 s GOPS: 25.47
+sum: 1069606488
+Threads: 9 ArraySize: 1088 time: 11.27 s GOPS: 24.81
+sum: 1069606488
+Threads: 9 ArraySize: 1088 time: 9.60 s GOPS: 29.11
+sum: 1069606488
+THREADS=10
+Threads: 10 ArraySize: 1088 time: 11.55 s GOPS: 26.89
+sum: -243204112
+Threads: 10 ArraySize: 1088 time: 10.39 s GOPS: 29.89
+sum: -243204112
+Threads: 10 ArraySize: 1088 time: 11.37 s GOPS: 27.32
+sum: -243204112
+Threads: 10 ArraySize: 1088 time: 11.48 s GOPS: 27.07
+sum: -243204112
+Threads: 10 ArraySize: 1088 time: 11.81 s GOPS: 26.30
+sum: -243204112
+THREADS=11
+Threads: 11 ArraySize: 1088 time: 11.13 s GOPS: 30.69
+sum: -1556014712
+Threads: 11 ArraySize: 1088 time: 12.40 s GOPS: 27.55
+sum: -1556014712
+Threads: 11 ArraySize: 1088 time: 12.05 s GOPS: 28.35
+sum: -1556014712
+Threads: 11 ArraySize: 1088 time: 11.80 s GOPS: 28.96
+sum: -1556014712
+Threads: 11 ArraySize: 1088 time: 12.11 s GOPS: 28.22
+sum: -1556014712
+THREADS=12
+Threads: 12 ArraySize: 1088 time: 12.24 s GOPS: 30.46
+sum: 1426141984
+Threads: 12 ArraySize: 1088 time: 13.16 s GOPS: 28.33
+sum: 1426141984
+Threads: 12 ArraySize: 1088 time: 13.38 s GOPS: 27.85
+sum: 1426141984
+Threads: 12 ArraySize: 1088 time: 12.76 s GOPS: 29.20
+sum: 1426141984
+Threads: 12 ArraySize: 1088 time: 12.63 s GOPS: 29.51
+sum: 1426141984
+THREADS=13
+Threads: 13 ArraySize: 1088 time: 12.58 s GOPS: 32.09
+sum: 113331384
+Threads: 13 ArraySize: 1088 time: 13.40 s GOPS: 30.14
+sum: 113331384
+Threads: 13 ArraySize: 1088 time: 13.55 s GOPS: 29.81
+sum: 113331384
+Threads: 13 ArraySize: 1088 time: 13.28 s GOPS: 30.41
+sum: 113331384
+Threads: 13 ArraySize: 1088 time: 13.35 s GOPS: 30.25
+sum: 113331384
+THREADS=14
+Threads: 14 ArraySize: 1088 time: 13.52 s GOPS: 32.15
+sum: -1199479216
+Threads: 14 ArraySize: 1088 time: 13.23 s GOPS: 32.88
+sum: -1199479216
+Threads: 14 ArraySize: 1088 time: 13.27 s GOPS: 32.77
+sum: -1199479216
+Threads: 14 ArraySize: 1088 time: 13.00 s GOPS: 33.46
+sum: -1199479216
+Threads: 14 ArraySize: 1088 time: 13.71 s GOPS: 31.71
+sum: -1199479216
+THREADS=15
+Threads: 15 ArraySize: 1088 time: 13.57 s GOPS: 34.34
+sum: 1782677480
+Threads: 15 ArraySize: 1088 time: 13.77 s GOPS: 33.83
+sum: 1782677480
+Threads: 15 ArraySize: 1088 time: 13.72 s GOPS: 33.95
+sum: 1782677480
+Threads: 15 ArraySize: 1088 time: 13.76 s GOPS: 33.85
+sum: 1782677480
+Threads: 15 ArraySize: 1088 time: 13.60 s GOPS: 34.25
+sum: 1782677480
+THREADS=16
+Threads: 16 ArraySize: 1088 time: 13.89 s GOPS: 35.78
+sum: 469866880
+Threads: 16 ArraySize: 1088 time: 13.87 s GOPS: 35.82
+sum: 469866880
+Threads: 16 ArraySize: 1088 time: 13.91 s GOPS: 35.71
+sum: 469866880
+Threads: 16 ArraySize: 1088 time: 13.90 s GOPS: 35.76
+sum: 469866880
+Threads: 16 ArraySize: 1088 time: 13.85 s GOPS: 35.89
+sum: 469866880
+THREADS=1
+Threads: 1 ArraySize: 1152 time: 6.60 s GOPS: 4.72
+sum: -1155948136
+Threads: 1 ArraySize: 1152 time: 6.59 s GOPS: 4.72
+sum: -1155948136
+Threads: 1 ArraySize: 1152 time: 6.59 s GOPS: 4.72
+sum: -1155948136
+Threads: 1 ArraySize: 1152 time: 6.59 s GOPS: 4.72
+sum: -1155948136
+Threads: 1 ArraySize: 1152 time: 6.59 s GOPS: 4.72
+sum: -1155948136
+THREADS=2
+Threads: 2 ArraySize: 1152 time: 6.81 s GOPS: 9.14
+sum: 1983071024
+Threads: 2 ArraySize: 1152 time: 6.82 s GOPS: 9.13
+sum: 1983071024
+Threads: 2 ArraySize: 1152 time: 6.79 s GOPS: 9.16
+sum: 1983071024
+Threads: 2 ArraySize: 1152 time: 6.82 s GOPS: 9.13
+sum: 1983071024
+Threads: 2 ArraySize: 1152 time: 6.80 s GOPS: 9.15
+sum: 1983071024
+THREADS=3
+Threads: 3 ArraySize: 1152 time: 7.02 s GOPS: 13.30
+sum: 827122888
+Threads: 3 ArraySize: 1152 time: 7.02 s GOPS: 13.29
+sum: 827122888
+Threads: 3 ArraySize: 1152 time: 7.01 s GOPS: 13.30
+sum: 827122888
+Threads: 3 ArraySize: 1152 time: 7.01 s GOPS: 13.32
+sum: 827122888
+Threads: 3 ArraySize: 1152 time: 7.01 s GOPS: 13.31
+sum: 827122888
+THREADS=4
+Threads: 4 ArraySize: 1152 time: 7.24 s GOPS: 17.19
+sum: -328825248
+Threads: 4 ArraySize: 1152 time: 7.24 s GOPS: 17.18
+sum: -328825248
+Threads: 4 ArraySize: 1152 time: 7.24 s GOPS: 17.19
+sum: -328825248
+Threads: 4 ArraySize: 1152 time: 7.24 s GOPS: 17.18
+sum: -328825248
+Threads: 4 ArraySize: 1152 time: 7.24 s GOPS: 17.19
+sum: -328825248
+THREADS=5
+Threads: 5 ArraySize: 1152 time: 7.47 s GOPS: 20.83
+sum: -1484773384
+Threads: 5 ArraySize: 1152 time: 7.47 s GOPS: 20.83
+sum: -1484773384
+Threads: 5 ArraySize: 1152 time: 7.47 s GOPS: 20.83
+sum: -1484773384
+Threads: 5 ArraySize: 1152 time: 7.47 s GOPS: 20.83
+sum: -1484773384
+Threads: 5 ArraySize: 1152 time: 7.47 s GOPS: 20.82
+sum: -1484773384
+THREADS=6
+Threads: 6 ArraySize: 1152 time: 7.47 s GOPS: 24.98
+sum: 1654245776
+Threads: 6 ArraySize: 1152 time: 7.47 s GOPS: 24.99
+sum: 1654245776
+Threads: 6 ArraySize: 1152 time: 7.47 s GOPS: 24.99
+sum: 1654245776
+Threads: 6 ArraySize: 1152 time: 7.47 s GOPS: 24.99
+sum: 1654245776
+Threads: 6 ArraySize: 1152 time: 7.47 s GOPS: 24.99
+sum: 1654245776
+THREADS=7
+Threads: 7 ArraySize: 1152 time: 7.47 s GOPS: 29.15
+sum: 498297640
+Threads: 7 ArraySize: 1152 time: 7.47 s GOPS: 29.14
+sum: 498297640
+Threads: 7 ArraySize: 1152 time: 7.47 s GOPS: 29.16
+sum: 498297640
+Threads: 7 ArraySize: 1152 time: 7.47 s GOPS: 29.15
+sum: 498297640
+Threads: 7 ArraySize: 1152 time: 7.47 s GOPS: 29.15
+sum: 498297640
+THREADS=8
+Threads: 8 ArraySize: 1152 time: 7.48 s GOPS: 33.29
+sum: -657650496
+Threads: 8 ArraySize: 1152 time: 7.47 s GOPS: 33.30
+sum: -657650496
+Threads: 8 ArraySize: 1152 time: 7.47 s GOPS: 33.30
+sum: -657650496
+Threads: 8 ArraySize: 1152 time: 7.47 s GOPS: 33.31
+sum: -657650496
+Threads: 8 ArraySize: 1152 time: 7.48 s GOPS: 33.29
+sum: -657650496
+THREADS=9
+Threads: 9 ArraySize: 1152 time: 11.70 s GOPS: 23.94
+sum: -1813598632
+Threads: 9 ArraySize: 1152 time: 9.51 s GOPS: 29.45
+sum: -1813598632
+Threads: 9 ArraySize: 1152 time: 9.84 s GOPS: 28.45
+sum: -1813598632
+Threads: 9 ArraySize: 1152 time: 9.96 s GOPS: 28.13
+sum: -1813598632
+Threads: 9 ArraySize: 1152 time: 10.44 s GOPS: 26.81
+sum: -1813598632
+THREADS=10
+Threads: 10 ArraySize: 1152 time: 10.95 s GOPS: 28.40
+sum: 1325420528
+Threads: 10 ArraySize: 1152 time: 12.57 s GOPS: 24.74
+sum: 1325420528
+Threads: 10 ArraySize: 1152 time: 10.29 s GOPS: 30.25
+sum: 1325420528
+Threads: 10 ArraySize: 1152 time: 11.93 s GOPS: 26.09
+sum: 1325420528
+Threads: 10 ArraySize: 1152 time: 10.90 s GOPS: 28.55
+sum: 1325420528
+THREADS=11
+Threads: 11 ArraySize: 1152 time: 12.69 s GOPS: 26.96
+sum: 169472392
+Threads: 11 ArraySize: 1152 time: 12.19 s GOPS: 28.07
+sum: 169472392
+Threads: 11 ArraySize: 1152 time: 12.14 s GOPS: 28.18
+sum: 169472392
+Threads: 11 ArraySize: 1152 time: 13.24 s GOPS: 25.85
+sum: 169472392
+Threads: 11 ArraySize: 1152 time: 12.89 s GOPS: 26.55
+sum: 169472392
+THREADS=12
+Threads: 12 ArraySize: 1152 time: 12.52 s GOPS: 29.81
+sum: -986475744
+Threads: 12 ArraySize: 1152 time: 12.76 s GOPS: 29.25
+sum: -986475744
+Threads: 12 ArraySize: 1152 time: 12.37 s GOPS: 30.17
+sum: -986475744
+Threads: 12 ArraySize: 1152 time: 11.96 s GOPS: 31.21
+sum: -986475744
+Threads: 12 ArraySize: 1152 time: 13.06 s GOPS: 28.58
+sum: -986475744
+THREADS=13
+Threads: 13 ArraySize: 1152 time: 13.58 s GOPS: 29.79
+sum: -2142423880
+Threads: 13 ArraySize: 1152 time: 13.91 s GOPS: 29.07
+sum: -2142423880
+Threads: 13 ArraySize: 1152 time: 12.98 s GOPS: 31.17
+sum: -2142423880
+Threads: 13 ArraySize: 1152 time: 13.42 s GOPS: 30.13
+sum: -2142423880
+Threads: 13 ArraySize: 1152 time: 13.35 s GOPS: 30.29
+sum: -2142423880
+THREADS=14
+Threads: 14 ArraySize: 1152 time: 14.09 s GOPS: 30.91
+sum: 996595280
+Threads: 14 ArraySize: 1152 time: 14.02 s GOPS: 31.07
+sum: 996595280
+Threads: 14 ArraySize: 1152 time: 13.88 s GOPS: 31.37
+sum: 996595280
+Threads: 14 ArraySize: 1152 time: 14.09 s GOPS: 30.91
+sum: 996595280
+Threads: 14 ArraySize: 1152 time: 13.87 s GOPS: 31.41
+sum: 996595280
+THREADS=15
+Threads: 15 ArraySize: 1152 time: 14.15 s GOPS: 32.99
+sum: -159352856
+Threads: 15 ArraySize: 1152 time: 13.97 s GOPS: 33.39
+sum: -159352856
+Threads: 15 ArraySize: 1152 time: 14.19 s GOPS: 32.89
+sum: -159352856
+Threads: 15 ArraySize: 1152 time: 14.20 s GOPS: 32.88
+sum: -159352856
+Threads: 15 ArraySize: 1152 time: 14.19 s GOPS: 32.88
+sum: -159352856
+THREADS=16
+Threads: 16 ArraySize: 1152 time: 14.27 s GOPS: 34.87
+sum: -1315300992
+Threads: 16 ArraySize: 1152 time: 14.27 s GOPS: 34.89
+sum: -1315300992
+Threads: 16 ArraySize: 1152 time: 14.28 s GOPS: 34.87
+sum: -1315300992
+Threads: 16 ArraySize: 1152 time: 14.27 s GOPS: 34.87
+sum: -1315300992
+Threads: 16 ArraySize: 1152 time: 14.27 s GOPS: 34.88
+sum: -1315300992
+THREADS=1
+Threads: 1 ArraySize: 1216 time: 6.60 s GOPS: 4.72
+sum: -1015598008
+Threads: 1 ArraySize: 1216 time: 6.60 s GOPS: 4.72
+sum: -1015598008
+Threads: 1 ArraySize: 1216 time: 6.60 s GOPS: 4.72
+sum: -1015598008
+Threads: 1 ArraySize: 1216 time: 6.60 s GOPS: 4.72
+sum: -1015598008
+Threads: 1 ArraySize: 1216 time: 6.60 s GOPS: 4.72
+sum: -1015598008
+THREADS=2
+Threads: 2 ArraySize: 1216 time: 6.81 s GOPS: 9.15
+sum: -2031196016
+Threads: 2 ArraySize: 1216 time: 6.82 s GOPS: 9.14
+sum: -2031196016
+Threads: 2 ArraySize: 1216 time: 6.81 s GOPS: 9.15
+sum: -2031196016
+Threads: 2 ArraySize: 1216 time: 6.81 s GOPS: 9.16
+sum: -2031196016
+Threads: 2 ArraySize: 1216 time: 6.81 s GOPS: 9.15
+sum: -2031196016
+THREADS=3
+Threads: 3 ArraySize: 1216 time: 7.02 s GOPS: 13.31
+sum: 1248173272
+Threads: 3 ArraySize: 1216 time: 7.03 s GOPS: 13.30
+sum: 1248173272
+Threads: 3 ArraySize: 1216 time: 7.02 s GOPS: 13.32
+sum: 1248173272
+Threads: 3 ArraySize: 1216 time: 7.02 s GOPS: 13.31
+sum: 1248173272
+Threads: 3 ArraySize: 1216 time: 7.02 s GOPS: 13.31
+sum: 1248173272
+THREADS=4
+Threads: 4 ArraySize: 1216 time: 7.25 s GOPS: 17.19
+sum: 232575264
+Threads: 4 ArraySize: 1216 time: 7.25 s GOPS: 17.19
+sum: 232575264
+Threads: 4 ArraySize: 1216 time: 7.25 s GOPS: 17.19
+sum: 232575264
+Threads: 4 ArraySize: 1216 time: 7.25 s GOPS: 17.20
+sum: 232575264
+Threads: 4 ArraySize: 1216 time: 7.25 s GOPS: 17.20
+sum: 232575264
+THREADS=5
+Threads: 5 ArraySize: 1216 time: 7.48 s GOPS: 20.82
+sum: -783022744
+Threads: 5 ArraySize: 1216 time: 7.48 s GOPS: 20.83
+sum: -783022744
+Threads: 5 ArraySize: 1216 time: 7.48 s GOPS: 20.82
+sum: -783022744
+Threads: 5 ArraySize: 1216 time: 7.48 s GOPS: 20.83
+sum: -783022744
+Threads: 5 ArraySize: 1216 time: 7.48 s GOPS: 20.82
+sum: -783022744
+THREADS=6
+Threads: 6 ArraySize: 1216 time: 7.48 s GOPS: 24.99
+sum: -1798620752
+Threads: 6 ArraySize: 1216 time: 7.47 s GOPS: 25.01
+sum: -1798620752
+Threads: 6 ArraySize: 1216 time: 7.48 s GOPS: 25.00
+sum: -1798620752
+Threads: 6 ArraySize: 1216 time: 7.47 s GOPS: 25.01
+sum: -1798620752
+Threads: 6 ArraySize: 1216 time: 7.48 s GOPS: 24.99
+sum: -1798620752
+THREADS=7
+Threads: 7 ArraySize: 1216 time: 7.48 s GOPS: 29.16
+sum: 1480748536
+Threads: 7 ArraySize: 1216 time: 7.48 s GOPS: 29.16
+sum: 1480748536
+Threads: 7 ArraySize: 1216 time: 7.49 s GOPS: 29.13
+sum: 1480748536
+Threads: 7 ArraySize: 1216 time: 7.48 s GOPS: 29.15
+sum: 1480748536
+Threads: 7 ArraySize: 1216 time: 7.48 s GOPS: 29.15
+sum: 1480748536
+THREADS=8
+Threads: 8 ArraySize: 1216 time: 7.48 s GOPS: 33.30
+sum: 465150528
+Threads: 8 ArraySize: 1216 time: 7.48 s GOPS: 33.31
+sum: 465150528
+Threads: 8 ArraySize: 1216 time: 7.48 s GOPS: 33.32
+sum: 465150528
+Threads: 8 ArraySize: 1216 time: 7.48 s GOPS: 33.32
+sum: 465150528
+Threads: 8 ArraySize: 1216 time: 7.48 s GOPS: 33.30
+sum: 465150528
+THREADS=9
+Threads: 9 ArraySize: 1216 time: 10.53 s GOPS: 26.64
+sum: -550447480
+Threads: 9 ArraySize: 1216 time: 10.28 s GOPS: 27.28
+sum: -550447480
+Threads: 9 ArraySize: 1216 time: 10.95 s GOPS: 25.62
+sum: -550447480
+Threads: 9 ArraySize: 1216 time: 10.75 s GOPS: 26.09
+sum: -550447480
+Threads: 9 ArraySize: 1216 time: 10.04 s GOPS: 27.93
+sum: -550447480
+THREADS=10
+Threads: 10 ArraySize: 1216 time: 12.76 s GOPS: 24.43
+sum: -1566045488
+Threads: 10 ArraySize: 1216 time: 10.72 s GOPS: 29.05
+sum: -1566045488
+Threads: 10 ArraySize: 1216 time: 11.36 s GOPS: 27.43
+sum: -1566045488
+Threads: 10 ArraySize: 1216 time: 11.88 s GOPS: 26.23
+sum: -1566045488
+Threads: 10 ArraySize: 1216 time: 11.70 s GOPS: 26.62
+sum: -1566045488
+THREADS=11
+Threads: 11 ArraySize: 1216 time: 11.32 s GOPS: 30.27
+sum: 1713323800
+Threads: 11 ArraySize: 1216 time: 11.25 s GOPS: 30.47
+sum: 1713323800
+Threads: 11 ArraySize: 1216 time: 10.91 s GOPS: 31.42
+sum: 1713323800
+Threads: 11 ArraySize: 1216 time: 11.19 s GOPS: 30.64
+sum: 1713323800
+Threads: 11 ArraySize: 1216 time: 11.60 s GOPS: 29.56
+sum: 1713323800
+THREADS=12
+Threads: 12 ArraySize: 1216 time: 11.98 s GOPS: 31.21
+sum: 697725792
+Threads: 12 ArraySize: 1216 time: 12.68 s GOPS: 29.49
+sum: 697725792
+Threads: 12 ArraySize: 1216 time: 13.02 s GOPS: 28.71
+sum: 697725792
+Threads: 12 ArraySize: 1216 time: 12.56 s GOPS: 29.77
+sum: 697725792
+Threads: 12 ArraySize: 1216 time: 12.26 s GOPS: 30.49
+sum: 697725792
+THREADS=13
+Threads: 13 ArraySize: 1216 time: 12.61 s GOPS: 32.12
+sum: -317872216
+Threads: 13 ArraySize: 1216 time: 13.27 s GOPS: 30.52
+sum: -317872216
+Threads: 13 ArraySize: 1216 time: 13.17 s GOPS: 30.75
+sum: -317872216
+Threads: 13 ArraySize: 1216 time: 13.06 s GOPS: 31.02
+sum: -317872216
+Threads: 13 ArraySize: 1216 time: 12.56 s GOPS: 32.26
+sum: -317872216
+THREADS=14
+Threads: 14 ArraySize: 1216 time: 13.63 s GOPS: 32.01
+sum: -1333470224
+Threads: 14 ArraySize: 1216 time: 13.19 s GOPS: 33.06
+sum: -1333470224
+Threads: 14 ArraySize: 1216 time: 13.03 s GOPS: 33.48
+sum: -1333470224
+Threads: 14 ArraySize: 1216 time: 13.60 s GOPS: 32.07
+sum: -1333470224
+Threads: 14 ArraySize: 1216 time: 13.69 s GOPS: 31.87
+sum: -1333470224
+THREADS=15
+Threads: 15 ArraySize: 1216 time: 13.72 s GOPS: 34.07
+sum: 1945899064
+Threads: 15 ArraySize: 1216 time: 13.74 s GOPS: 34.02
+sum: 1945899064
+Threads: 15 ArraySize: 1216 time: 13.63 s GOPS: 34.28
+sum: 1945899064
+Threads: 15 ArraySize: 1216 time: 13.79 s GOPS: 33.90
+sum: 1945899064
+Threads: 15 ArraySize: 1216 time: 13.74 s GOPS: 34.01
+sum: 1945899064
+THREADS=16
+Threads: 16 ArraySize: 1216 time: 13.84 s GOPS: 36.03
+sum: 930301056
+Threads: 16 ArraySize: 1216 time: 13.84 s GOPS: 36.02
+sum: 930301056
+Threads: 16 ArraySize: 1216 time: 13.85 s GOPS: 35.99
+sum: 930301056
+Threads: 16 ArraySize: 1216 time: 13.85 s GOPS: 36.00
+sum: 930301056
+Threads: 16 ArraySize: 1216 time: 13.84 s GOPS: 36.02
+sum: 930301056
+THREADS=1
+Threads: 1 ArraySize: 1280 time: 6.59 s GOPS: 4.74
+sum: -889280536
+Threads: 1 ArraySize: 1280 time: 6.59 s GOPS: 4.74
+sum: -889280536
+Threads: 1 ArraySize: 1280 time: 6.58 s GOPS: 4.74
+sum: -889280536
+Threads: 1 ArraySize: 1280 time: 6.59 s GOPS: 4.73
+sum: -889280536
+Threads: 1 ArraySize: 1280 time: 6.59 s GOPS: 4.74
+sum: -889280536
+THREADS=2
+Threads: 2 ArraySize: 1280 time: 6.80 s GOPS: 9.17
+sum: -1778561072
+Threads: 2 ArraySize: 1280 time: 6.80 s GOPS: 9.17
+sum: -1778561072
+Threads: 2 ArraySize: 1280 time: 6.79 s GOPS: 9.19
+sum: -1778561072
+Threads: 2 ArraySize: 1280 time: 6.80 s GOPS: 9.18
+sum: -1778561072
+Threads: 2 ArraySize: 1280 time: 6.80 s GOPS: 9.17
+sum: -1778561072
+THREADS=3
+Threads: 3 ArraySize: 1280 time: 7.01 s GOPS: 13.35
+sum: 1627125688
+Threads: 3 ArraySize: 1280 time: 7.01 s GOPS: 13.36
+sum: 1627125688
+Threads: 3 ArraySize: 1280 time: 7.01 s GOPS: 13.36
+sum: 1627125688
+Threads: 3 ArraySize: 1280 time: 7.01 s GOPS: 13.36
+sum: 1627125688
+Threads: 3 ArraySize: 1280 time: 7.01 s GOPS: 13.36
+sum: 1627125688
+THREADS=4
+Threads: 4 ArraySize: 1280 time: 7.24 s GOPS: 17.25
+sum: 737845152
+Threads: 4 ArraySize: 1280 time: 7.23 s GOPS: 17.25
+sum: 737845152
+Threads: 4 ArraySize: 1280 time: 7.24 s GOPS: 17.25
+sum: 737845152
+Threads: 4 ArraySize: 1280 time: 7.24 s GOPS: 17.25
+sum: 737845152
+Threads: 4 ArraySize: 1280 time: 7.23 s GOPS: 17.26
+sum: 737845152
+THREADS=5
+Threads: 5 ArraySize: 1280 time: 7.46 s GOPS: 20.91
+sum: -151435384
+Threads: 5 ArraySize: 1280 time: 7.91 s GOPS: 19.72
+sum: -151435384
+Threads: 5 ArraySize: 1280 time: 7.46 s GOPS: 20.91
+sum: -151435384
+Threads: 5 ArraySize: 1280 time: 7.46 s GOPS: 20.90
+sum: -151435384
+Threads: 5 ArraySize: 1280 time: 7.46 s GOPS: 20.91
+sum: -151435384
+THREADS=6
+Threads: 6 ArraySize: 1280 time: 7.46 s GOPS: 25.08
+sum: -1040715920
+Threads: 6 ArraySize: 1280 time: 7.46 s GOPS: 25.09
+sum: -1040715920
+Threads: 6 ArraySize: 1280 time: 7.46 s GOPS: 25.09
+sum: -1040715920
+Threads: 6 ArraySize: 1280 time: 7.46 s GOPS: 25.08
+sum: -1040715920
+Threads: 6 ArraySize: 1280 time: 7.46 s GOPS: 25.08
+sum: -1040715920
+THREADS=7
+Threads: 7 ArraySize: 1280 time: 7.47 s GOPS: 29.25
+sum: -1929996456
+Threads: 7 ArraySize: 1280 time: 7.46 s GOPS: 29.27
+sum: -1929996456
+Threads: 7 ArraySize: 1280 time: 7.46 s GOPS: 29.26
+sum: -1929996456
+Threads: 7 ArraySize: 1280 time: 7.46 s GOPS: 29.26
+sum: -1929996456
+Threads: 7 ArraySize: 1280 time: 7.46 s GOPS: 29.27
+sum: -1929996456
+THREADS=8
+Threads: 8 ArraySize: 1280 time: 7.46 s GOPS: 33.45
+sum: 1475690304
+Threads: 8 ArraySize: 1280 time: 7.47 s GOPS: 33.43
+sum: 1475690304
+Threads: 8 ArraySize: 1280 time: 7.46 s GOPS: 33.44
+sum: 1475690304
+Threads: 8 ArraySize: 1280 time: 7.46 s GOPS: 33.44
+sum: 1475690304
+Threads: 8 ArraySize: 1280 time: 7.46 s GOPS: 33.44
+sum: 1475690304
+THREADS=9
+Threads: 9 ArraySize: 1280 time: 11.15 s GOPS: 25.17
+sum: 586409768
+Threads: 9 ArraySize: 1280 time: 10.01 s GOPS: 28.06
+sum: 586409768
+Threads: 9 ArraySize: 1280 time: 10.21 s GOPS: 27.51
+sum: 586409768
+Threads: 9 ArraySize: 1280 time: 11.24 s GOPS: 24.99
+sum: 586409768
+Threads: 9 ArraySize: 1280 time: 10.10 s GOPS: 27.81
+sum: 586409768
+THREADS=10
+Threads: 10 ArraySize: 1280 time: 11.23 s GOPS: 27.77
+sum: -302870768
+Threads: 10 ArraySize: 1280 time: 10.92 s GOPS: 28.56
+sum: -302870768
+Threads: 10 ArraySize: 1280 time: 11.21 s GOPS: 27.84
+sum: -302870768
+Threads: 10 ArraySize: 1280 time: 11.20 s GOPS: 27.86
+sum: -302870768
+Threads: 10 ArraySize: 1280 time: 10.87 s GOPS: 28.71
+sum: -302870768
+THREADS=11
+Threads: 11 ArraySize: 1280 time: 11.93 s GOPS: 28.77
+sum: -1192151304
+Threads: 11 ArraySize: 1280 time: 11.41 s GOPS: 30.09
+sum: -1192151304
+Threads: 11 ArraySize: 1280 time: 11.05 s GOPS: 31.07
+sum: -1192151304
+Threads: 11 ArraySize: 1280 time: 12.06 s GOPS: 28.46
+sum: -1192151304
+Threads: 11 ArraySize: 1280 time: 11.98 s GOPS: 28.65
+sum: -1192151304
+THREADS=12
+Threads: 12 ArraySize: 1280 time: 12.21 s GOPS: 30.67
+sum: -2081431840
+Threads: 12 ArraySize: 1280 time: 12.57 s GOPS: 29.78
+sum: -2081431840
+Threads: 12 ArraySize: 1280 time: 12.84 s GOPS: 29.15
+sum: -2081431840
+Threads: 12 ArraySize: 1280 time: 12.73 s GOPS: 29.42
+sum: -2081431840
+Threads: 12 ArraySize: 1280 time: 12.88 s GOPS: 29.07
+sum: -2081431840
+THREADS=13
+Threads: 13 ArraySize: 1280 time: 12.60 s GOPS: 32.19
+sum: 1324254920
+Threads: 13 ArraySize: 1280 time: 13.11 s GOPS: 30.94
+sum: 1324254920
+Threads: 13 ArraySize: 1280 time: 13.13 s GOPS: 30.88
+sum: 1324254920
+Threads: 13 ArraySize: 1280 time: 13.06 s GOPS: 31.05
+sum: 1324254920
+Threads: 13 ArraySize: 1280 time: 13.42 s GOPS: 30.22
+sum: 1324254920
+THREADS=14
+Threads: 14 ArraySize: 1280 time: 13.70 s GOPS: 31.89
+sum: 434974384
+Threads: 14 ArraySize: 1280 time: 13.56 s GOPS: 32.22
+sum: 434974384
+Threads: 14 ArraySize: 1280 time: 13.73 s GOPS: 31.81
+sum: 434974384
+Threads: 14 ArraySize: 1280 time: 13.35 s GOPS: 32.71
+sum: 434974384
+Threads: 14 ArraySize: 1280 time: 13.49 s GOPS: 32.39
+sum: 434974384
+THREADS=15
+Threads: 15 ArraySize: 1280 time: 13.76 s GOPS: 34.02
+sum: -454306152
+Threads: 15 ArraySize: 1280 time: 13.72 s GOPS: 34.11
+sum: -454306152
+Threads: 15 ArraySize: 1280 time: 13.74 s GOPS: 34.06
+sum: -454306152
+Threads: 15 ArraySize: 1280 time: 13.75 s GOPS: 34.04
+sum: -454306152
+Threads: 15 ArraySize: 1280 time: 13.76 s GOPS: 34.01
+sum: -454306152
+THREADS=16
+Threads: 16 ArraySize: 1280 time: 13.87 s GOPS: 35.99
+sum: -1343586688
+Threads: 16 ArraySize: 1280 time: 13.86 s GOPS: 36.03
+sum: -1343586688
+Threads: 16 ArraySize: 1280 time: 13.84 s GOPS: 36.06
+sum: -1343586688
+Threads: 16 ArraySize: 1280 time: 13.87 s GOPS: 36.00
+sum: -1343586688
+Threads: 16 ArraySize: 1280 time: 13.88 s GOPS: 35.97
+sum: -1343586688
+THREADS=1
+Threads: 1 ArraySize: 1344 time: 6.58 s GOPS: 4.74
+sum: -774996040
+Threads: 1 ArraySize: 1344 time: 6.58 s GOPS: 4.75
+sum: -774996040
+Threads: 1 ArraySize: 1344 time: 6.58 s GOPS: 4.75
+sum: -774996040
+Threads: 1 ArraySize: 1344 time: 6.58 s GOPS: 4.75
+sum: -774996040
+Threads: 1 ArraySize: 1344 time: 6.59 s GOPS: 4.74
+sum: -774996040
+THREADS=2
+Threads: 2 ArraySize: 1344 time: 6.80 s GOPS: 9.19
+sum: -1549992080
+Threads: 2 ArraySize: 1344 time: 6.80 s GOPS: 9.19
+sum: -1549992080
+Threads: 2 ArraySize: 1344 time: 6.79 s GOPS: 9.20
+sum: -1549992080
+Threads: 2 ArraySize: 1344 time: 6.80 s GOPS: 9.19
+sum: -1549992080
+Threads: 2 ArraySize: 1344 time: 6.80 s GOPS: 9.19
+sum: -1549992080
+THREADS=3
+Threads: 3 ArraySize: 1344 time: 7.00 s GOPS: 13.39
+sum: 1969979176
+Threads: 3 ArraySize: 1344 time: 7.00 s GOPS: 13.38
+sum: 1969979176
+Threads: 3 ArraySize: 1344 time: 7.00 s GOPS: 13.39
+sum: 1969979176
+Threads: 3 ArraySize: 1344 time: 7.00 s GOPS: 13.39
+sum: 1969979176
+Threads: 3 ArraySize: 1344 time: 7.00 s GOPS: 13.38
+sum: 1969979176
+THREADS=4
+Threads: 4 ArraySize: 1344 time: 7.22 s GOPS: 17.30
+sum: 1194983136
+Threads: 4 ArraySize: 1344 time: 7.23 s GOPS: 17.28
+sum: 1194983136
+Threads: 4 ArraySize: 1344 time: 7.23 s GOPS: 17.29
+sum: 1194983136
+Threads: 4 ArraySize: 1344 time: 7.22 s GOPS: 17.30
+sum: 1194983136
+Threads: 4 ArraySize: 1344 time: 7.22 s GOPS: 17.30
+sum: 1194983136
+THREADS=5
+Threads: 5 ArraySize: 1344 time: 7.46 s GOPS: 20.95
+sum: 419987096
+Threads: 5 ArraySize: 1344 time: 7.45 s GOPS: 20.96
+sum: 419987096
+Threads: 5 ArraySize: 1344 time: 7.45 s GOPS: 20.95
+sum: 419987096
+Threads: 5 ArraySize: 1344 time: 7.46 s GOPS: 20.95
+sum: 419987096
+Threads: 5 ArraySize: 1344 time: 7.45 s GOPS: 20.96
+sum: 419987096
+THREADS=6
+Threads: 6 ArraySize: 1344 time: 7.46 s GOPS: 25.13
+sum: -355008944
+Threads: 6 ArraySize: 1344 time: 7.45 s GOPS: 25.14
+sum: -355008944
+Threads: 6 ArraySize: 1344 time: 7.46 s GOPS: 25.14
+sum: -355008944
+Threads: 6 ArraySize: 1344 time: 7.46 s GOPS: 25.13
+sum: -355008944
+Threads: 6 ArraySize: 1344 time: 7.46 s GOPS: 25.13
+sum: -355008944
+THREADS=7
+Threads: 7 ArraySize: 1344 time: 7.46 s GOPS: 29.33
+sum: -1130004984
+Threads: 7 ArraySize: 1344 time: 7.46 s GOPS: 29.32
+sum: -1130004984
+Threads: 7 ArraySize: 1344 time: 7.46 s GOPS: 29.32
+sum: -1130004984
+Threads: 7 ArraySize: 1344 time: 7.45 s GOPS: 29.34
+sum: -1130004984
+Threads: 7 ArraySize: 1344 time: 7.46 s GOPS: 29.33
+sum: -1130004984
+THREADS=8
+Threads: 8 ArraySize: 1344 time: 7.45 s GOPS: 33.52
+sum: -1905001024
+Threads: 8 ArraySize: 1344 time: 7.46 s GOPS: 33.51
+sum: -1905001024
+Threads: 8 ArraySize: 1344 time: 7.46 s GOPS: 33.52
+sum: -1905001024
+Threads: 8 ArraySize: 1344 time: 7.46 s GOPS: 33.50
+sum: -1905001024
+Threads: 8 ArraySize: 1344 time: 7.46 s GOPS: 33.50
+sum: -1905001024
+THREADS=9
+Threads: 9 ArraySize: 1344 time: 9.50 s GOPS: 29.58
+sum: 1614970232
+Threads: 9 ArraySize: 1344 time: 10.23 s GOPS: 27.49
+sum: 1614970232
+Threads: 9 ArraySize: 1344 time: 11.15 s GOPS: 25.21
+sum: 1614970232
+Threads: 9 ArraySize: 1344 time: 9.74 s GOPS: 28.86
+sum: 1614970232
+Threads: 9 ArraySize: 1344 time: 9.60 s GOPS: 29.27
+sum: 1614970232
+THREADS=10
+Threads: 10 ArraySize: 1344 time: 10.94 s GOPS: 28.56
+sum: 839974192
+Threads: 10 ArraySize: 1344 time: 11.47 s GOPS: 27.24
+sum: 839974192
+Threads: 10 ArraySize: 1344 time: 10.84 s GOPS: 28.83
+sum: 839974192
+Threads: 10 ArraySize: 1344 time: 12.50 s GOPS: 24.99
+sum: 839974192
+Threads: 10 ArraySize: 1344 time: 11.14 s GOPS: 28.04
+sum: 839974192
+THREADS=11
+Threads: 11 ArraySize: 1344 time: 11.29 s GOPS: 30.44
+sum: 64978152
+Threads: 11 ArraySize: 1344 time: 13.28 s GOPS: 25.88
+sum: 64978152
+Threads: 11 ArraySize: 1344 time: 12.28 s GOPS: 27.98
+sum: 64978152
+Threads: 11 ArraySize: 1344 time: 11.87 s GOPS: 28.94
+sum: 64978152
+Threads: 11 ArraySize: 1344 time: 12.08 s GOPS: 28.45
+sum: 64978152
+THREADS=12
+Threads: 12 ArraySize: 1344 time: 12.96 s GOPS: 28.93
+sum: -710017888
+Threads: 12 ArraySize: 1344 time: 12.54 s GOPS: 29.89
+sum: -710017888
+Threads: 12 ArraySize: 1344 time: 11.74 s GOPS: 31.94
+sum: -710017888
+Threads: 12 ArraySize: 1344 time: 12.39 s GOPS: 30.26
+sum: -710017888
+Threads: 12 ArraySize: 1344 time: 12.21 s GOPS: 30.70
+sum: -710017888
+THREADS=13
+Threads: 13 ArraySize: 1344 time: 12.22 s GOPS: 33.22
+sum: -1485013928
+Threads: 13 ArraySize: 1344 time: 13.59 s GOPS: 29.87
+sum: -1485013928
+Threads: 13 ArraySize: 1344 time: 13.17 s GOPS: 30.84
+sum: -1485013928
+Threads: 13 ArraySize: 1344 time: 13.15 s GOPS: 30.89
+sum: -1485013928
+Threads: 13 ArraySize: 1344 time: 12.64 s GOPS: 32.13
+sum: -1485013928
+THREADS=14
+Threads: 14 ArraySize: 1344 time: 13.68 s GOPS: 31.96
+sum: 2034957328
+Threads: 14 ArraySize: 1344 time: 13.58 s GOPS: 32.21
+sum: 2034957328
+Threads: 14 ArraySize: 1344 time: 13.19 s GOPS: 33.16
+sum: 2034957328
+Threads: 14 ArraySize: 1344 time: 13.42 s GOPS: 32.60
+sum: 2034957328
+Threads: 14 ArraySize: 1344 time: 13.35 s GOPS: 32.76
+sum: 2034957328
+THREADS=15
+Threads: 15 ArraySize: 1344 time: 13.76 s GOPS: 34.05
+sum: 1259961288
+Threads: 15 ArraySize: 1344 time: 13.68 s GOPS: 34.25
+sum: 1259961288
+Threads: 15 ArraySize: 1344 time: 13.78 s GOPS: 34.00
+sum: 1259961288
+Threads: 15 ArraySize: 1344 time: 13.76 s GOPS: 34.06
+sum: 1259961288
+Threads: 15 ArraySize: 1344 time: 13.80 s GOPS: 33.96
+sum: 1259961288
+THREADS=16
+Threads: 16 ArraySize: 1344 time: 13.88 s GOPS: 36.01
+sum: 484965248
+Threads: 16 ArraySize: 1344 time: 13.82 s GOPS: 36.16
+sum: 484965248
+Threads: 16 ArraySize: 1344 time: 13.87 s GOPS: 36.03
+sum: 484965248
+Threads: 16 ArraySize: 1344 time: 13.86 s GOPS: 36.05
+sum: 484965248
+Threads: 16 ArraySize: 1344 time: 13.85 s GOPS: 36.07
+sum: 484965248
+THREADS=1
+Threads: 1 ArraySize: 1408 time: 6.59 s GOPS: 4.75
+sum: -671099656
+Threads: 1 ArraySize: 1408 time: 6.58 s GOPS: 4.75
+sum: -671099656
+Threads: 1 ArraySize: 1408 time: 6.58 s GOPS: 4.75
+sum: -671099656
+Threads: 1 ArraySize: 1408 time: 6.59 s GOPS: 4.75
+sum: -671099656
+Threads: 1 ArraySize: 1408 time: 6.58 s GOPS: 4.75
+sum: -671099656
+THREADS=2
+Threads: 2 ArraySize: 1408 time: 6.79 s GOPS: 9.21
+sum: -1342199312
+Threads: 2 ArraySize: 1408 time: 6.80 s GOPS: 9.20
+sum: -1342199312
+Threads: 2 ArraySize: 1408 time: 6.80 s GOPS: 9.20
+sum: -1342199312
+Threads: 2 ArraySize: 1408 time: 6.80 s GOPS: 9.20
+sum: -1342199312
+Threads: 2 ArraySize: 1408 time: 6.80 s GOPS: 9.20
+sum: -1342199312
+THREADS=3
+Threads: 3 ArraySize: 1408 time: 7.01 s GOPS: 13.39
+sum: -2013298968
+Threads: 3 ArraySize: 1408 time: 7.00 s GOPS: 13.39
+sum: -2013298968
+Threads: 3 ArraySize: 1408 time: 7.01 s GOPS: 13.39
+sum: -2013298968
+Threads: 3 ArraySize: 1408 time: 7.01 s GOPS: 13.39
+sum: -2013298968
+Threads: 3 ArraySize: 1408 time: 7.00 s GOPS: 13.40
+sum: -2013298968
+THREADS=4
+Threads: 4 ArraySize: 1408 time: 7.23 s GOPS: 17.29
+sum: 1610568672
+Threads: 4 ArraySize: 1408 time: 7.23 s GOPS: 17.29
+sum: 1610568672
+Threads: 4 ArraySize: 1408 time: 7.23 s GOPS: 17.30
+sum: 1610568672
+Threads: 4 ArraySize: 1408 time: 7.23 s GOPS: 17.29
+sum: 1610568672
+Threads: 4 ArraySize: 1408 time: 7.24 s GOPS: 17.29
+sum: 1610568672
+THREADS=5
+Threads: 5 ArraySize: 1408 time: 7.46 s GOPS: 20.95
+sum: 939469016
+Threads: 5 ArraySize: 1408 time: 7.46 s GOPS: 20.97
+sum: 939469016
+Threads: 5 ArraySize: 1408 time: 7.46 s GOPS: 20.96
+sum: 939469016
+Threads: 5 ArraySize: 1408 time: 7.46 s GOPS: 20.97
+sum: 939469016
+Threads: 5 ArraySize: 1408 time: 7.47 s GOPS: 20.93
+sum: 939469016
+THREADS=6
+Threads: 6 ArraySize: 1408 time: 7.46 s GOPS: 25.17
+sum: 268369360
+Threads: 6 ArraySize: 1408 time: 7.46 s GOPS: 25.16
+sum: 268369360
+Threads: 6 ArraySize: 1408 time: 7.46 s GOPS: 25.15
+sum: 268369360
+Threads: 6 ArraySize: 1408 time: 7.46 s GOPS: 25.15
+sum: 268369360
+Threads: 6 ArraySize: 1408 time: 7.46 s GOPS: 25.15
+sum: 268369360
+THREADS=7
+Threads: 7 ArraySize: 1408 time: 7.46 s GOPS: 29.33
+sum: -402730296
+Threads: 7 ArraySize: 1408 time: 7.46 s GOPS: 29.33
+sum: -402730296
+Threads: 7 ArraySize: 1408 time: 7.46 s GOPS: 29.33
+sum: -402730296
+Threads: 7 ArraySize: 1408 time: 7.46 s GOPS: 29.35
+sum: -402730296
+Threads: 7 ArraySize: 1408 time: 7.46 s GOPS: 29.34
+sum: -402730296
+THREADS=8
+Threads: 8 ArraySize: 1408 time: 7.46 s GOPS: 33.55
+sum: -1073829952
+Threads: 8 ArraySize: 1408 time: 7.46 s GOPS: 33.55
+sum: -1073829952
+Threads: 8 ArraySize: 1408 time: 7.46 s GOPS: 33.55
+sum: -1073829952
+Threads: 8 ArraySize: 1408 time: 7.46 s GOPS: 33.55
+sum: -1073829952
+Threads: 8 ArraySize: 1408 time: 7.46 s GOPS: 33.53
+sum: -1073829952
+THREADS=9
+Threads: 9 ArraySize: 1408 time: 10.83 s GOPS: 26.00
+sum: -1744929608
+Threads: 9 ArraySize: 1408 time: 10.13 s GOPS: 27.79
+sum: -1744929608
+Threads: 9 ArraySize: 1408 time: 9.06 s GOPS: 31.07
+sum: -1744929608
+Threads: 9 ArraySize: 1408 time: 12.23 s GOPS: 23.02
+sum: -1744929608
+Threads: 9 ArraySize: 1408 time: 9.76 s GOPS: 28.85
+sum: -1744929608
+THREADS=10
+Threads: 10 ArraySize: 1408 time: 10.85 s GOPS: 28.81
+sum: 1878938032
+Threads: 10 ArraySize: 1408 time: 11.38 s GOPS: 27.49
+sum: 1878938032
+Threads: 10 ArraySize: 1408 time: 11.86 s GOPS: 26.37
+sum: 1878938032
+Threads: 10 ArraySize: 1408 time: 11.21 s GOPS: 27.89
+sum: 1878938032
+Threads: 10 ArraySize: 1408 time: 12.15 s GOPS: 25.75
+sum: 1878938032
+THREADS=11
+Threads: 11 ArraySize: 1408 time: 11.47 s GOPS: 29.99
+sum: 1207838376
+Threads: 11 ArraySize: 1408 time: 10.51 s GOPS: 32.75
+sum: 1207838376
+Threads: 11 ArraySize: 1408 time: 12.22 s GOPS: 28.16
+sum: 1207838376
+Threads: 11 ArraySize: 1408 time: 11.73 s GOPS: 29.32
+sum: 1207838376
+Threads: 11 ArraySize: 1408 time: 11.64 s GOPS: 29.55
+sum: 1207838376
+THREADS=12
+Threads: 12 ArraySize: 1408 time: 12.81 s GOPS: 29.29
+sum: 536738720
+Threads: 12 ArraySize: 1408 time: 13.16 s GOPS: 28.53
+sum: 536738720
+Threads: 12 ArraySize: 1408 time: 12.55 s GOPS: 29.90
+sum: 536738720
+Threads: 12 ArraySize: 1408 time: 12.36 s GOPS: 30.35
+sum: 536738720
+Threads: 12 ArraySize: 1408 time: 12.75 s GOPS: 29.42
+sum: 536738720
+THREADS=13
+Threads: 13 ArraySize: 1408 time: 13.05 s GOPS: 31.16
+sum: -134360936
+Threads: 13 ArraySize: 1408 time: 13.12 s GOPS: 30.99
+sum: -134360936
+Threads: 13 ArraySize: 1408 time: 12.58 s GOPS: 32.33
+sum: -134360936
+Threads: 13 ArraySize: 1408 time: 13.57 s GOPS: 29.96
+sum: -134360936
+Threads: 13 ArraySize: 1408 time: 13.38 s GOPS: 30.38
+sum: -134360936
+THREADS=14
+Threads: 14 ArraySize: 1408 time: 13.73 s GOPS: 31.88
+sum: -805460592
+Threads: 14 ArraySize: 1408 time: 13.35 s GOPS: 32.80
+sum: -805460592
+Threads: 14 ArraySize: 1408 time: 13.51 s GOPS: 32.40
+sum: -805460592
+Threads: 14 ArraySize: 1408 time: 13.18 s GOPS: 33.22
+sum: -805460592
+Threads: 14 ArraySize: 1408 time: 13.48 s GOPS: 32.47
+sum: -805460592
+THREADS=15
+Threads: 15 ArraySize: 1408 time: 13.72 s GOPS: 34.20
+sum: -1476560248
+Threads: 15 ArraySize: 1408 time: 13.73 s GOPS: 34.16
+sum: -1476560248
+Threads: 15 ArraySize: 1408 time: 13.73 s GOPS: 34.16
+sum: -1476560248
+Threads: 15 ArraySize: 1408 time: 13.78 s GOPS: 34.05
+sum: -1476560248
+Threads: 15 ArraySize: 1408 time: 13.69 s GOPS: 34.26
+sum: -1476560248
+THREADS=16
+Threads: 16 ArraySize: 1408 time: 13.88 s GOPS: 36.04
+sum: 2147307392
+Threads: 16 ArraySize: 1408 time: 13.87 s GOPS: 36.07
+sum: 2147307392
+Threads: 16 ArraySize: 1408 time: 13.84 s GOPS: 36.15
+sum: 2147307392
+Threads: 16 ArraySize: 1408 time: 13.86 s GOPS: 36.10
+sum: 2147307392
+Threads: 16 ArraySize: 1408 time: 13.86 s GOPS: 36.10
+sum: 2147307392
+THREADS=1
+Threads: 1 ArraySize: 1472 time: 6.59 s GOPS: 4.75
+sum: -576238936
+Threads: 1 ArraySize: 1472 time: 6.59 s GOPS: 4.75
+sum: -576238936
+Threads: 1 ArraySize: 1472 time: 6.59 s GOPS: 4.75
+sum: -576238936
+Threads: 1 ArraySize: 1472 time: 6.59 s GOPS: 4.75
+sum: -576238936
+Threads: 1 ArraySize: 1472 time: 6.59 s GOPS: 4.75
+sum: -576238936
+THREADS=2
+Threads: 2 ArraySize: 1472 time: 6.80 s GOPS: 9.21
+sum: -1152477872
+Threads: 2 ArraySize: 1472 time: 6.81 s GOPS: 9.19
+sum: -1152477872
+Threads: 2 ArraySize: 1472 time: 6.80 s GOPS: 9.20
+sum: -1152477872
+Threads: 2 ArraySize: 1472 time: 6.80 s GOPS: 9.21
+sum: -1152477872
+Threads: 2 ArraySize: 1472 time: 6.79 s GOPS: 9.22
+sum: -1152477872
+THREADS=3
+Threads: 3 ArraySize: 1472 time: 7.01 s GOPS: 13.39
+sum: -1728716808
+Threads: 3 ArraySize: 1472 time: 7.01 s GOPS: 13.40
+sum: -1728716808
+Threads: 3 ArraySize: 1472 time: 7.01 s GOPS: 13.39
+sum: -1728716808
+Threads: 3 ArraySize: 1472 time: 7.01 s GOPS: 13.40
+sum: -1728716808
+Threads: 3 ArraySize: 1472 time: 7.01 s GOPS: 13.40
+sum: -1728716808
+THREADS=4
+Threads: 4 ArraySize: 1472 time: 7.23 s GOPS: 17.31
+sum: 1990011552
+Threads: 4 ArraySize: 1472 time: 7.24 s GOPS: 17.30
+sum: 1990011552
+Threads: 4 ArraySize: 1472 time: 7.23 s GOPS: 17.31
+sum: 1990011552
+Threads: 4 ArraySize: 1472 time: 7.24 s GOPS: 17.31
+sum: 1990011552
+Threads: 4 ArraySize: 1472 time: 7.24 s GOPS: 17.31
+sum: 1990011552
+THREADS=5
+Threads: 5 ArraySize: 1472 time: 7.47 s GOPS: 20.97
+sum: 1413772616
+Threads: 5 ArraySize: 1472 time: 7.47 s GOPS: 20.96
+sum: 1413772616
+Threads: 5 ArraySize: 1472 time: 7.47 s GOPS: 20.97
+sum: 1413772616
+Threads: 5 ArraySize: 1472 time: 7.46 s GOPS: 20.97
+sum: 1413772616
+Threads: 5 ArraySize: 1472 time: 7.47 s GOPS: 20.96
+sum: 1413772616
+THREADS=6
+Threads: 6 ArraySize: 1472 time: 7.47 s GOPS: 25.16
+sum: 837533680
+Threads: 6 ArraySize: 1472 time: 7.47 s GOPS: 25.14
+sum: 837533680
+Threads: 6 ArraySize: 1472 time: 7.46 s GOPS: 25.16
+sum: 837533680
+Threads: 6 ArraySize: 1472 time: 7.47 s GOPS: 25.15
+sum: 837533680
+Threads: 6 ArraySize: 1472 time: 7.46 s GOPS: 25.16
+sum: 837533680
+THREADS=7
+Threads: 7 ArraySize: 1472 time: 7.47 s GOPS: 29.35
+sum: 261294744
+Threads: 7 ArraySize: 1472 time: 7.47 s GOPS: 29.34
+sum: 261294744
+Threads: 7 ArraySize: 1472 time: 7.47 s GOPS: 29.35
+sum: 261294744
+Threads: 7 ArraySize: 1472 time: 7.47 s GOPS: 29.35
+sum: 261294744
+Threads: 7 ArraySize: 1472 time: 7.47 s GOPS: 29.35
+sum: 261294744
+THREADS=8
+Threads: 8 ArraySize: 1472 time: 7.47 s GOPS: 33.53
+sum: -314944192
+Threads: 8 ArraySize: 1472 time: 7.47 s GOPS: 33.54
+sum: -314944192
+Threads: 8 ArraySize: 1472 time: 7.47 s GOPS: 33.53
+sum: -314944192
+Threads: 8 ArraySize: 1472 time: 7.47 s GOPS: 33.53
+sum: -314944192
+Threads: 8 ArraySize: 1472 time: 7.47 s GOPS: 33.53
+sum: -314944192
+THREADS=9
+Threads: 9 ArraySize: 1472 time: 10.02 s GOPS: 28.12
+sum: -891183128
+Threads: 9 ArraySize: 1472 time: 9.53 s GOPS: 29.56
+sum: -891183128
+Threads: 9 ArraySize: 1472 time: 10.78 s GOPS: 26.13
+sum: -891183128
+Threads: 9 ArraySize: 1472 time: 9.88 s GOPS: 28.52
+sum: -891183128
+Threads: 9 ArraySize: 1472 time: 11.50 s GOPS: 24.50
+sum: -891183128
+THREADS=10
+Threads: 10 ArraySize: 1472 time: 10.51 s GOPS: 29.79
+sum: -1467422064
+Threads: 10 ArraySize: 1472 time: 11.00 s GOPS: 28.45
+sum: -1467422064
+Threads: 10 ArraySize: 1472 time: 11.55 s GOPS: 27.11
+sum: -1467422064
+Threads: 10 ArraySize: 1472 time: 11.64 s GOPS: 26.90
+sum: -1467422064
+Threads: 10 ArraySize: 1472 time: 11.25 s GOPS: 27.83
+sum: -1467422064
+THREADS=11
+Threads: 11 ArraySize: 1472 time: 12.02 s GOPS: 28.64
+sum: -2043661000
+Threads: 11 ArraySize: 1472 time: 12.24 s GOPS: 28.12
+sum: -2043661000
+Threads: 11 ArraySize: 1472 time: 11.13 s GOPS: 30.94
+sum: -2043661000
+Threads: 11 ArraySize: 1472 time: 12.00 s GOPS: 28.70
+sum: -2043661000
+Threads: 11 ArraySize: 1472 time: 12.50 s GOPS: 27.55
+sum: -2043661000
+THREADS=12
+Threads: 12 ArraySize: 1472 time: 13.00 s GOPS: 28.89
+sum: 1675067360
+Threads: 12 ArraySize: 1472 time: 11.91 s GOPS: 31.53
+sum: 1675067360
+Threads: 12 ArraySize: 1472 time: 12.90 s GOPS: 29.12
+sum: 1675067360
+Threads: 12 ArraySize: 1472 time: 12.44 s GOPS: 30.19
+sum: 1675067360
+Threads: 12 ArraySize: 1472 time: 13.08 s GOPS: 28.72
+sum: 1675067360
+THREADS=13
+Threads: 13 ArraySize: 1472 time: 12.72 s GOPS: 31.99
+sum: 1098828424
+Threads: 13 ArraySize: 1472 time: 13.57 s GOPS: 29.99
+sum: 1098828424
+Threads: 13 ArraySize: 1472 time: 13.26 s GOPS: 30.69
+sum: 1098828424
+Threads: 13 ArraySize: 1472 time: 13.00 s GOPS: 31.31
+sum: 1098828424
+Threads: 13 ArraySize: 1472 time: 13.51 s GOPS: 30.12
+sum: 1098828424
+THREADS=14
+Threads: 14 ArraySize: 1472 time: 13.23 s GOPS: 33.12
+sum: 522589488
+Threads: 14 ArraySize: 1472 time: 13.84 s GOPS: 31.67
+sum: 522589488
+Threads: 14 ArraySize: 1472 time: 13.16 s GOPS: 33.29
+sum: 522589488
+Threads: 14 ArraySize: 1472 time: 13.78 s GOPS: 31.81
+sum: 522589488
+Threads: 14 ArraySize: 1472 time: 13.75 s GOPS: 31.86
+sum: 522589488
+THREADS=15
+Threads: 15 ArraySize: 1472 time: 13.76 s GOPS: 34.13
+sum: -53649448
+Threads: 15 ArraySize: 1472 time: 13.75 s GOPS: 34.15
+sum: -53649448
+Threads: 15 ArraySize: 1472 time: 13.60 s GOPS: 34.53
+sum: -53649448
+Threads: 15 ArraySize: 1472 time: 13.75 s GOPS: 34.15
+sum: -53649448
+Threads: 15 ArraySize: 1472 time: 13.78 s GOPS: 34.06
+sum: -53649448
+THREADS=16
+Threads: 16 ArraySize: 1472 time: 13.89 s GOPS: 36.05
+sum: -629888384
+Threads: 16 ArraySize: 1472 time: 13.85 s GOPS: 36.17
+sum: -629888384
+Threads: 16 ArraySize: 1472 time: 13.85 s GOPS: 36.18
+sum: -629888384
+Threads: 16 ArraySize: 1472 time: 13.90 s GOPS: 36.02
+sum: -629888384
+Threads: 16 ArraySize: 1472 time: 13.90 s GOPS: 36.04
+sum: -629888384
+THREADS=1
+Threads: 1 ArraySize: 1536 time: 6.58 s GOPS: 4.76
+sum: -489282040
+Threads: 1 ArraySize: 1536 time: 6.58 s GOPS: 4.76
+sum: -489282040
+Threads: 1 ArraySize: 1536 time: 6.59 s GOPS: 4.76
+sum: -489282040
+Threads: 1 ArraySize: 1536 time: 6.59 s GOPS: 4.76
+sum: -489282040
+Threads: 1 ArraySize: 1536 time: 6.59 s GOPS: 4.76
+sum: -489282040
+THREADS=2
+Threads: 2 ArraySize: 1536 time: 6.79 s GOPS: 9.23
+sum: -978564080
+Threads: 2 ArraySize: 1536 time: 6.80 s GOPS: 9.22
+sum: -978564080
+Threads: 2 ArraySize: 1536 time: 6.79 s GOPS: 9.23
+sum: -978564080
+Threads: 2 ArraySize: 1536 time: 6.80 s GOPS: 9.22
+sum: -978564080
+Threads: 2 ArraySize: 1536 time: 6.79 s GOPS: 9.23
+sum: -978564080
+THREADS=3
+Threads: 3 ArraySize: 1536 time: 7.00 s GOPS: 13.43
+sum: -1467846120
+Threads: 3 ArraySize: 1536 time: 7.00 s GOPS: 13.42
+sum: -1467846120
+Threads: 3 ArraySize: 1536 time: 7.00 s GOPS: 13.43
+sum: -1467846120
+Threads: 3 ArraySize: 1536 time: 7.00 s GOPS: 13.43
+sum: -1467846120
+Threads: 3 ArraySize: 1536 time: 7.00 s GOPS: 13.42
+sum: -1467846120
+THREADS=4
+Threads: 4 ArraySize: 1536 time: 7.22 s GOPS: 17.35
+sum: -1957128160
+Threads: 4 ArraySize: 1536 time: 7.23 s GOPS: 17.34
+sum: -1957128160
+Threads: 4 ArraySize: 1536 time: 7.23 s GOPS: 17.35
+sum: -1957128160
+Threads: 4 ArraySize: 1536 time: 7.23 s GOPS: 17.35
+sum: -1957128160
+Threads: 4 ArraySize: 1536 time: 7.23 s GOPS: 17.35
+sum: -1957128160
+THREADS=5
+Threads: 5 ArraySize: 1536 time: 7.46 s GOPS: 21.01
+sum: 1848557096
+Threads: 5 ArraySize: 1536 time: 7.45 s GOPS: 21.02
+sum: 1848557096
+Threads: 5 ArraySize: 1536 time: 7.45 s GOPS: 21.02
+sum: 1848557096
+Threads: 5 ArraySize: 1536 time: 7.45 s GOPS: 21.02
+sum: 1848557096
+Threads: 5 ArraySize: 1536 time: 7.46 s GOPS: 21.01
+sum: 1848557096
+THREADS=6
+Threads: 6 ArraySize: 1536 time: 7.46 s GOPS: 25.21
+sum: 1359275056
+Threads: 6 ArraySize: 1536 time: 7.45 s GOPS: 25.22
+sum: 1359275056
+Threads: 6 ArraySize: 1536 time: 7.46 s GOPS: 25.22
+sum: 1359275056
+Threads: 6 ArraySize: 1536 time: 7.45 s GOPS: 25.22
+sum: 1359275056
+Threads: 6 ArraySize: 1536 time: 7.46 s GOPS: 25.22
+sum: 1359275056
+THREADS=7
+Threads: 7 ArraySize: 1536 time: 7.46 s GOPS: 29.39
+sum: 869993016
+Threads: 7 ArraySize: 1536 time: 7.46 s GOPS: 29.40
+sum: 869993016
+Threads: 7 ArraySize: 1536 time: 7.46 s GOPS: 29.41
+sum: 869993016
+Threads: 7 ArraySize: 1536 time: 7.46 s GOPS: 29.42
+sum: 869993016
+Threads: 7 ArraySize: 1536 time: 7.46 s GOPS: 29.42
+sum: 869993016
+THREADS=8
+Threads: 8 ArraySize: 1536 time: 7.46 s GOPS: 33.59
+sum: 380710976
+Threads: 8 ArraySize: 1536 time: 7.46 s GOPS: 33.62
+sum: 380710976
+Threads: 8 ArraySize: 1536 time: 7.46 s GOPS: 33.60
+sum: 380710976
+Threads: 8 ArraySize: 1536 time: 7.46 s GOPS: 33.61
+sum: 380710976
+Threads: 8 ArraySize: 1536 time: 7.45 s GOPS: 33.63
+sum: 380710976
+THREADS=9
+Threads: 9 ArraySize: 1536 time: 10.66 s GOPS: 26.46
+sum: -108571064
+Threads: 9 ArraySize: 1536 time: 11.04 s GOPS: 25.55
+sum: -108571064
+Threads: 9 ArraySize: 1536 time: 10.66 s GOPS: 26.46
+sum: -108571064
+Threads: 9 ArraySize: 1536 time: 10.53 s GOPS: 26.78
+sum: -108571064
+Threads: 9 ArraySize: 1536 time: 12.48 s GOPS: 22.60
+sum: -108571064
+THREADS=10
+Threads: 10 ArraySize: 1536 time: 10.47 s GOPS: 29.93
+sum: -597853104
+Threads: 10 ArraySize: 1536 time: 11.15 s GOPS: 28.10
+sum: -597853104
+Threads: 10 ArraySize: 1536 time: 10.59 s GOPS: 29.59
+sum: -597853104
+Threads: 10 ArraySize: 1536 time: 11.83 s GOPS: 26.48
+sum: -597853104
+Threads: 10 ArraySize: 1536 time: 11.21 s GOPS: 27.94
+sum: -597853104
+THREADS=11
+Threads: 11 ArraySize: 1536 time: 11.64 s GOPS: 29.61
+sum: -1087135144
+Threads: 11 ArraySize: 1536 time: 11.23 s GOPS: 30.68
+sum: -1087135144
+Threads: 11 ArraySize: 1536 time: 12.10 s GOPS: 28.47
+sum: -1087135144
+Threads: 11 ArraySize: 1536 time: 11.94 s GOPS: 28.88
+sum: -1087135144
+Threads: 11 ArraySize: 1536 time: 11.11 s GOPS: 31.02
+sum: -1087135144
+THREADS=12
+Threads: 12 ArraySize: 1536 time: 13.67 s GOPS: 27.50
+sum: -1576417184
+Threads: 12 ArraySize: 1536 time: 13.59 s GOPS: 27.67
+sum: -1576417184
+Threads: 12 ArraySize: 1536 time: 12.75 s GOPS: 29.48
+sum: -1576417184
+Threads: 12 ArraySize: 1536 time: 12.38 s GOPS: 30.37
+sum: -1576417184
+Threads: 12 ArraySize: 1536 time: 12.21 s GOPS: 30.79
+sum: -1576417184
+THREADS=13
+Threads: 13 ArraySize: 1536 time: 13.06 s GOPS: 31.19
+sum: -2065699224
+Threads: 13 ArraySize: 1536 time: 13.44 s GOPS: 30.30
+sum: -2065699224
+Threads: 13 ArraySize: 1536 time: 12.86 s GOPS: 31.69
+sum: -2065699224
+Threads: 13 ArraySize: 1536 time: 13.45 s GOPS: 30.29
+sum: -2065699224
+Threads: 13 ArraySize: 1536 time: 13.27 s GOPS: 30.69
+sum: -2065699224
+THREADS=14
+Threads: 14 ArraySize: 1536 time: 13.35 s GOPS: 32.85
+sum: 1739986032
+Threads: 14 ArraySize: 1536 time: 13.74 s GOPS: 31.92
+sum: 1739986032
+Threads: 14 ArraySize: 1536 time: 13.44 s GOPS: 32.63
+sum: 1739986032
+Threads: 14 ArraySize: 1536 time: 13.54 s GOPS: 32.40
+sum: 1739986032
+Threads: 14 ArraySize: 1536 time: 13.23 s GOPS: 33.15
+sum: 1739986032
+THREADS=15
+Threads: 15 ArraySize: 1536 time: 13.62 s GOPS: 34.50
+sum: 1250703992
+Threads: 15 ArraySize: 1536 time: 13.79 s GOPS: 34.09
+sum: 1250703992
+Threads: 15 ArraySize: 1536 time: 13.69 s GOPS: 34.34
+sum: 1250703992
+Threads: 15 ArraySize: 1536 time: 13.80 s GOPS: 34.06
+sum: 1250703992
+Threads: 15 ArraySize: 1536 time: 13.76 s GOPS: 34.16
+sum: 1250703992
+THREADS=16
+Threads: 16 ArraySize: 1536 time: 13.89 s GOPS: 36.10
+sum: 761421952
+Threads: 16 ArraySize: 1536 time: 13.90 s GOPS: 36.06
+sum: 761421952
+Threads: 16 ArraySize: 1536 time: 13.92 s GOPS: 36.01
+sum: 761421952
+Threads: 16 ArraySize: 1536 time: 13.91 s GOPS: 36.04
+sum: 761421952
+Threads: 16 ArraySize: 1536 time: 13.92 s GOPS: 36.01
+sum: 761421952

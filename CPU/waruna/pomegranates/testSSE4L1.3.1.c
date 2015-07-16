@@ -1,4 +1,5 @@
 /*Data in L1 cache but with a param to define the weight of the object
+ * Array in heap
  *
  */
  
@@ -21,34 +22,38 @@
 #define REPS 200000000
 //sun 20
 #define ARRAY_SIZE 320
-#define OUT_ARRAY_SIZE (ARRAY_SIZE)*4
-#define VECTOR_ARRAY_SIZE 2
 
-void compute (int *cc, int *aa, int *bb, int *bb_1);
+void compute (int *cc, int *aa, int *bb, int *bb_1, int nn, long iReps);
 void t_print__m128i (__m128i a);
-void t_test (int *cc_1,  int *cc);
+void t_test (int *cc_1,  int *cc, int nn);
 __m128i t_add__m128i(__m128i x, __m128i y);
 void printArray(int *array, int length);
-void print_diff (int *cc_1,  int *cc);
-int oneThread(int threadId, int w);
+void print_diff (int *cc_1,  int *cc, int nn);
+int oneThread(int threadId, int w, int nn, long  iReps);
 
 int main (int argv, char** argc) 
 {
-	int tds = 1;
-	int nn = ARRAY_SIZE;
-	int w = 16;
-
+	int tds = 1; // # threads
+	int nn = ARRAY_SIZE; // Size of array per thread
+	int w = 16; // weight
+	long iReps = REPS; // repetitions of the whole computation
 	if (argv > 1) {
 		tds = atoi(argc[1]);
 	}
 	if (argv > 2) {
 		w = atoi(argc[2]);
 	}
+	if (argv > 3) {
+		nn = atoi(argc[3]);
+	}
+	if (argv > 4) {
+		iReps = atol(argc[4]);
+	}
 
 	int w2 = 2*w;
 
-	if (ARRAY_SIZE%w2 != 0) {
-		printf("Error: Array size: %d is not a multiple of 2*weight: %d!\n", ARRAY_SIZE, w2);
+	if (nn%w2 != 0) {
+		printf("Error: Array size: %d is not a multiple of 2*weight: %d!\n", nn, w2);
 		exit(-1);
 	}
 
@@ -66,15 +71,14 @@ int main (int argv, char** argc)
 #ifdef OMP
 		tid = omp_get_thread_num();
 #endif
-		int rr = oneThread(tid, w);
+		int rr = oneThread(tid, w, nn, iReps);
 		sum[tid] = rr;
 	}
 	
 	stop_timer();
 	double vector_time = elapsed_time();
-	double gops = (double)((double)((double)((double)4*(double)4)*(double)REPS*((((double)ARRAY_SIZE)/(double)w2)-1.0f)*(double)tds)/vector_time)/((double)1e9);
-	//double gops = (double)((double)((double)((double)2*(double)4)*(double)REPS*(double)VECTOR_ARRAY_SIZE*(double)ARRAY_SIZE)/vector_time)/((double)1e9);
-	fprintf(stdout, "Threads: %d ArraySize: %d W: %d time: %.2f s GOPS: %.2f\n", tds, ARRAY_SIZE, w, vector_time, gops);
+	double gops = (double)((double)((double)((double)4*(double)4)*(double)iReps*((((double)nn)/(double)w2)-1.0f)*(double)tds)/vector_time)/((double)1e9);
+	fprintf(stdout, "Threads: %d ArraySize: %d W: %d Reps: %ld time: %.2f s GOPS: %.2f\n", tds, nn, w, iReps, vector_time, gops);
 	
 	int out = 0;
 	for(i = 0; i < tds; i++){
@@ -86,17 +90,23 @@ int main (int argv, char** argc)
 	return 0;
 } 
 
-int oneThread(int threadId, int w)
+int oneThread(int threadId, int w, int nn, long iReps)
 {
-	int cc[OUT_ARRAY_SIZE];
+	int *cc;
 	int i;
-	int k;
+	long k;
 	int itr;
 	int w2 = 2*w;
 
-	memset(&cc[0], 0, ARRAY_SIZE*4);
+	cc = (int *)malloc(sizeof(int)*nn);
 
-	__m128i a,b0,b1,b2,b3;
+	memset(&cc[0], 0, sizeof(int)*nn);
+
+	if (((long)cc)%16 != 0) {
+		printf("WARNING: Thread: %d has not allocated 16 aligned memory!", threadId);
+	}
+
+  __m128i a,b0,b1,b2,b3;
 	__m128i c0,c1,c2,c3;
 
 	c0 = _mm_set_epi32(0,0,0,0);
@@ -104,14 +114,14 @@ int oneThread(int threadId, int w)
 	c2 = _mm_set_epi32(0,0,1,0);
 	c3 = _mm_set_epi32(0,1,0,0);
 	a = _mm_set_epi32(1,2,2,1);
-	c0 = _mm_load_si128((__m128i*)&cc[ARRAY_SIZE-w]);
-	c1 = _mm_load_si128((__m128i*)&cc[ARRAY_SIZE-(w-4)]);	
-	c2 = _mm_load_si128((__m128i*)&cc[ARRAY_SIZE-(w-8)]);	
-	c3 = _mm_load_si128((__m128i*)&cc[ARRAY_SIZE-(w-12)]);	
+	c0 = _mm_load_si128((__m128i*)&cc[nn-w]);
+	c1 = _mm_load_si128((__m128i*)&cc[nn-(w-4)]);	
+	c2 = _mm_load_si128((__m128i*)&cc[nn-(w-8)]);	
+	c3 = _mm_load_si128((__m128i*)&cc[nn-(w-12)]);	
 
-	for (k = 0; k < REPS; k++) 
+	for (k = 0; k < iReps; k++) 
 	{
-		for (itr = ARRAY_SIZE; itr>w2; itr-=w2)
+		for (itr = nn; itr>w2; itr-=w2)
 		{
 
 			b0 = _mm_load_si128((__m128i*)&cc[itr-(w2)]);
@@ -149,7 +159,7 @@ int oneThread(int threadId, int w)
 	}
 
 	int count =0;
-	for (i=0; i< ARRAY_SIZE; i++)
+	for (i=0; i< nn; i++)
 	{
 		count += cc[i];	
 	}
@@ -158,7 +168,7 @@ int oneThread(int threadId, int w)
 
 }
 
-void compute (int *cc, int *aa, int *bb, int *bb_1) 
+void compute (int *cc, int *aa, int *bb, int *bb_1, int nn, long iReps) 
 {
 	int i,j,k;
 	int cc_2[16];
@@ -167,9 +177,9 @@ void compute (int *cc, int *aa, int *bb, int *bb_1)
 		cc_2[i] = 0;
 	}
 
-	for (k=0; k<REPS; k++) 
+	for (k=0; k<iReps; k++) 
 	{
-		for (j=0; j<OUT_ARRAY_SIZE>>4; j++) 
+		for (j=0; j<nn>>4; j++) 
 		{
 			for (i=0; i<16; i++) 
 			{
@@ -212,10 +222,10 @@ void printArray(int *array, int length) {
 }
 
 //void t_test (__m128i *c, int *cc)
-void t_test (int *cc_1,  int *cc)
+void t_test (int *cc_1,  int *cc, int nn)
 {
 	int i=0;
-	for (i=0; i<OUT_ARRAY_SIZE; i++)
+	for (i=0; i<nn; i++)
 	{
 		if (cc[i] != cc_1[i])
 		{
@@ -224,10 +234,10 @@ void t_test (int *cc_1,  int *cc)
 	}
 }
 
-void print_diff (int *cc_1,  int *cc)
+void print_diff (int *cc_1,  int *cc, int nn)
 {
 	int i=0;
-	for (i=0; i<OUT_ARRAY_SIZE; i++)
+	for (i=0; i<nn; i++)
 	{
 		printf("cc[%d]:%d :: cc_i[%d]:%d", i, cc[i], i, cc_1[i]);
 		if (cc[i] != cc_1[i])

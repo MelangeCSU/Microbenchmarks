@@ -1,0 +1,410 @@
+pomegranates :: max threads: 8
+tsse4
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+tsse4p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+pomegranates :: max threads: 8
+tsse4
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+tsse4p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+pomegranates :: max threads: 8
+tsse4
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+tsse4p
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+THREADS=1
+THREADS=2
+THREADS=3
+THREADS=4
+THREADS=5
+THREADS=6
+THREADS=7
+THREADS=8
+pomegranates :: max threads: 8
+tsse4
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+pomegranates :: max threads: 8
+tsse4
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+pomegranates :: max threads: 8
+tsse4
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+REPS: 21333333333
+REPS: 16000000000
+REPS: 12800000000
+REPS: 10666666666
