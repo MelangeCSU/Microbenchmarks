@@ -39,6 +39,23 @@ int main (int argv, char** argc)
 	initialize_timer();
 	start_timer();
 
+	mykernel(NULL);
+
+	stop_timer();
+	double vector_time = elapsed_time();
+
+	reset_timer();
+	start_timer();
+
+	mykernel(NULL);
+
+	stop_timer();
+	double vector_time_01 = elapsed_time();
+
+	double gops = (double)((double)((double)((double)4*(double)4)*(double)REPS*((((double)ARRAY_SIZE)/(double)32)-1.0f)*(double)tds)/vector_time)/((double)1e9);
+	double gops01 = (double)((double)((double)((double)4*(double)4)*(double)REPS*((((double)ARRAY_SIZE)/(double)32)-1.0f)*(double)tds)/vector_time_01)/((double)1e9);
+	fprintf(stdout, "Threads: %d ArraySize: %d time: %.2f s GOPS: %.2f time01: %.2f s GOPS01: %.2f REPS: %d\n", tds, ARRAY_SIZE, vector_time, gops, vector_time_01, gops01, REPS);
+
 	my_papi_profile(mykernel);
 
 /*#pragma omp parallel num_threads(tds)
@@ -51,10 +68,6 @@ int main (int argv, char** argc)
 		sum[tid] = rr;
 	}
 */
-	stop_timer();
-	double vector_time = elapsed_time();
-	double gops = (double)((double)((double)((double)4*(double)4)*(double)REPS*((((double)ARRAY_SIZE)/(double)32)-1.0f)*(double)tds)/vector_time)/((double)1e9);
-	fprintf(stdout, "Threads: %d ArraySize: %d time: %.2f s GOPS: %.2f\n", tds, ARRAY_SIZE, vector_time, gops);
 	
 	int out = 0;
 	for(i = 0; i < tds; i++){

@@ -48,16 +48,19 @@ int main(int argc, char ** argv)
 		events4[1]=PAPI_L2_DCA;
 		events4[2]=PAPI_FP_OPS;
 		int *events5 = (int *)malloc(sizeof(int)*1);
-		events5[0]=PAPI_L3_DCA;
+		events5[0]=PAPI_LD_INS;
+		//events5[0]=PAPI_L3_DCA;
     //int events2[2] = {PAPI_L1_LDM,PAPI_L1_STM};
 //  int event[NUM_EVENTS] = {PAPI_TOT_INS, PAPI_TOT_CYC, PAPI_L2_DCM, PAPI_L1_DCM };
     //int event[NUM_EVENTS] = {PAPI_TOT_INS, PAPI_TOT_CYC, PAPI_BR_MSP, PAPI_L1_DCM };
     
-		readCounters(events, 5);
+		/*readCounters(events, 5);
     readCounters(events2, 3);
     readCounters(events3, 3);
     readCounters(events4, 3);
-    readCounters(events5, 1);
+    */
+
+		readCounters(events5, 1);
 
 
     return 0;

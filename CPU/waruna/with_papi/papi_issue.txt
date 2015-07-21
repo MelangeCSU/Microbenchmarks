@@ -1,0 +1,9 @@
+http://comments.gmane.org/gmane.comp.linux.papi/1280
+
+https://indico.cern.ch/event/280897/session/0/contribution/4/attachments/515364/711136/Maria_Dimakopoulou-CERN_PMU_Workshop_2013.pdf
+
+
+L1-dcache-loads,L1-dcache-load-misses,L1-dcache-store-misses,L1-dcache-prefetch-misses,LLC-loads,LLC-stores,LLC-prefetches,instructions,mem-loads,mem-stores
+
+
+perf stat -B -e L1-dcache-loads,L1-dcache-stores,L1-dcache-load-misses,L1-dcache-store-misses,L1-dcache-prefetch-misses,LLC-loads,LLC-stores,LLC-prefetches,instructions,mem-loads,mem-stores ./tsse4l12p 1

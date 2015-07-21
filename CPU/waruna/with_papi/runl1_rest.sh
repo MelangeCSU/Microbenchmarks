@@ -11,7 +11,7 @@ then
 elif [[ $a == "apples" ]] 
 then
 	NUM_THREADS=4
-elif [[ $a == "concord" || $a == "eggs" ]] 
+elif [[ $a == "concord" || $a == "eggs" || $a == "charleston" ]] 
 then
 	NUM_THREADS=16
 elif [[ $a == "phire" ]] 
@@ -54,14 +54,8 @@ MAX_ITR=32000000000
 echo "tsse4p"
 echo "====================tsse4p" >> ${LOG}
 echo "====================tsse4p" >> ${LOG}.comments
-for (( j=64; j<=256; j=j+64 ))
+for (( j=64; j<=16384; j=j+64 ))
 do 
-	if [ $j -eq 192 ]
-	then
-		continue
-	fi
-
-
 	((REPS=${MAX_ITR}/${j}))
 	cp $FILE_NAME.P $FILE_NAME
 	sed -i "s/__ARRAY_SIZE__/${j}/g" $FILE_NAME
@@ -70,7 +64,8 @@ do
 	echo "LOG:: ${REPS} ${j} ======" >> ${LOG}.comments
 	make clean; make tsse4l12p &>> ${LOG}.comments
 
-	for (( t=1; t<=${NUM_THREADS}; t=t+7 )) 
+#	for (( t=1; t<=${NUM_THREADS}; t=t+7 )) 
+	for t in 1 2 4 8 12 16 
 	do 
 		#export OMP_NUM_THREADS=${t}
 		echo "THREADS=${t}"

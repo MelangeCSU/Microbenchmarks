@@ -13,9 +13,9 @@
 #endif
 
 //#define IREPS 10000
-#define REPS 2762430
+#define REPS 160000000
 //sun 20
-#define ARRAY_SIZE 23168
+#define ARRAY_SIZE 128
 
 int oneThread(int threadId);
 
