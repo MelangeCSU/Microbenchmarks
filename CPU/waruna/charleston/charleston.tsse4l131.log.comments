@@ -1,0 +1,7 @@
+====================tsse4
+LOG:: REPS ARRAY_SIZE #THREADS ======
+LOG::   1 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -o tsse4l131 testSSE4L1.3.1.c -msse4.2 timer.o -Wall
+testSSE4L1.3.1.c: In function ‘main’:
+testSSE4L1.3.1.c:68:0: warning: ignoring #pragma omp parallel [-Wunknown-pragmas]

@@ -1,6 +1,6 @@
 CC := gcc
 
-EXES := cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p
+EXES := cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
 
 SSEFLAGS := -msse4.2
 AVXFLAGS := -mavx
@@ -45,11 +45,11 @@ tsse4l11: testSSE4L1.1.c timer.o
 tsse4l11p: testSSE4L1.1.c timer.o
 	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o $(OTHER_FLAGS)
 
-tsse4l12: testSSE4L1.2.c timer.o
-	$(CC) -O3 -o $@ $< $(SSEFLAGS) timer.o $(OTHER_FLAGS)
+tsse4l12: testSSE4L1.2.c timer.o my_papi.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) timer.o my_papi.o $(OTHER_FLAGS) $(LIBS)
 
-tsse4l12p: testSSE4L1.2.c timer.o
-	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o -DOMP $(OTHER_FLAGS)
+tsse4l12p: testSSE4L1.2.c timer.o my_papi.o
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o my_papi.o -DOMP $(OTHER_FLAGS) $(LIBS)
 
 tsse4l13: testSSE4L1.3.c timer.o
 	$(CC) -O3 -o $@ $< $(SSEFLAGS) timer.o $(OTHER_FLAGS)
@@ -97,6 +97,9 @@ papi_sample:	papi_sample.c
 papi_sample1:	papi_sample1.c
 	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OTHER_FLAGS) $(LIBS)
 
+my_papi:	my_papi.c my_papi.h
+	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OTHER_FLAGS) $(LIBS)
+
 
 clean:
-	r m -f *.o $(EXES)
+	rm -f *.o $(EXES)

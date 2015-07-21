@@ -7,7 +7,6 @@ AVXFLAGS := -mavx
 OMPFLAGS := -fopenmp
 VEC_REPORT := -ftree-vectorizer-verbose=6
 OTHER_FLAGS := -Wall
-LIBS := -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
 
 cpu_max_plus:	cpu_max_plus.c timer.o
 	$(CC) -O3 -o $@ $< timer.o $(OTHER_FLAGS)
@@ -91,12 +90,5 @@ tave2: testAVE2.c
 #tsse4l11p: testSSE4L11.c timer.o
 #	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OMPFLAGS) timer.o
 
-papi_sample:	papi_sample.c
-	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OTHER_FLAGS) $(LIBS)
-
-papi_sample1:	papi_sample1.c
-	$(CC) -O3 -o $@ $< $(SSEFLAGS) $(OTHER_FLAGS) $(LIBS)
-
-
 clean:
-	r m -f *.o $(EXES)
+	rm -f *.o $(EXES)
