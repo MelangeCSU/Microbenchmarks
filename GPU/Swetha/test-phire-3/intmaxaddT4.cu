@@ -36,7 +36,7 @@ void checkCUDAError(const char *msg);
 int main(int argc, char** argv)
 {
     	
-   	int N; //Vector size
+   	//int ValuesPerThread; //Values per thread
 	int k; // no. of repeatitions
 	int sl;//stride length
 	int gridWidth = 60;
@@ -44,23 +44,27 @@ int main(int argc, char** argv)
 
 	// Parse arguments.
     	if(argc != 5){
-    		 printf("Usage: %s Stride-length Iterations\n", argv[0]);
+    		 printf("Usage: %s Values per thread Iterations\n", argv[0]);
      		// printf("Stride-length is the sweep radius of each thread.\n");
     		 printf("Total vector size is 128 * 60 * this value.\n");
     		 printf("Iterations is the number of repeatitions done by each thread.\n");
     		 exit(0);
    		 } 
 	else 	{
-     		// sscanf(argv[1], "%d", &ValuesPerThread);
-      		 sscanf(argv[1], "%d", &sl);
+     		 sscanf(argv[1], "%d", &sl);
+      		
 		 sscanf(argv[2], "%d", &k);
        		 sscanf(argv[3], "%d", &gridWidth);
       		 sscanf(argv[4], "%d", &blockWidth);
+		// sscanf(argv[5], "%d", &sl);
 		 
     		}      
-
-	int size_C = 4000 * gridWidth ;
-	N=4000;
+	//maximum shared memory size * # SMs * TPB
+	// shared memory size =  49152  bytes = 12288 ints (theoretical)
+	// Practical it is 4000 ints. 
+	// 12288*13*threads per thread block
+	int size_C = 12288* 13 * blockWidth;
+        //int size_C = ValuesPerThread * blockWidth * gridWidth;
 	
     	dim3 dimGrid(gridWidth);                    
     	dim3 dimBlock(blockWidth);                 
@@ -76,7 +80,7 @@ int main(int argc, char** argv)
     	if (error != cudaSuccess) Cleanup(false);
 
 
-   	IntmaxaddT4<<<dimGrid, dimBlock>>>(d_C, k , sl, N);
+   	IntmaxaddT4<<<dimGrid, dimBlock>>>(d_C, k , sl);
     	error = cudaGetLastError();
 
   	if (error != cudaSuccess) {
@@ -93,7 +97,7 @@ int main(int argc, char** argv)
   	start_timer();
   
     	// Invoke kernel
-    	IntmaxaddT4<<<dimGrid, dimBlock>>>( d_C, k , sl, N);
+    	IntmaxaddT4<<<dimGrid, dimBlock>>>( d_C, k , sl);
     	error = cudaGetLastError();
     	if (error != cudaSuccess) {
 		printf("%s\n", cudaGetErrorString(error));
@@ -105,10 +109,10 @@ int main(int argc, char** argv)
    	cudaThreadSynchronize();
 	stop_timer();
    	time = elapsed_time();
-	int cal = floor((4000/sl));
+	int cal = floor(((12288* 13 )/(gridWidth*sl)))+1;
 	//printf("cal=%d\n",cal);
       // double nops = (double)size_A*(double)size_B*(double)k*(double)2 + (double)4*(double)k*(double)ValuesPerThread*(double)gridWidth*(double)blockWidth;
-	double nops = (double)cal*(double)blockWidth*(double)gridWidth*(double)k*(double)2 + (double)2*(double)k*(double)gridWidth*(double)blockWidth;
+	double nops = (double)cal*(double)2*(double)k*(double)blockWidth*(double)gridWidth;
 	//printf("cal=%d\tnops=%lf\n",cal,nops);
         float nopsPerSec = float(nops)/time;
     	float nGopsPerSec = nopsPerSec*1e-9;
