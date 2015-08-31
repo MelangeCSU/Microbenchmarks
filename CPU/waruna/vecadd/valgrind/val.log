@@ -1,0 +1,42 @@
+date; valgrind --tool=cachegrind ./vecaddmpv 8 1600000; date
+Tue Jul 28 14:16:04 MDT 2015
+==14671== Cachegrind, a cache and branch-prediction profiler
+==14671== Copyright (C) 2002-2013, and GNU GPL'd, by Nicholas Nethercote et
+al.
+==14671== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==14671== Command: ./vecaddmpv 8 1600000
+==14671== 
+--14671-- warning: L3 cache found, using its data for the LL simulation.
+sum: 1465341760
+==14671== 
+==14671== I   refs:      10,780,406,998
+==14671== I1  misses:             1,322
+==14671== LLi misses:             1,272
+==14671== I1  miss rate:           0.00%
+==14671== LLi miss rate:           0.00%
+==14671== 
+==14671== D   refs:       9,536,715,122  (6,362,178,063 rd   + 3,174,537,059
+wr)
+==14671== D1  misses:            26,861  (       15,306 rd   +        11,555
+wr)
+==14671== LLd misses:            21,702  (       10,916 rd   +        10,786
+wr)
+==14671== D1  miss rate:            0.0% (          0.0%     +           0.0%
+)
+==14671== LLd miss rate:            0.0% (          0.0%     +           0.0%
+)
+==14671== 
+==14671== LL refs:               28,183  (       16,628 rd   +        11,555
+wr)
+==14671== LL misses:             22,974  (       12,188 rd   +        10,786
+wr)
+==14671== LL miss rate:             0.0% (          0.0%     +           0.0%
+)
+Tue Jul 28 14:17:44 MDT 2015
+
+
+
+
+By computing number of accesses = reps * size * 3 * threads = 1600000×992x3×8=  38,092,800,000
+9,536,715,122 * 4 = 38,146,860,488
+

@@ -3,7 +3,7 @@
 #include <papi.h>
 #include "my_papi.h"
 
-#define REPS 3
+#define REPS 2
 //#define NUM_EVENTS 4
 
 
@@ -103,7 +103,7 @@ void my_papi_stop(int *events, int NUM_EVENTS)
 
 	for (j=0; j<NUM_EVENTS; j++) 
 	{
-    printf("[%d]: %lld\n", events[j], values[j]);
+    printf("GG: %d : %lld\n", events[j], values[j]);
 	}
 	/* Stop counting events */
 	if (PAPI_stop_counters(values, NUM_EVENTS) != PAPI_OK) {
@@ -150,9 +150,9 @@ void my_papi_profile(void *(*kernel)(void *))
 
 void readCounters(int *events, int NUM_EVENTS, void *(*kernel)(void *)) 
 {
-    //long long *values = (long long *)malloc(sizeof(long long)*NUM_EVENTS);
-		int i;
-		//int ret,i,j;
+	//long long *values = (long long *)malloc(sizeof(long long)*NUM_EVENTS);
+	int i;
+	//int ret,i,j;
 
 	for (i=0; i<REPS; i++)
 	{

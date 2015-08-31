@@ -1,0 +1,14 @@
+LOG:: REPS ARRAY_SIZE #THREADS ======
+====================vecaddp
+LOG:: 12118343 1352 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o vecaddp vecadd.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 12047058 1360 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o vecaddp vecadd.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 11976608 1368 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o vecaddp vecadd.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi

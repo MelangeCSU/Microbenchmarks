@@ -65,8 +65,7 @@ int main ()
 	start_timer();
 	
 	for (k = 0; k < REPS; k++) {
-//#pragma omp parallel for reduction(+:c0,c1,c2,c3)
-#pragma omp parallel for
+#pragma omp parallel for reduction(+:c0,c1,c2,c3)
 		for (j = 0; j < IREPS; j++) {
 			c0 = _mm_max_epi32(_mm_add_epi32(c0,a), b);
 			c1 = _mm_max_epi32(_mm_add_epi32(c1,a), b);
@@ -88,8 +87,8 @@ int main ()
 	t_print__m128i(c2);
 	t_print__m128i(c3);
 
-//	compute(cc, aa, bb, bb_1);
-//	t_test(c0,c1,c2,c3, cc);
+	compute(cc, aa, bb, bb_1);
+	t_test(c0,c1,c2,c3, cc);
 	double gops = (double)((double)((double)((double)2*(double)4*(double)4*(double)IREPS)*(double)REPS)/vector_time)/((double)1e9);
 	fprintf(stdout, "time: %.2f s GOPS: %.2f\n", vector_time, gops);
 
