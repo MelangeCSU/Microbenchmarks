@@ -22,36 +22,42 @@ int main(int argc, char** argv) {
 	int iterations = atoi(argv[2]);
 	int gridDim = atoi(argv[3]);
 	int blockDim = atoi(argv[4]);
-	int vectorSize = sl * gridDim * blockDim;
-	int blockSize = sl * blockDim;
-
+	//int sl = atoi(argv[5]);
+	//int vectorSize = sl * gridDim * blockDim;
+	//int blockSize = sl * blockDim;
+	//int N=Nn*blockDim;
+	int N=(12288 * 15 )/gridDim;
 	//printf("blocksize=%d\n",blockSize);
-	printf("__global__ void IntmaxaddT4(int* C, int k, int sl, int sharedsize)\n{\n");
+	printf("__global__ void IntmaxaddT4(int* C, int k, int sl)\n{\n");
 	printf("\n\n");
 	printf("\tint i,t;\n");
-	printf("\tint a=0,a2=0,b=02;\n");
-	printf("\tint blockStartIndex  = blockIdx.x * blockDim.x * sharedsize;\n");
+	printf("\tint a=0,a2=0,b=2;\n");
+	//printf("\tint sharedsize=%d;\n",N);
+	printf("\tint N=(12288 * 15 )/gridDim.x;\n");
+	printf("\tint blockStartIndex  = blockIdx.x * N;\n");
 	printf("\tint threadStartIndex = blockStartIndex + threadIdx.x ;\n");
-	printf("\t__shared__ int c[4000];\n");
+	printf("\tint threadEndIndex   = blockStartIndex + N;\n");
+	printf("\t__shared__ int c[%d];//array count=N\n",N);
 	printf("\n\n");
 
-    
+    	printf("\tint count=0;\n");
 	printf("\t#pragma unroll\n");
-	printf("\tfor(i = threadStartIndex; i < sharedsize; i+=sl)\n");
-	printf("\t\tc[threadIdx.x+i]=C[threadIdx.x+i];\n\n");
+	printf("\tfor(i = threadStartIndex; i < threadEndIndex; i+=sl){\n");
+	printf("\t\tc[threadIdx.x+count]=C[threadIdx.x+i];\n\tcount+=sl;}\n");
 
 	printf("\tfor (t = 0; t < k; t++) {\n");
 	printf("\t\ta=max(a,c[threadIdx.x]+10);\n\t\t#pragma unroll\n");
 
 
-	printf("\t\tfor (i = threadStartIndex+sl; i < sharedsize; i+=sl){\n");
+	//printf("\t\tfor (i = 0; i < count; i++){\n");
+	printf("\t\tfor(i = threadIdx.x; i < (threadIdx.x+count); i+=sl){\n");
 	printf("\t\ta2=c[i];c[i] = max(a,(c[i]+b));a=a2;\n\t}}\n");
 	
 	
-	
+	printf("\tcount=0;\n");
 	printf("\n\t#pragma unroll\n");
-	printf("\tfor(i = threadStartIndex; i < sharedsize; i+=sl)\n");
-	printf("\t\tC[threadIdx.x+i]=c[threadIdx.x+i];\n\n");
+	printf("\tfor(i = threadStartIndex; i < threadEndIndex; i+=sl){\n");
+	printf("\t\tC[threadIdx.x+i]=c[threadIdx.x+count];\n\tcount++;}\n");
 	printf("\n\n}\n");
 	
 	
