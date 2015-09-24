@@ -1,0 +1,4 @@
+Compile:
+make summp
+
+related source file: sum_malloc.c

@@ -1,0 +1,98 @@
+LOG:: REPS ARRAY_SIZE #THREADS ======
+====================summp
+LOG:: 1015808000 32 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 507904000 64 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 338602666 96 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 253952000 128 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 203161600 160 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 169301333 192 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 145115428 224 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 126976000 256 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 112867555 288 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 101580800 320 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 92346181 352 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 84650666 384 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 78139076 416 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 72557714 448 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 67720533 480 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 63488000 512 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 59753411 544 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 56433777 576 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 53463578 608 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 50790400 640 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 48371809 672 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 46173090 704 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 44165565 736 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi
+LOG:: 42325333 768 ======
+gcc -O3 -c timer.c -o timer.o -Wall
+gcc -O3 -c my_papi.c -o my_papi.o -Wall
+gcc -O3 -o summp sum_malloc.c -msse4.2 -fopenmp timer.o my_papi.o -DOMP -Wall -L/s/chopin/e/proj/AlphaZ/waruna/papi/installation/5.4.1/lib -lpapi

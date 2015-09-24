@@ -1,0 +1,4 @@
+Compile:
+make dotprodmp
+
+related source file: dotprod_malloc.c
