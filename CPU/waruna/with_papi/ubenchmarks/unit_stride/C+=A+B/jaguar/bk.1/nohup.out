@@ -1,0 +1,196 @@
+jaguar :: max threads: 12
+vecaccmp
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+jaguar :: max threads: 12
+vecaccmp
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=4
+THREADS=8
+THREADS=12

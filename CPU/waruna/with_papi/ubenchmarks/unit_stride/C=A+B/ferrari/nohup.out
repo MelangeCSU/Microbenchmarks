@@ -1,0 +1,467 @@
+ferrari :: max threads: 12
+vecaddmp
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12
+rm -f *.o cpu_max_plus tsse4 tave2 tsse4p tsse4l1 tsse4l1p tsse4l12 tsse4l12p papi_sample1 papi_sample my_papi
+THREADS=1
+THREADS=2
+THREADS=6
+THREADS=12

@@ -1,0 +1,22 @@
+dp_fma_reg_4.c:
+code for testing the peak for double precision. number of registers used per thread is 4
+Input: <number of threads> <number of interations>
+The output includes execution time in seconds, number of operations and the gflops achieved
+Example: ./dp_fma_reg_4 8 100000
+output :
+Start testing double precision avx 4....
+Elapsed time for double precision avx: 1.949589
+Number of FP operations: 153600000000
+GFlops: 78.478079
+the final sum: 171.143295
+End testing for double precision avx.
+
+
+sp_fma_reg_4.c
+code for testing peak performance for single precision. I don't remember how many number of registers should be used for single precision, this one is also using 4 registers per thread.
+Input and output is the same as the above one. 
+
+
+
+ 
+

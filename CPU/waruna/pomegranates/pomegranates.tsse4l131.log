@@ -1,0 +1,34 @@
+====================tsse4
+Threads: 1 ArraySize: 128 W: 16 Reps: -141503147 time: 0.00 s GOPS: -3165371.82
+sum: 0
+Threads: 1 ArraySize: 128 W: 16 Reps: -141503147 time: 0.00 s GOPS: -7122086.59
+sum: 0
+Threads: 1 ArraySize: 128 W: 16 Reps: -141503147 time: 0.00 s GOPS: -7122086.59
+sum: 0
+Threads: 1 ArraySize: 128 W: 16 Reps: -141503147 time: 0.00 s GOPS: -5697669.27
+sum: 0
+Threads: 1 ArraySize: 128 W: 16 Reps: -141503147 time: 0.00 s GOPS: -5697669.27
+sum: 0
+Threads: 1 ArraySize: 160 W: 16 Reps: -1179869184 time: 0.00 s GOPS: -79179680.61
+sum: 0
+Threads: 1 ArraySize: 160 W: 16 Reps: -1179869184 time: 0.00 s GOPS: -79179680.61
+sum: 0
+Threads: 1 ArraySize: 160 W: 16 Reps: -1179869184 time: 0.00 s GOPS: -79179680.61
+sum: 0
+Threads: 1 ArraySize: 160 W: 16 Reps: -1179869184 time: 0.00 s GOPS: -79179680.61
+sum: 0
+Threads: 1 ArraySize: 160 W: 16 Reps: -1179869184 time: 0.00 s GOPS: -79179680.61
+sum: 0
+Threads: 1 ArraySize: 192 W: 16 Reps: -84901888 time: 0.00 s GOPS: -3561043.28
+sum: 0
+Threads: 1 ArraySize: 192 W: 16 Reps: -84901888 time: 0.00 s GOPS: -7122086.57
+sum: 0
+Threads: 1 ArraySize: 192 W: 16 Reps: -84901888 time: 0.00 s GOPS: -7122086.57
+sum: 0
+Threads: 1 ArraySize: 192 W: 16 Reps: -84901888 time: 0.00 s GOPS: -3165371.81
+sum: 0
+Threads: 1 ArraySize: 192 W: 16 Reps: -84901888 time: 0.00 s GOPS: -7122086.57
+sum: 0
+Threads: 1 ArraySize: 224 W: 16 Reps: 2076732074 time: 114.88 s GOPS: 1.74
+sum: 1797783304
+====================tsse4

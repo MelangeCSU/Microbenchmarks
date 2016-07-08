@@ -1,0 +1,4 @@
+Compile:
+make vecaddmp
+
+related source file: vecadd_malloc.c

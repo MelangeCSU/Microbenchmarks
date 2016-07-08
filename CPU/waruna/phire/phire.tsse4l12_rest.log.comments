@@ -1,0 +1,188 @@
+LOG:: REPS ARRAY_SIZE #THREADS ======
+====================tsse4p
+LOG:: 40000000 1600 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 38461538 1664 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 37037037 1728 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 35714285 1792 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 34482758 1856 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 33333333 1920 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 32258064 1984 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 31250000 2048 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 30303030 2112 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 29411764 2176 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 28571428 2240 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 27777777 2304 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 27027027 2368 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 26315789 2432 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 25641025 2496 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 25000000 2560 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 24390243 2624 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 23809523 2688 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 23255813 2752 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 22727272 2816 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 22222222 2880 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 21739130 2944 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 21276595 3008 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 20833333 3072 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 20408163 3136 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 20000000 3200 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 19607843 3264 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 19230769 3328 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 18867924 3392 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 18518518 3456 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 18181818 3520 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 17857142 3584 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 17543859 3648 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 17241379 3712 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 16949152 3776 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 16666666 3840 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 16393442 3904 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 16129032 3968 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 15873015 4032 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 15625000 4096 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 15384615 4160 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 15151515 4224 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 14925373 4288 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 14705882 4352 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 14492753 4416 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 14285714 4480 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 14084507 4544 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 13888888 4608 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 13698630 4672 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 13513513 4736 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 13333333 4800 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 13157894 4864 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 12987012 4928 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 12820512 4992 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 12658227 5056 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 12500000 5120 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 12345679 5184 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 12195121 5248 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 12048192 5312 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 11904761 5376 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 11764705 5440 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
+LOG:: 11627906 5504 ======
+gcc -O3 -c timer.c -o timer.o
+gcc -O3 -o tsse4l12p testSSE4L1.2.c -msse4.2 -fopenmp timer.o -DOMP
