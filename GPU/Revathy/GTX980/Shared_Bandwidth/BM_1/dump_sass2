@@ -1,0 +1,87 @@
+
+Fatbin elf code:
+================
+arch = sm_52
+code version = [1,7]
+producer = <unknown>
+host = linux
+compile_size = 64bit
+
+	code for sm_52
+
+Fatbin elf code:
+================
+arch = sm_52
+code version = [1,7]
+producer = cuda
+host = linux
+compile_size = 64bit
+
+	code for sm_52
+
+Fatbin ptx code:
+================
+arch = sm_52
+code version = [4,3]
+producer = cuda
+host = linux
+compile_size = 64bit
+compressed
+ptxasOptions = -v  -maxrregcount=255 
+
+Fatbin elf code:
+================
+arch = sm_52
+code version = [1,7]
+producer = cuda
+host = linux
+compile_size = 64bit
+
+	code for sm_52
+		Function : _Z8BWkernelPii
+	.headerflags    @"EF_CUDA_SM52 EF_CUDA_PTX_SM(EF_CUDA_SM52)"
+                                                                                  /* 0x001c5800fe0007f6 */
+        /*0008*/                   MOV R1, c[0x0][0x20];                          /* 0x4c98078000870001 */
+        /*0010*/         {         MOV R0, RZ;                                    /* 0x5c9807800ff70000 */
+        /*0018*/                   S2R R6, SR_TID.X;        }                     /* 0xf0c8000002170006 */
+                                                                                  /* 0x0000c400fe820ff6 */
+        /*0028*/                   IADD R2, R0.reuse, R6;                         /* 0x5c10000000670002 */
+        /*0030*/                   SHL R2, R2, 0x2;                               /* 0x3848000000270202 */
+        /*0038*/                   LDS.U.32 R3, [R2+0x4000];                      /* 0xef4c100400070203 */
+                                                                                  /* 0x001f980006200031 */
+        /*0048*/                   LDS.U.32 R4, [R2];                             /* 0xef4c100000070204 */
+        /*0050*/                   LDS.U.32 R5, [R2+0x8000];                      /* 0xef4c100800070205 */
+        /*0058*/                   IADD R0, R0, c[0x0][0x8];                      /* 0x4c10000000270000 */
+                                                                                  /* 0x0003e002fe8007f1 */
+        /*0068*/                   ISETP.LT.AND P0, PT, R0, 0x1000, PT;           /* 0x3663038100070007 */
+        /*0070*/                   FFMA R3, R4, R3, R5;                           /* 0x5980028000370403 */
+        /*0078*/                   STS [R2+0x8000], R3;                           /* 0xef5c000800070203 */
+                                                                                  /* 0x0000c440fe800ffd */
+        /*0088*/               @P0 BRA 0x20;                                      /* 0xe2400ffff900000f */
+        /*0090*/                   SHL R0, R6.reuse, 0x2;                         /* 0x3848000000270600 */
+        /*0098*/                   LDS.U.32 R3, [R0+0x8000];                      /* 0xef4c100800070003 */
+                                                                                  /* 0x00454800ffa007f1 */
+        /*00a8*/                   SHR R2, R6, 0x1e;                              /* 0x3829000001e70602 */
+        /*00b0*/                   IADD R5.CC, R0, c[0x0][0x140];                 /* 0x4c10800005070005 */
+        /*00b8*/                   F2I.S32.F32.TRUNC R4, R3;                      /* 0x5cb0018000371a04 */
+                                                                                  /* 0x0087c400fc4017f1 */
+        /*00c8*/                   IADD.X R3, R2, c[0x0][0x144];                  /* 0x4c10080005170203 */
+        /*00d0*/                   MOV R2, R5;                                    /* 0x5c98078000570002 */
+        /*00d8*/                   STG.E [R2], R4;                                /* 0xeedc200000070204 */
+                                                                                  /* 0x001f8000ffe007ff */
+        /*00e8*/                   EXIT;                                          /* 0xe30000000007000f */
+        /*00f0*/                   BRA 0xf0;                                      /* 0xe2400fffff87000f */
+        /*00f8*/                   NOP;                                           /* 0x50b0000000070f00 */
+		...............................
+
+
+
+Fatbin ptx code:
+================
+arch = sm_52
+code version = [4,3]
+producer = cuda
+host = linux
+compile_size = 64bit
+compressed
+ptxasOptions = -v -dlcm=ca  -maxrregcount=255 
