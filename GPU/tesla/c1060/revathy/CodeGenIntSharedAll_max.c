@@ -55,14 +55,14 @@ int main(int argc, char** argv) {
     }
 	printf("\n\n");
 
-    printf("\tfor (t = 0; t < x; t++) {\n");
+    printf("\tfor (t = 0; t < %d; t++) {\n",x);
 		printf("\t\ttemp = blockDim.x*t + threadIdx.x;\n");
 		printf("\t\ta[temp] = A[temp];\n");
     printf("\t}\n");
 	printf("\n\n");
 
-    printf("\tfor (i = 0; i < x; i++) {\n");
-	printf("\t\tfor (t = 0; t < x; t++) {\n");
+    printf("\tfor (i = 0; i < %d; i++) {\n",x);
+	printf("\t\tfor (t = 0; t < %d; t++) {\n",x);
                 printf("\t\t\tc[i][blockDim.x*t + threadIdx.x] = 0;\n");
 	printf("\t\t}\n");
     printf("\t}\n");
@@ -78,22 +78,22 @@ int main(int argc, char** argv) {
     
 	printf("\n\n");
 
-	//printf("\t#pragma unroll\n");
-	printf("\tfor (t = 0; t < k; t++) {\n");
+	printf("\t#pragma unroll\n");
+	printf("\tfor (t = 0; t < %d; t++) {\n", iterations);
 		for (j = 0; j < x; j++) {
-			printf("\t\t#pragma unroll\n");	
-			printf("\t\tfor (j = 0; j < x; j++) {\n");
-				printf("\t\t\ttemp = blockDim.x*j+threadIdx.x;\n");
-			//for (j = 0; j < x; j++) {
-				printf("\t\t\tc[%d][temp] = max(a[temp]+b_%d, c[%d][temp]);\n",j,j,j);
+			//printf("\t\t#pragma unroll\n");	
+			for (i = 0; i < x; i++) {
+				printf("\t\ttemp = blockDim.x*%d+threadIdx.x;\n",i);
+			
+				printf("\t\tc[%d][temp] = max(a[temp]+b_%d, c[%d][temp]);\n",j,j,j);
 		
-		 	printf("\t\t}\n");
+		 	}
 		}
 	printf("\n\n");
-	printf("\t\tfor (i = 0; i < x; i++) {\n");
-		printf("\t\t\ttemp = blockDim.x*i+threadIdx.x;\n");
-        	printf("\t\t\ta[temp] = max(a[temp]+10, a[temp]);\n");
-    	printf("\t\t}\n");
+	for (i = 0; i < x; i++) {
+		printf("\t\ttemp = blockDim.x*%d+threadIdx.x;\n",i);
+        	printf("\t\ta[temp] = max(a[temp]+10, a[temp]);\n");
+    	}
     printf("\n\n");
 
 

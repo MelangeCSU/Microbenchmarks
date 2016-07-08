@@ -85,9 +85,8 @@ int main(int argc, char** argv) {
     }
 	printf("\n\n");
 
-	//printf("#pragma unroll\n");
-	//printf("\tfor (t = 0; t < %d; t++) {\n", iterations);	
-	printf("\tfor (t = 0; t < k; t++) {\n");	
+	printf("#pragma unroll\n");
+	printf("\tfor (t = 0; t < %d; t++) {\n", iterations);	
 	//for (k = 0; k < iterations; k++) {
 		for (i = 0; i < x; i++) {
 			for (j = 0; j < x; j++) {
